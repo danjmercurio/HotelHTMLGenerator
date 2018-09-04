@@ -1,0 +1,308 @@
+<!-- begin hotel 121 -->
+<hotel code="OGGCBM" currency="usd">
+ <room name="DLX">
+  <description>
+   Leisure Deluxe Room
+  </description>
+  <rate code="LEIDX">
+   <descr>
+    Leisure Deluxe Room
+   </descr>
+   <date availability="LEIDX" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="LEIDX" end="2019-01-01" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     466.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="PPDLX">
+   <descr>
+    Leisure Deluxe Room
+   </descr>
+   <date availability="PPDLX" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     339.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+ </room>
+ <room name="FAMSTE">
+  <description>
+   Leisure Family Suite
+  </description>
+  <rate code="LEIFAM">
+   <descr>
+    Leisure Family Suite
+   </descr>
+   <date availability="LEIFAM" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     416.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="LEIFAM" end="2019-01-01" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     669.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="PPFAM">
+   <descr>
+    Leisure Family Suite
+   </descr>
+   <date availability="PPFAM" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     446.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+ </room>
+ <room name="JRSTE">
+  <description>
+   Leisure Junior Suite
+  </description>
+  <rate code="LEIJRST">
+   <descr>
+    Leisure Junior Suite
+   </descr>
+   <date availability="LEIJRST" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     359.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="LEIJRST" end="2019-01-01" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     517.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="PPJRST">
+   <descr>
+    Leisure Junior Suite
+   </descr>
+   <date availability="PPJRST" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     385.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+ </room>
+ <room name="STD">
+  <description>
+   Leisure Standard
+  </description>
+  <rate code="LEIST">
+   <descr>
+    Leisure Standard
+   </descr>
+   <date availability="LEIST" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     287.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="LEIST" end="2019-01-01" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     416.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     51.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="PPSTD">
+   <descr>
+    Leisure Standard
+   </descr>
+   <date availability="PPSTD" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 121 -->

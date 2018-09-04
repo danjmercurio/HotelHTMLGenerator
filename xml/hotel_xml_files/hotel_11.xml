@@ -1,0 +1,179 @@
+<!-- begin hotel 11 -->
+<hotel code="HNLCNS" currency="usd">
+ <room name="DLX">
+  <description>
+   Deluxe 2Queen Beds w/Brkfst
+  </description>
+  <rate code="BDLXQ">
+   <descr>
+    Deluxe 2Queen Beds w/Brkfst
+   </descr>
+   <date availability="BDLXQ" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="2" total="6"/>
+    <room_price basis="3" max_com="12" min_com="0">
+     322.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily American Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+  <rate code="DLXQ">
+   <descr>
+    Deluxe 2Queen Beds w/Brkfst
+   </descr>
+   <date availability="DLXQ" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="2" total="6"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     314.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="STD">
+  <description>
+   Standard 1King Bed w/Brkfst
+  </description>
+  <rate code="BSTDK">
+   <descr>
+    Standard 1King Bed w/Brkfst
+   </descr>
+   <date availability="BSTDK" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     308.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily American Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+  <rate code="BSTDQ">
+   <descr>
+    Standard 1King Bed w/Brkfst
+   </descr>
+   <date availability="BSTDQ" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily American Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+  <rate code="STDK">
+   <descr>
+    Standard 1King Bed w/Brkfst
+   </descr>
+   <date availability="STDK" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     287.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="STDQN">
+   <descr>
+    Standard 1King Bed w/Brkfst
+   </descr>
+   <date availability="STDQN" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 11 -->

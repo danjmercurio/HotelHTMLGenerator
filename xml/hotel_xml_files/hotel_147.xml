@@ -1,0 +1,4226 @@
+<!-- begin hotel 147 -->
+<hotel code="OGGRLH" currency="usd">
+ <room name="1BGV">
+  <description>
+   1Bdrm Garden Cottage Ste
+  </description>
+  <rate code="1BGCS">
+   <descr>
+    1Bdrm Garden Cottage Ste
+   </descr>
+   <date availability="1BGCS" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     406.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BGCS" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     661.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BGCS" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     486.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BGCS" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     406.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BOF">
+  <description>
+   1Bdrm Oceanfront Cottage Ste
+  </description>
+  <rate code="1BFCS">
+   <descr>
+    1Bdrm Oceanfront Cottage Ste
+   </descr>
+   <date availability="1BFCS" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     503.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFCS" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     798.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFCS" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     587.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFCS" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     503.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="1BFL">
+   <descr>
+    1Bdrm Oceanfront Cottage Ste
+   </descr>
+   <date availability="1BFL" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     677.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFL" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1078.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFL" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     778.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFL" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     677.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="1BFM">
+   <descr>
+    1Bdrm Oceanfront Cottage Ste
+   </descr>
+   <date availability="1BFM" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     602.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFM" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     978.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFM" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     697.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BFM" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     602.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2BGV">
+  <description>
+   2Bdrm Garden Cottage Ste
+  </description>
+  <rate code="2BGCS">
+   <descr>
+    2Bdrm Garden Cottage Ste
+   </descr>
+   <date availability="2BGCS" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="8" kids="5" total="8"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     597.00
+    </room_price>
+    <extra_adult max_com="12" maximum="4" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BGCS" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="8" kids="5" total="8"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     928.00
+    </room_price>
+    <extra_adult max_com="12" maximum="4" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BGCS" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="8" kids="5" total="8"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     691.00
+    </room_price>
+    <extra_adult max_com="12" maximum="4" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BGCS" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="8" kids="5" total="8"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     597.00
+    </room_price>
+    <extra_adult max_com="12" maximum="4" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2BOF">
+  <description>
+   2Bdrm Oceanfront Lanai Ste
+  </description>
+  <rate code="2BFL">
+   <descr>
+    2Bdrm Oceanfront Lanai Ste
+   </descr>
+   <date availability="2BFL" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     1048.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BFL" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     1680.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BFL" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     1179.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BFL" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     1048.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="2BFM">
+   <descr>
+    2Bdrm Oceanfront Lanai Ste
+   </descr>
+   <date availability="2BFM" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     902.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BFM" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     1504.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BFM" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     1028.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BFM" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="4" total="6"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     902.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="DLX">
+  <description>
+   Deluxe Ocean Vw Rm (Lahaina Kai)
+  </description>
+  <rate code="LKDO">
+   <descr>
+    Deluxe Ocean Vw Rm (Lahaina Kai)
+   </descr>
+   <date availability="LKDO" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     344.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKDO" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     537.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKDO" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     391.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKDO" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     344.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="GDN">
+  <description>
+   Deluxe Garden Cottage Rm
+  </description>
+  <rate code="DXGDN">
+   <descr>
+    Deluxe Garden Cottage Rm
+   </descr>
+   <date availability="DXGDN" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     266.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXGDN" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     395.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXGDN" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     293.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2019-04-21" start="2019-04-21" status="blackout">
+   </date>
+  </rate>
+ </room>
+ <room name="OCN">
+  <description>
+   Aloha Tower Ocean View
+  </description>
+  <rate code="AOCN">
+   <descr>
+    Aloha Tower Ocean View
+   </descr>
+   <date availability="AOCN" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     297.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2019-01-05" start="2018-12-21" status="blackout">
+   </date>
+   <date availability="AOCN" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     324.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="AOCN" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     297.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     64.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="OCN">
+   <descr>
+    Aloha Tower Ocean View
+   </descr>
+   <date availability="OCN" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     324.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCN" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     493.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCN" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     359.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCN" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     324.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OF">
+  <description>
+   Deluxe Oceanfront Cottage Rm
+  </description>
+  <rate code="DXOF">
+   <descr>
+    Deluxe Oceanfront Cottage Rm
+   </descr>
+   <date availability="DXOF" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     391.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOF" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     655.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOF" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     472.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2019-04-21" start="2019-04-21" status="blackout">
+   </date>
+  </rate>
+  <rate code="LKOF">
+   <descr>
+    Deluxe Oceanfront Cottage Rm
+   </descr>
+   <date availability="LKOF" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     401.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKOF" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     657.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKOF" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     482.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKOF" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     401.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="OFCTG">
+   <descr>
+    Deluxe Oceanfront Cottage Rm
+   </descr>
+   <date availability="OFCTG" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     334.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OFCTG" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     507.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OFCTG" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     375.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2019-04-21" start="2019-04-21" status="blackout">
+   </date>
+  </rate>
+ </room>
+ <room name="POV">
+  <description>
+   Aloha Tower Partial Ocean View
+  </description>
+  <rate code="APOV">
+   <descr>
+    Aloha Tower Partial Ocean View
+   </descr>
+   <date availability="APOV" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     256.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2019-01-05" start="2018-12-21" status="blackout">
+   </date>
+   <date availability="APOV" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     283.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="APOV" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     256.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="LKPO">
+   <descr>
+    Aloha Tower Partial Ocean View
+   </descr>
+   <date availability="LKPO" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKPO" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     405.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKPO" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     303.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="LKPO" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STD">
+  <description>
+   Aloha Tower Standard Room
+  </description>
+  <rate code="ASTD">
+   <descr>
+    Aloha Tower Standard Room
+   </descr>
+   <date availability="ASTD" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     238.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2019-01-05" start="2018-12-21" status="blackout">
+   </date>
+   <date availability="ASTD" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     256.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="ASTD" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     238.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="STD">
+   <descr>
+    Aloha Tower Standard Room
+   </descr>
+   <date availability="STD" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="STD" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     375.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="STD" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="STD" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="SVR">
+  <description>
+   Aloha Saver
+  </description>
+  <rate code="ASVR">
+   <descr>
+    Aloha Saver
+   </descr>
+   <date availability="ASVR" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     224.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="ASVR" end="2019-01-05" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     350.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="ASVR" end="2019-04-20" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="ASVR" end="2019-12-20" start="2019-04-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     224.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     65.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon/Anniversary Program
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="12" age-to="17" class="c" max_com="0" min_com="0">
+       27.00
+      </price>
+      <price age-from="6" age-to="11" class="c" max_com="0" min_com="0">
+       13.00
+      </price>
+      <price age-from="0" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 147 -->

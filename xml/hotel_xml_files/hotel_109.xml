@@ -1,0 +1,430 @@
+<!-- begin hotel 109 -->
+<hotel code="LIHPLH" currency="usd">
+ <room name="1BGV">
+  <description>
+   Garden 1BR Suite-ROH
+  </description>
+  <rate code="1GVROH">
+   <descr>
+    Garden 1BR Suite-ROH
+   </descr>
+   <date availability="1GVROH" end="2018-09-01" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1GVROH" end="2018-12-18" start="2018-09-02" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn5">
+       <description>
+        5th Night Free
+       </description>
+       <night_control free_night="1" per_nights="5" start_night="5"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1GVROH" end="2018-12-31" start="2018-12-19" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     207.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1GVROH" end="2019-04-30" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BMTN">
+  <description>
+   Mountain Vw 1BR Suite-ROH
+  </description>
+  <rate code="1MTNROH">
+   <descr>
+    Mountain Vw 1BR Suite-ROH
+   </descr>
+   <date availability="1MTNROH" end="2018-09-01" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     204.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1MTNROH" end="2018-12-18" start="2018-09-02" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn5">
+       <description>
+        5th Night Free
+       </description>
+       <night_control free_night="1" per_nights="5" start_night="5"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1MTNROH" end="2018-12-31" start="2018-12-19" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     225.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1MTNROH" end="2019-04-30" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     204.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BPOOL">
+  <description>
+   Pool Vw 1BR Suite-ROH
+  </description>
+  <rate code="1POOLROH">
+   <descr>
+    Pool Vw 1BR Suite-ROH
+   </descr>
+   <date availability="1POOLROH" end="2018-09-01" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     229.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POOLROH" end="2018-12-18" start="2018-09-02" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     204.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn5">
+       <description>
+        5th Night Free
+       </description>
+       <night_control free_night="1" per_nights="5" start_night="5"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POOLROH" end="2018-12-31" start="2018-12-19" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     255.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POOLROH" end="2019-04-30" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     229.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       18.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 109 -->

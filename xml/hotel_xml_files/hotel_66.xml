@@ -1,0 +1,3822 @@
+<!-- begin hotel 66 -->
+<hotel code="HNLWED" currency="usd">
+ <room name="1BOF">
+  <description>
+   1Bdrm Oceanfront Suite
+  </description>
+  <rate code="1BOFSTE">
+   <descr>
+    1Bdrm Oceanfront Suite
+   </descr>
+   <date availability="1BOFSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     777.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BOFSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     898.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NF1BOFST">
+   <descr>
+    1Bdrm Oceanfront Suite
+   </descr>
+   <date availability="4NF1BOFST" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     777.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BOV">
+  <description>
+   1Bdrm Ocean Vw Suite
+  </description>
+  <rate code="1BOVSTE">
+   <descr>
+    1Bdrm Ocean Vw Suite
+   </descr>
+   <date availability="1BOVSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     807.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BOVSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     929.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NF1BOVST">
+   <descr>
+    1Bdrm Ocean Vw Suite
+   </descr>
+   <date availability="4NF1BOVST" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     807.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-OVSTE">
+   <descr>
+    1Bdrm Ocean Vw Suite
+   </descr>
+   <date availability="SMR-OVSTE" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     423.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     95.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BPHSE">
+  <description>
+   1Bdrm Penthouse Suite
+  </description>
+  <rate code="1BPHSTE">
+   <descr>
+    1Bdrm Penthouse Suite
+   </descr>
+   <date availability="1BPHSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2537.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BPHSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     6290.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NF1BPHST">
+   <descr>
+    1Bdrm Penthouse Suite
+   </descr>
+   <date availability="4NF1BPHST" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2537.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BSTE">
+  <description>
+   1Bdrm Marina Vw Suite
+  </description>
+  <rate code="1BMARSTE">
+   <descr>
+    1Bdrm Marina Vw Suite
+   </descr>
+   <date availability="1BMARSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     726.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="1BMARSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     848.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NF1BMARST">
+   <descr>
+    1Bdrm Marina Vw Suite
+   </descr>
+   <date availability="4NF1BMARST" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     726.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-MARSTE">
+   <descr>
+    1Bdrm Marina Vw Suite
+   </descr>
+   <date availability="SMR-MARSTE" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     390.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     95.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2BMAR">
+  <description>
+   2Bdrm Marina Vw Suite
+  </description>
+  <rate code="2BMARSTE">
+   <descr>
+    2Bdrm Marina Vw Suite
+   </descr>
+   <date availability="2BMARSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1162.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BMARSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1284.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NF2BMARST">
+   <descr>
+    2Bdrm Marina Vw Suite
+   </descr>
+   <date availability="4NF2BMARST" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1162.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2BOF">
+  <description>
+   2Bdrm Oceanfront Suite
+  </description>
+  <rate code="2BOFSTE">
+   <descr>
+    2Bdrm Oceanfront Suite
+   </descr>
+   <date availability="2BOFSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1213.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BOFSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1334.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NF2BOFST">
+   <descr>
+    2Bdrm Oceanfront Suite
+   </descr>
+   <date availability="4NF2BOFST" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1213.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2BPHSE">
+  <description>
+   2Bdrm Penthouse Suite
+  </description>
+  <rate code="2BPHSTE">
+   <descr>
+    2Bdrm Penthouse Suite
+   </descr>
+   <date availability="2BPHSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3247.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="2BPHSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     7507.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NF2BPHST">
+   <descr>
+    2Bdrm Penthouse Suite
+   </descr>
+   <date availability="4NF2BPHST" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3247.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="CV">
+  <description>
+   4NF-City Vw Double
+  </description>
+  <rate code="4NFCTYDBL">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="4NFCTYDBL" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     365.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NFCTYTER">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="4NFCTYTER" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     381.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="CITY">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="CITY" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     365.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="CITY" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     477.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="CITYKING">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="CITYKING" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     381.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="CITYKING" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     498.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="CTYDBL">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="CTYDBL" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     324.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="CTYDBL" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     437.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="CTYTER">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="CTYTER" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     344.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="CTYTER" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     457.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="MODCVDB">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="MODCVDB" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     411.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="MODCVK">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="MODCVK" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     432.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="SMR-CS">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="SMR-CS" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     250.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     96.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-CV">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="SMR-CV" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     263.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     96.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-KCS">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="SMR-KCS" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     250.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     96.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-KCV">
+   <descr>
+    4NF-City Vw Double
+   </descr>
+   <date availability="SMR-KCV" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     263.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     96.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OCN">
+  <description>
+   4NF-Ocean Vw Double
+  </description>
+  <rate code="4NFOCND">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="4NFOCND" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     482.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NFOCNVK">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="4NFOCNVK" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     503.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="MODOCND">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="MODOCND" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     533.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="MODSOCNK">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="MODSOCNK" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     553.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="OCND">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="OCND" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     482.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCND" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     604.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="OCNKING">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="OCNKING" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     503.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKING" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     624.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-KOCN">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="SMR-KOCN" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     322.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     95.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-OCN">
+   <descr>
+    4NF-Ocean Vw Double
+   </descr>
+   <date availability="SMR-OCN" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     322.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     96.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="POV">
+  <description>
+   4NF-Partial Ocean Vw King/Ter(1Bd)
+  </description>
+  <rate code="4NFPOV">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="4NFPOV" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     442.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="4NFPOVD">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="4NFPOVD" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     406.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="MODSPOV">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="MODSPOV" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     493.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="MODSPOVDB">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="MODSPOVDB" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     457.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="POVD">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="POVD" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     406.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="POVD" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     528.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="POVK">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="POVK" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     442.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="POVK" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     564.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-KPOV">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="SMR-KPOV" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     296.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     96.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-POV">
+   <descr>
+    4NF-Partial Ocean Vw King/Ter(1Bd)
+   </descr>
+   <date availability="SMR-POV" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     296.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     95.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STUSTE">
+  <description>
+   4NF-Studio Suite
+  </description>
+  <rate code="4NFSTUSTE">
+   <descr>
+    4NF-Studio Suite
+   </descr>
+   <date availability="4NFSTUSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     553.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free Promotion
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="SMR-STUSTE">
+   <descr>
+    4NF-Studio Suite
+   </descr>
+   <date availability="SMR-STUSTE" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     341.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     95.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+  <rate code="STUSTE">
+   <descr>
+    4NF-Studio Suite
+   </descr>
+   <date availability="STUSTE" end="2018-12-21" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     553.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="STUSTE" end="2019-01-03" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="y" value="4"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     675.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     100.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm1" selection_status="o">
+      <description>
+       Daily Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       36.00
+      </price>
+      <price age-from="1" age-to="17" class="c" max_com="0" min_com="0">
+       36.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 66 -->

@@ -1,0 +1,694 @@
+<!-- begin hotel 40 -->
+<hotel code="HNLORH" currency="usd">
+ <room name="CV">
+  <description>
+   City View King
+  </description>
+  <rate code="CITY">
+   <descr>
+    City View King
+   </descr>
+   <date availability="CITY" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     259.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="CITY" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     418.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="CITY" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     266.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="CITY" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     280.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="CITY" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="SCVK">
+   <descr>
+    City View King
+   </descr>
+   <date availability="SCVK" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     300.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVK" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     459.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVK" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVK" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVK" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     314.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="SCVQ">
+   <descr>
+    City View King
+   </descr>
+   <date availability="SCVQ" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     300.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVQ" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     459.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVQ" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVQ" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SCVQ" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     314.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="MTN">
+  <description>
+   Mountain View King
+  </description>
+  <rate code="MNTV">
+   <descr>
+    Mountain View King
+   </descr>
+   <date availability="MNTV" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     266.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="MNTV" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     425.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="MNTV" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="MNTV" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     287.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="MNTV" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     280.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="SMVK">
+   <descr>
+    Mountain View King
+   </descr>
+   <date availability="SMVK" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     314.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVK" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     473.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVK" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVK" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     334.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVK" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="SMVQ">
+   <descr>
+    Mountain View King
+   </descr>
+   <date availability="SMVQ" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     314.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVQ" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     473.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVQ" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVQ" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     334.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SMVQ" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="OCN">
+  <description>
+   Ocean View King
+  </description>
+  <rate code="OCNK">
+   <descr>
+    Ocean View King
+   </descr>
+   <date availability="OCNK" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     300.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="OCNK" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     459.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="OCNK" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="OCNK" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="OCNK" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     314.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="SOVK">
+   <descr>
+    Ocean View King
+   </descr>
+   <date availability="SOVK" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVK" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     486.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVK" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     334.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVK" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     348.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVK" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     341.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+  <rate code="SOVQ">
+   <descr>
+    Ocean View King
+   </descr>
+   <date availability="SOVQ" end="2018-12-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVQ" end="2018-12-31" start="2018-12-26" status="valid">
+    <minimum_nite_stay status="y" value="3"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     486.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVQ" end="2019-01-12" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     334.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVQ" end="2019-02-23" start="2019-01-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     348.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="SOVQ" end="2019-03-31" start="2019-02-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     341.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 40 -->

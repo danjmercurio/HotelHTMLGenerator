@@ -1,0 +1,4154 @@
+<!-- begin hotel 123 -->
+<hotel code="OGGGWR" currency="usd">
+ <room name="DLX">
+  <description>
+   Deluxe Garden King
+  </description>
+  <rate code="DLXGKL0">
+   <descr>
+    Deluxe Garden King
+   </descr>
+   <date availability="DLXGKL0" end="2018-12-15" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1199.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="DLXQ">
+  <description>
+   Deluxe Garden Queen/Queen
+  </description>
+  <rate code="DLXGQL0">
+   <descr>
+    Deluxe Garden Queen/Queen
+   </descr>
+   <date availability="DLXGQL0" end="2018-12-15" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1257.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="DOV">
+  <description>
+   Deluxe Ocean King
+  </description>
+  <rate code="DXOVKL4">
+   <descr>
+    Deluxe Ocean King
+   </descr>
+   <date availability="DXOVKL6" end="2018-09-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL2" end="2018-09-24" start="2018-09-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     855.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL6" end="2018-09-29" start="2018-09-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL4" end="2018-10-02" start="2018-09-30" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     766.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL6" end="2018-10-13" start="2018-10-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL5" end="2018-10-26" start="2018-10-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     717.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL2" end="2018-10-31" start="2018-10-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     855.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL5" end="2018-11-06" start="2018-11-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     717.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL2" end="2018-11-10" start="2018-11-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     855.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL6" end="2018-11-17" start="2018-11-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL4" end="2018-11-24" start="2018-11-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     766.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVKL5" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     717.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="DOVQ">
+  <description>
+   Deluxe Ocean Queen/Queen
+  </description>
+  <rate code="DXOVQL4">
+   <descr>
+    Deluxe Ocean Queen/Queen
+   </descr>
+   <date availability="DXOVQL6" end="2018-09-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     688.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL2" end="2018-09-24" start="2018-09-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     905.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL6" end="2018-09-29" start="2018-09-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     688.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL4" end="2018-10-02" start="2018-09-30" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     809.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL6" end="2018-10-13" start="2018-10-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     688.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL5" end="2018-10-26" start="2018-10-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     761.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL2" end="2018-10-31" start="2018-10-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     905.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL5" end="2018-11-06" start="2018-11-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     761.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL2" end="2018-11-10" start="2018-11-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     905.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL6" end="2018-11-17" start="2018-11-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     688.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL4" end="2018-11-24" start="2018-11-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     809.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DXOVQL5" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     761.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OCN">
+  <description>
+   Ocean King
+  </description>
+  <rate code="OCNKL4">
+   <descr>
+    Ocean King
+   </descr>
+   <date availability="OCNKL6" end="2018-09-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     616.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL2" end="2018-09-24" start="2018-09-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     805.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL6" end="2018-09-29" start="2018-09-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     616.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL4" end="2018-10-02" start="2018-09-30" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     723.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL6" end="2018-10-13" start="2018-10-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     616.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL5" end="2018-10-26" start="2018-10-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     674.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL2" end="2018-10-31" start="2018-10-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     805.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL5" end="2018-11-06" start="2018-11-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     674.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL2" end="2018-11-10" start="2018-11-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     805.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL6" end="2018-11-17" start="2018-11-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     616.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL4" end="2018-11-24" start="2018-11-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     723.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNKL5" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     674.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OCNQ">
+  <description>
+   Ocean Queen/Queen
+  </description>
+  <rate code="OCNQL4">
+   <descr>
+    Ocean Queen/Queen
+   </descr>
+   <date availability="OCNQL6" end="2018-09-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL2" end="2018-09-24" start="2018-09-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     855.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL6" end="2018-09-29" start="2018-09-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL4" end="2018-10-02" start="2018-09-30" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     766.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL6" end="2018-10-13" start="2018-10-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL5" end="2018-10-26" start="2018-10-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     717.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL2" end="2018-10-31" start="2018-10-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     855.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL5" end="2018-11-06" start="2018-11-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     717.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL2" end="2018-11-10" start="2018-11-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     855.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL6" end="2018-11-17" start="2018-11-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL4" end="2018-11-24" start="2018-11-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     766.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCNQL5" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     717.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="TERK">
+  <description>
+   Terrace King
+  </description>
+  <rate code="TERRKL4">
+   <descr>
+    Terrace King
+   </descr>
+   <date availability="TERRKL6" end="2018-09-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     501.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL2" end="2018-09-24" start="2018-09-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     675.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL6" end="2018-09-29" start="2018-09-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     501.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL4" end="2018-10-02" start="2018-09-30" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     608.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL6" end="2018-10-13" start="2018-10-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     501.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL5" end="2018-10-26" start="2018-10-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     559.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL2" end="2018-10-31" start="2018-10-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     675.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL5" end="2018-11-06" start="2018-11-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     559.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL2" end="2018-11-10" start="2018-11-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     675.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL6" end="2018-11-17" start="2018-11-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     501.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL4" end="2018-11-24" start="2018-11-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     608.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRKL5" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     559.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="TERQ">
+  <description>
+   Terrace Queen/Queen
+  </description>
+  <rate code="TERRQL4">
+   <descr>
+    Terrace Queen/Queen
+   </descr>
+   <date availability="TERRQL6" end="2018-09-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     536.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL2" end="2018-09-24" start="2018-09-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     725.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL6" end="2018-09-29" start="2018-09-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     536.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL4" end="2018-10-02" start="2018-09-30" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL6" end="2018-10-13" start="2018-10-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     536.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL5" end="2018-10-26" start="2018-10-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     602.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL2" end="2018-10-31" start="2018-10-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     725.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL5" end="2018-11-06" start="2018-11-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     602.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL2" end="2018-11-10" start="2018-11-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     725.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL6" end="2018-11-17" start="2018-11-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     536.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL4" end="2018-11-24" start="2018-11-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     651.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="TERRQL5" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     602.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     72.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Full American Breakfast Buffet
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       34.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+      <price age-from="6" age-to="12" class="c" max_com="0" min_com="0">
+       18.00
+      </price>
+      <price age-from="1" age-to="5" class="c" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 123 -->
