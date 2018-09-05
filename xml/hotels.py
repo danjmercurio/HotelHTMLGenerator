@@ -1,6 +1,8 @@
 #!/usr/bin/python3.7
 
 '''
+Splits each <hotel> tag in rates.xml and its descendents into 
+separate XML files for further parsing and manipulation.
 Written for python 3.7 (current latest version) but I
 have added some workarounds for python 2.x compatibility.
 This requires beautifulsoup4, which I installed with pip,
