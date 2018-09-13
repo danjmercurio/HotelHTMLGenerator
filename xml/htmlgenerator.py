@@ -13,16 +13,40 @@ from os import walk, linesep, path, getcwd
 from os.path import expanduser
 from sys import argv as args, stdout
 from string import Template
+try:
+    import yattag
+except ImportError:
+    raise SystemExit("HTML generator package yattag not found. Run pip install --user yattag")
+try:
+    import bs4
+except ImportError:
+    raise SystemExit("XML parser package bs4 not found. Run pip install --user bs4")
+try:
+    import lxml
+except ImportError:
+    raise SystemExit("XML parser backend package lxml not found. Run pip install --user lxml")
+
+
 class HotelHTMLGenerator(object):
 
-    def __init__(self, search_directory = None, output_directory = None):
+    def __init__(self, search_directory = None, output_directory = None, year = "2018"):
         self.search_directory = search_directory or "/home/dan/Documents/lantera/xml/search"
         self.output_directory = output_directory or "/home/dan/Documents/lantera/xml"
         self.SEARCH_FILENAME = 'rates.input.xml'  # Constant for our search file
 
+        # Set the year to 2018 AD unless otherwise
+        # specified in the arguments
+        if ("--year" in args):
+            self.year = args[args.index("--year") + 1]
+        else:
+            self.year = year
+
         # Shorthand/aliases for directories
         self.sdir = self.search_directory
         self.odir = self.output_directory
+
+        # An attribute to hold the paths to discovered search results
+        self.paths =  [self._convert_dirs_to_absolute(x) for x in self.scan()]
 
         if len(args) is 1:
                 print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
@@ -31,7 +55,8 @@ class HotelHTMLGenerator(object):
             self.help()
 
         if ("--relative" not in args):
-            self.convertDirsToAbsolute()
+            self._convert_dirs_to_absolute(self.dirs())
+
 
     def _print(self, text, appendNewline = True):
         try:
@@ -46,12 +71,48 @@ class HotelHTMLGenerator(object):
 
     def help(self):
         helpText = """Usage: python {0} [search directory] [output directory] [--arguments (optional)]{1}
-Pass --relative to disable conversion of relative paths to absolute paths. Pass -h or --help to print this message""".format(args[0], linesep)
+Pass --relative to disable conversion of relative paths to absolute paths. Pass --year (4 digit year) to use a year other than 2018. Pass -h or --help to print this message""".format(args[0], linesep)
         print(helpText)
         raise SystemExit()
 
-    def convertDirsToAbsolute(self):
-        for key, val in self.dirs().items():
+    def _convert_dirs_to_absolute(self, iterable):
+        ''' Used in several contexts to convert lists of directories which may
+        have relative paths to their absolute counterparts'''
+        if (type(iterable) == dict):
+            print(iterable)
+            for val in iterable:
+                print(val)
+                if val in ["~", "~/"]:
+                    val = expanduser("~")
+                if val in [".", "./"]:
+                    val = getcwd()
+                if val.startswith("./"):
+                    val = path.join(getcwd(), val[2:])
+                val = path.normpath(val)
+                try:
+                    assert (path.exists(val) and path.isdir(val))
+                    iterable[key] = val
+                    print("Relative path of {0} changed from {1} to {2}".format(key, val, val))
+                except AssertionError:
+                    print("Error converting relative path of {0} from {1} to {2}. Sticking with relative path.".format(key,val))
+            return iterable
+        if (type(iterable) == list):
+            for val in iterable:
+                if val in ["~", "~/"]:
+                    val = expanduser("~")
+                if val in [".", "./"]:
+                    val = getcwd()
+                if val.startswith("./"):
+                    val = path.join(getcwd(), val[2:])
+                val = path.normpath(val)
+                try:
+                    assert (path.exists(val) and path.isdir(val))
+                    print("Relative path of {0} changed from {1} to {2}".format(key, val, val))
+                except AssertionError:
+                    print("Error converting path of {0}. Sticking with relative path.".format(val))
+            return iterable
+        if type(iterable == str):
+            val = iterable
             if val in ["~", "~/"]:
                 val = expanduser("~")
             if val in [".", "./"]:
@@ -60,14 +121,13 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 val = path.join(getcwd(), val[2:])
             val = path.normpath(val)
             try:
-                assert path.exists(val) and path.isdir(val)
-                self.__setattr__(key, val)
+                assert (path.exists(val) and path.isdir(val))
+                print("Relative path changed from {1} to {2}".format(iterable, val))
             except AssertionError:
-                print("Error converting relative path of {0} from {1} to {2}. Sticking with relative path.".format(key,
-                                                                                                                   val,
-                                                                                                                   val))
-                pass
-            print("Relative path of {0} changed from {1} to {2}".format(key, val, val))
+                print("Error converting path of {0}. Sticking with relative path.".format(val))
+            finally:
+                return val
+
 
 
     def dirs(self):
@@ -79,15 +139,23 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         return [arg for arg in enumerate(args)]
 
     def scan(self):
-        ''' Scan recursively for a rates.input.xml file and return its path '''
+        ''' Generator which scans recursively for a rates.input.xml file and yields their paths '''
+
+        paths = []
+
         if not path.exists(self.search_directory):
             raise SystemExit("Specified search directory does not exist.")
 
         for root, dirs, files in walk(self.search_directory):
+
+            # Make the search case insensitive by converting everything to lower case
+            files = [file.lower() for file in files]
+
             template = Template("root: $root, dirs: $dirs, files: $files").substitute(
-                {'root': root, 'dirs': dirs, 'files': files}).replace(',', linesep)
+                {'root': root, 'dirs': dirs, 'files': files})
             print(template, end=linesep)
 
+            # Look for our XML file in among the files in the current directory
             if self.SEARCH_FILENAME in files:
                 # Assemble a full, absolute path
                 fullpath = path.join(root, self.SEARCH_FILENAME)
@@ -103,11 +171,28 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 try:
                     assert path.isfile(fullpath)
                 except AssertionError as e:
-                    print("Search result at is not an actual file.".format(fullpath))
+                    print("OS reports search result at {0} is not an actual file. Trying to continue...".format(fullpath))
                     continue
 
                 print("Found {0} in {1}".format(self.SEARCH_FILENAME, fullpath))
-                return path.normpath(fullpath)
+                paths.append(fullpath)
+
+
+                yield fullpath
+
+    def parse(self):
+        ''' Return a parser object with the XML markup from the file '''
+        if not path.exists(xmlfile) or not path.isfile(xmlfile):
+            raise SystemExit("Generate HTML function was called with an invalid path or file.")
+        try:
+            with open(xmlfile, 'r') as file:
+                contents = file.read()
+                print(contents)
+                return bs4.BeautifulSoup(contents, "lxml")
+        except IOError:
+            raise SystemExit("Unable to read found XML file.")
+
+
 
 
 if (__name__ == "__main__"):
@@ -116,5 +201,4 @@ if (__name__ == "__main__"):
     else:
         h = HotelHTMLGenerator()
     print("\narguments: ", str(h.getArgs()), end="\n\n")
-    ratesFilePath = h.scan()
-    # h.generateHTML(ratesFilePath)
+    print("\npaths: ", [x for x in h.scan()], end="\n\n")
