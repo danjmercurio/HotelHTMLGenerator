@@ -9,14 +9,6 @@ and for each directory containing this file, produce two HTML files
 the hotel rates across month intervals.
 '''
 
-# class extendedList(list):
-#     ''' A list that differs from the original in only one way,
-#         it implements an .each() method that takes a callable as
-#         an argument and modifies the list in place.'''
-#     def each(self, callback):
-#         for index, item in enumerate(self):
-#             self[index] = callback(item)
-# list = extendedList
 def each(iterable, callable):
     for index, item in enumerate(iterable):
         callable(iterable, index, item)
