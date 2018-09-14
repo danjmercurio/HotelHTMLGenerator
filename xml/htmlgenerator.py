@@ -14,9 +14,9 @@ def each(iterable, callable):
         callable(iterable, index, item)
         # ex. lambda x,y,z: x[y] -> z
 
-from os import walk, linesep, getcwd
+from os import walk, linesep
 import os.path
-from sys import argv as args, stdout
+from sys import argv as args
 try:
     import yattag
 except ImportError:
@@ -63,9 +63,9 @@ class HotelHTMLGenerator(object):
 
         if ("--relative" not in args):
             absolute_dirs = [os.path.realpath(val) for val in self.getDirs().values()]
-            self.setDirs(dict(zip(self.getDirs().keys(), absolute_dirs)))
-            print(self.getDirs())
-            #self.setDirs({'output_directory': absolute_dirs[0], 'search_directory': absolute_dirs[1]})
+            joined_keys_and_vals = zip(self.getDirs().keys(), absolute_dirs)
+            joined_keys_and_vals = dict(joined_keys_and_vals)
+            self.setDirs(joined_keys_and_vals)
 
         # An attribute to hold the paths to discovered search results
         self.paths = list()
@@ -75,6 +75,9 @@ class HotelHTMLGenerator(object):
 
         # An attribute to hold prettified raw XML strings for inspection/introspection
         self.xml_strings = list()
+
+        # An atttribute to hold generated html in string form for writing to files
+        self.html_strings = list()
 
     def help(self):
         helpText = """Usage: python[3] {0} [search directory] [output directory] [--arguments (optional)]{1}
@@ -152,10 +155,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
                         yield fullpath
         
-
-        detected_paths = [detected_path for detected_path in search(search_directory)]
-        detected_paths.each(lambda x:print(x))
-        detected_paths.each(lambda x:self.paths.append(x))
+        each(search(search_directory), lambda iterable, index, item: self.paths.append(item))
 
         return self
 
@@ -188,8 +188,17 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             # Leaving file context, file handler closed    
         return self
 
-    def generate_html():
-        raise NotImplementedError
+    def generate_html(self):
+        def html_from_xml(parser_objects, index, parser):
+            raise NotImplementedError
+
+        # Generate html
+        html_strings = each(self.parser_objects, html_from_xml)
+        
+        # Append each html string to the main object's attribute
+        each(html_strings, lambda iterable, index, item: self.html_strings.append(item))
+
+        return self
 
 if (__name__ == "__main__"):
     # Create an instance of our worker class
