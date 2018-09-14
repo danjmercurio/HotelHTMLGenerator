@@ -2,16 +2,11 @@
 from __future__ import print_function # Python 2/3 compatibility
 '''
 @author Dan Mercurio <dmercurio92@gmail.com>
-
-Traverse a directory searching for a rates.input.xml file
-and for each directory containing this file, produce two HTML files
-(rate-chart.html and rate-month.html) with greater detail of
-the hotel rates across month intervals.
 '''
 
-def each(iterable, callable):
+def each(iterable, callback):
     for index, item in enumerate(iterable):
-        callable(iterable, index, item)
+        callback(iterable, index, item)
         # ex. lambda x,y,z: x[y] -> z
 
 from os import walk, linesep
@@ -32,7 +27,12 @@ except ImportError:
 
 
 class HotelHTMLGenerator(object):
-
+    """
+    Singleton class to traverse a directory searching for a rates.input.xml file
+    and for each directory containing this file, produce two HTML files
+    (rate-chart.html and rate-month.html) with greater detail of
+    the hotel rates across month intervals.
+    """
     def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018"):
         # First check if we are just displaying help text
         if ("-h" in args) or ("--help" in args):
@@ -76,17 +76,18 @@ class HotelHTMLGenerator(object):
         # An attribute to hold prettified raw XML strings for inspection/introspection
         self.xml_strings = list()
 
-        # An atttribute to hold generated html in string form for writing to files
+        # An attribute to hold generated html in string form for writing to files
         self.html_strings = list()
 
-    def help(self):
+    @staticmethod
+    def help():
         helpText = """Usage: python[3] {0} [search directory] [output directory] [--arguments (optional)]{1}
 Pass --relative to disable conversion of relative paths to absolute paths. Pass --year (4 digit year) to use a year other than 2018. Pass -h or --help to print this message""".format(args[0], linesep)
         print(helpText)
         raise SystemExit
 
     def getDirs(self):
-        ''' Get a hash of the directories we are using for search and output. '''
+        """ Get a hash of the directories we are using for search and output. """
         return self.dirs
 
     def setDirs(self, dirs):
@@ -105,7 +106,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         except KeyError:
             raise SystemExit("Attempted to set directories with a dictionary of invalid keys")
 
-    def getArgs(self):
+    @staticmethod
+    def getArgs():
         ''' Get an enumerated list comprehension of the arguments the program was called with. '''
         return [arg for arg in enumerate(args)]
 
@@ -137,13 +139,14 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                             assert not os.path.islink(fullpath)
                         except AssertionError as e:
                             print("Search result is a symlink (shortcut). Will use real path instead.")
-                            fullpath = os.path.realpath(fullpath)
                             continue
+                        fullpath = os.path.realpath(fullpath)
+
 
                         # Verify we are actually pointing toward a file
                         try:
                             assert os.path.isfile(fullpath)
-                        except AssertionError as e:
+                        except AssertionError:
                             print("OS reports search result at {0} is not an actual file. Trying to continue...".format(fullpath))
                             continue
 
@@ -165,7 +168,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
                 raise SystemExit("Generate HTML function was called with an invalid path or file.")
             try:
-                with open(xmlfile, 'r') as file: # Entering file context
+                with open(xmlfile) as file: # Entering file context
                     
                     # Read from file
                     contents = file.read()
@@ -206,8 +209,8 @@ if (__name__ == "__main__"):
         hg = HotelHTMLGenerator(args[1], args[2])
     else:
         hg = HotelHTMLGenerator()
-    #print("\narguments: ", str(hg.getArgs()), end="\n\n")
-    #print("\npaths: ", [x for x in hg.scan()], end="\n\n")
+    # print("arguments: ", str(hg.getArgs()), end="\n\n")
+    # print("paths: ", [x for x in hg.scan()], end="\n\n")
     
     # Chain of actions this script is designed to perform
     hg.scan().parse().generate_html()
