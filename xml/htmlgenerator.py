@@ -154,7 +154,13 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 with open(xmlfile, 'r') as file:
                     contents = file.read()
                     soup = bs4.BeautifulSoup(contents, "lxml")
-                    print(soup.prettify())
+                    hotels = soup.find_all('hotel')
+                    try: 
+                        assert len(hotels)
+                    except AssertionError:
+                        raise SystemExit('No <hotel> tags found')
+                    for hotel in hotels:
+                        print(hotel.prettify())
             except IOError:
                 raise SystemExit("Unable to read found XML file.")
 
