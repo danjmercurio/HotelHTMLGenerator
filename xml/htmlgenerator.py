@@ -1,8 +1,9 @@
 #!/usr/bin/python
 from __future__ import print_function # Python 2/3 compatibility
-'''
+"""
 @author Dan Mercurio <dmercurio92@gmail.com>
-'''
+@date 8/14/2018
+"""
 
 def each(iterable, callback):
     for index, item in enumerate(iterable):
@@ -32,7 +33,9 @@ class HotelHTMLGenerator(object):
     (rate-chart.html and rate-month.html) with greater detail of
     the hotel rates across month intervals.
     """
+
     def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018"):
+
         # First check if we are just displaying help text
         if ("-h" in args) or ("--help" in args):
             self.help()
@@ -40,8 +43,6 @@ class HotelHTMLGenerator(object):
         if len(args) is 1:
             print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
             raise SystemExit
-
-
 
         self.dirs = dict()
         initial_dirs = {
@@ -78,8 +79,18 @@ class HotelHTMLGenerator(object):
         # An attribute to hold generated html in string form for writing to files
         self.html_strings = list()
 
+    __instance = None
+
+    def __new__(cls, val):
+        """ Define this class as a singleton. """
+        if (HotelHTMLGenerator.__instance is None):
+            HotelHTMLGenerator.__instance = object.__new__(cls)
+        HotelHTMLGenerator.__instance.val = val
+        return HotelHTMLGenerator.__instance
+
     @staticmethod
     def help():
+        """ Print the help text. """
         helpText = """Usage: python[3] {0} [search directory] [output directory] [--arguments (optional)]{1}
 Pass --relative to disable conversion of relative paths to absolute paths. Pass --year (4 digit year) to use a year other than 2018. Pass -h or --help to print this message""".format(args[0], linesep)
         print(helpText)
@@ -90,6 +101,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         return self.dirs
 
     def setDirs(self, dirs):
+        """ Setter for input/output directories. """
         try:
             assert isinstance(dirs, dict)
             try:
@@ -107,11 +119,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
     @staticmethod
     def getArgs():
-        ''' Get an enumerated list comprehension of the arguments the program was called with. '''
+        """ Get an enumerated list comprehension of the arguments with which the program was called. """
         return [arg for arg in enumerate(args)]
 
     def scan(self):
-        ''' Scan for input xml files and populate the paths attribute with results '''
+        """ Scan for input xml files and populate the paths attribute with results """
 
         # Get the directory to start from
         search_directory = self.getDirs().get('search_directory')
@@ -121,7 +133,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             raise SystemExit("Specified search directory does not exist.")
         else:
             def search(search_directory):
-                ''' Generator which scans recursively for a rates.input.xml file and yields their paths '''
+                """ Generator which scans recursively for a rates.input.xml file and yields their paths """
                 for root, dirs, files in walk(search_directory):
 
                     # Make the search case insensitive by converting everything to lower case
@@ -162,7 +174,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         return self
 
     def parse(self):
-        ''' Parse XML files at each found path. Generate HTML from each parser object, and output it'''
+        """ Parse XML files at each found path. Generate HTML from each parser object, and output it"""
         for xmlfile in self.paths: 
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
                 raise SystemExit("Generate HTML function was called with an invalid path or file.")
@@ -192,7 +204,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
     def generate_html(self):
         def html_from_xml(parser_objects, index, parser):
-            raise NotImplementedError
+            
 
         # Generate html
         html_strings = each(self.parser_objects, html_from_xml)
@@ -200,6 +212,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         # Append each html string to the main object's attribute
         each(html_strings, lambda iterable, index, item: self.html_strings.append(item))
 
+        return self
+
+    def write_output(self):
+        """ Write the generated HTML stored in the attributes of the singleton class instance to their respective files.""" 
         return self
 
 if (__name__ == "__main__"):
@@ -212,4 +228,4 @@ if (__name__ == "__main__"):
     # print("paths: ", [x for x in hg.scan()], end="\n\n")
     
     # Chain of actions this script is designed to perform
-    hg.scan().parse().generate_html()
+    hg.scan().parse().generate_html().write_output()
