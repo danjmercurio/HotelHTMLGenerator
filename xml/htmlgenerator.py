@@ -9,22 +9,21 @@ def each(iterable, callback):
         callback(iterable, index, item)
         # ex. lambda x,y,z: x[y] -> z
 
+# Standard library imports
 from os import walk, linesep
 import os.path
-from sys import argv as args
-try:
-    import yattag
-except ImportError:
-    raise SystemExit("HTML generator package yattag not found. Run pip install --user yattag")
-try:
-    import bs4
-except ImportError:
-    raise SystemExit("XML parser package bs4 not found. Run pip install --user bs4")
-try:
-    import lxml
-except ImportError:
-    raise SystemExit("XML parser backend package lxml not found. Run pip install --user lxml")
+from sys import argv as args, version_info
 
+# Third-party libs
+try:
+    import yattag, bs4, lxml
+except ImportError as ie:
+    missing_dependency = "".join(char for char in ie.msg.split(" ")[-1] if char.isalnum())
+    print("Fatal error: a required Python module could not be found.",
+    "The " + missing_dependency + " module for Python " + str(version_info.major) + ".x must be installed using pip, easy_install,",
+    "the system package manager (apt-get on Debian based Linux OSes), " + 
+    "or manually downloading and extracting.", sep="\n", end="\n\nExiting...\n")
+    raise SystemExit
 
 class HotelHTMLGenerator(object):
     """
