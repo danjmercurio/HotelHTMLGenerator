@@ -5,11 +5,6 @@ from __future__ import print_function # Python 2/3 compatibility
 @date 8/14/2018
 """
 
-def each(iterable, callback):
-    for index, item in enumerate(iterable):
-        callback(iterable, index, item)
-        # ex. lambda x,y,z: x[y] -> z
-
 # Standard library imports
 from os import walk, linesep
 import os.path
@@ -22,9 +17,15 @@ except ImportError as ie:
     missing_dependency = "".join(char for char in ie.msg.split(" ")[-1] if char.isalnum())
     print("Fatal error: a required Python module could not be found.",
     "The " + missing_dependency + " module for Python " + str(version_info.major) + ".x must be installed using pip, easy_install,",
-    "the system package manager (apt-get on Debian based Linux OSes), " + 
+    "the system package manager (apt-get on Debian based Linux OSes), " +
     "or manually downloading and extracting.", sep="\n", end="\n\nExiting...\n")
     raise SystemExit
+
+def each(iterable, callback):
+    """ My own humble convenience function for functional iteration. """
+    for index, item in enumerate(iterable):
+        callback(iterable, index, item)
+        # ex. lambda x,y,z: x[y] -> z
 
 class HotelHTMLGenerator(object):
     """
@@ -34,7 +35,11 @@ class HotelHTMLGenerator(object):
     the hotel rates across month intervals.
     """
 
+    def __eq__(self, o: object) -> bool:
+        return isinstance(o, self)
+
     def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018"):
+        """ Initialization of new instance. """
 
         # First check if we are just displaying help text
         if ("-h" in args) or ("--help" in args):
@@ -59,7 +64,7 @@ class HotelHTMLGenerator(object):
         if ("--year" in args):
             self.year = args[args.index("--year") + 1]
         else:
-            self.year = year        
+            self.year = year
 
         if ("--relative" not in args):
             absolute_dirs = [os.path.realpath(val) for val in self.getDirs().values()]
@@ -78,15 +83,6 @@ class HotelHTMLGenerator(object):
 
         # An attribute to hold generated html in string form for writing to files
         self.html_strings = list()
-
-    __instance = None
-
-    def __new__(cls, val):
-        """ Define this class as a singleton. """
-        if (HotelHTMLGenerator.__instance is None):
-            HotelHTMLGenerator.__instance = object.__new__(cls)
-        HotelHTMLGenerator.__instance.val = val
-        return HotelHTMLGenerator.__instance
 
     @staticmethod
     def help():
@@ -113,7 +109,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 raise SystemExit("Attempted to set directories with a dictionary missing keys")
         except AssertionError:
             raise SystemExit("Attempted to set directories to a non-dictionary object")
-            
+
         except KeyError:
             raise SystemExit("Attempted to set directories with a dictionary of invalid keys")
 
@@ -168,28 +164,28 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         print("Found {0} at {1}".format(self.SEARCH_FILENAME, fullpath))
 
                         yield fullpath
-        
+
         each(search(search_directory), lambda iterable, index, item: self.paths.append(item))
 
         return self
 
     def parse(self):
         """ Parse XML files at each found path. Generate HTML from each parser object, and output it"""
-        for xmlfile in self.paths: 
+        for xmlfile in self.paths:
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
                 raise SystemExit("Generate HTML function was called with an invalid path or file.")
             try:
                 with open(xmlfile) as file: # Entering file context
-                    
+
                     # Read from file
                     contents = file.read()
 
                     # Parse raw XML
                     hotels = bs4.BeautifulSoup(contents, "lxml").find_all('hotel')
 
-                    try: 
+                    try:
                         assert len(hotels) is not 0
-                        
+
 
                         self.xml_strings = [hotel.prettify() for hotel in hotels]
 
@@ -199,23 +195,26 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         raise SystemExit('No <hotel> tags found')
             except IOError:
                 raise SystemExit("Unable to read found XML file.")
-            # Leaving file context, file handler closed    
+            # Leaving file context, file handler closed
         return self
 
     def generate_html(self):
-        def html_from_xml(parser_objects, index, parser):
-            
+        # Here we define the callback for xml to html translation
+        def html_from_xml(xml_string):
+            print(xml_string)
+            pass
 
         # Generate html
-        html_strings = each(self.parser_objects, html_from_xml)
-        
+        html_strings = each(self.parser_objects, lambda x, y, z: html_from_xml(z))
+        each(html_strings, lambda x, y, z: self.html_strings.append(z))
+
         # Append each html string to the main object's attribute
         each(html_strings, lambda iterable, index, item: self.html_strings.append(item))
 
         return self
 
     def write_output(self):
-        """ Write the generated HTML stored in the attributes of the singleton class instance to their respective files.""" 
+        """ Write the generated HTML stored in the attributes of the singleton class instance to their respective files."""
         return self
 
 if (__name__ == "__main__"):
@@ -226,6 +225,6 @@ if (__name__ == "__main__"):
         hg = HotelHTMLGenerator()
     # print("arguments: ", str(hg.getArgs()), end="\n\n")
     # print("paths: ", [x for x in hg.scan()], end="\n\n")
-    
+
     # Chain of actions this script is designed to perform
     hg.scan().parse().generate_html().write_output()
