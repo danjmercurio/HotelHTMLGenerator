@@ -1,5 +1,8 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from __future__ import print_function # Python 2/3 compatibility
+
 """
 @author Dan Mercurio <dmercurio92@gmail.com>
 @date 8/14/2018
@@ -21,11 +24,13 @@ except ImportError as ie:
     "or manually downloading and extracting.", sep="\n", end="\n\nExiting...\n")
     raise SystemExit
 
+
 def each(iterable, callback):
     """ My own humble convenience function for functional iteration. """
     for index, item in enumerate(iterable):
         callback(iterable, index, item)
         # ex. lambda x,y,z: x[y] -> z
+
 
 class HotelHTMLGenerator(object):
     """
@@ -34,9 +39,6 @@ class HotelHTMLGenerator(object):
     (rate-chart.html and rate-month.html) with greater detail of
     the hotel rates across month intervals.
     """
-
-    def __eq__(self, o: object) -> bool:
-        return isinstance(o, self)
 
     def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018"):
         """ Initialization of new instance. """
@@ -49,24 +51,25 @@ class HotelHTMLGenerator(object):
             print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
             raise SystemExit
 
+        # Attribute that stores search and output directories as a dict
         self.dirs = dict()
-        initial_dirs = {
+
+        # Populate the attribute upon initialization
+        self.setDirs({
             'search_directory': search_directory,
             'output_directory': output_directory
-        }
-
-        self.setDirs(initial_dirs)
+        })
 
         self.SEARCH_FILENAME = 'rates.input.xml'  # Constant for our search file
 
         # Set the year to 2018 AD unless otherwise
         # specified in the arguments
-        if ("--year" in args):
+        if "--year" in args:
             self.year = args[args.index("--year") + 1]
         else:
             self.year = year
 
-        if ("--relative" not in args):
+        if "--relative" not in args:
             absolute_dirs = [os.path.realpath(val) for val in self.getDirs().values()]
             joined_keys_and_vals = zip(self.getDirs().keys(), absolute_dirs)
             joined_keys_and_vals = dict(joined_keys_and_vals)
@@ -117,6 +120,12 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
     def getArgs():
         """ Get an enumerated list comprehension of the arguments with which the program was called. """
         return [arg for arg in enumerate(args)]
+
+    def __getattr__(self, item):
+        pass
+
+    def __getitem__(self, item):
+        pass
 
     def scan(self):
         """ Scan for input xml files and populate the paths attribute with results """
