@@ -110,11 +110,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
-        if self.verbose: print("Old self.dirs: {0}\n".format(self.getDirs()))
+        if self.verbose: print("Requested to change these self.dirs values: {0}\n".format(self.getDirs()))
         try:
-            assert isinstance(dirs, dict) # Check that candidate dirs are a dictionary hash
+            assert isinstance(new_dirs, dict) # Check that candidate dirs are a dictionary hash
             try:
-                assert (len(dirs.keys()) >= 2) # Additional validation for candidate dirs
+                assert (len(new_dirs.keys()) >= 2) # Additional validation for candidate dirs
                 self.dirs['search_directory'] = new_dirs['search_directory']
                 self.dirs['output_directory'] = new_dirs['output_directory']
 
