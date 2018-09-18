@@ -12,21 +12,21 @@ from __future__ import print_function # Python 2/3 compatibility
 from os import walk, linesep
 import os.path
 from sys import argv as args, version_info
+import sys
+import os
 import inspect
+import json
 
 # Third-party libs
 try:
     import yattag, bs4, lxml
 except ImportError as ie:
     missing_dependency = "".join(char for char in ie.msg.split(" ")[-1] if char.isalnum())
-    print("Fatal error: a required Python module could not be found.",
+    print("Fatal Error(LineException): a required Python module could not be found.",
     "The " + missing_dependency + " module for Python " + str(version_info.major) + ".x must be installed using pip, easy_install,",
     "the system package manager (apt-get on Debian based Linux OSes), " +
     "or manually downloading and extracting.", sep="\n", end="\n\nExiting...\n")
     raise SystemExit
-
-default_print = print
-
 
 ''' Util functions '''
 def each(iterable, callback):
@@ -37,12 +37,24 @@ def each(iterable, callback):
 
 def lineno():
     """Returns the current line number in our program."""
-    return inspect.currentframe().f_back.f_lineno
+    line = inspect.currentframe().f_back.f_lineno
+    print(str(line))
+    return line
 
-def print_with_line(args, end="\n"):
-    default_print(lineno(), args)
+# def print_with_line(args, end):
+#    ''' Causing problems with end argument '''
+#    ''' Causing problems with end argument '''
+#     default_print(lineno(), args)
+#print = print_with_line
+
+class LineException(Exception):
+    def __init__(self):
+        exc_type, exc_obj, exc_tb = sys.exc_info()
+        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+        print(exc_type, fname, exc_tb.tb_lineno)
+
+
 ''' End utils '''
-print = print_with_line
 
 
 class HotelHTMLGenerator(object):
@@ -63,8 +75,6 @@ class HotelHTMLGenerator(object):
         if len(args) is 1:
             print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
             raise SystemExit
-
-
 
         # Verbose mode attribute
         self.verbose = verbose
@@ -139,11 +149,13 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
                 # Return new dirs
                 return self.dirs
-            except AssertionError:
+            except AssertionError(LineException):
+                lineno()
                 raise SystemExit("Attempted to set directories with a dictionary missing keys")
-        except AssertionError:
+
+        except [a-zA-Z]+Error(LineException):
             raise SystemExit("Attempted to set directories to a non-dictionary object")
-        except KeyError:
+        except KeyError(LineException):
             raise SystemExit("Attempted to set directories with a dictionary of invalid keys. Required keys: 'search_directory', 'output_directory'.")
 
     @staticmethod
@@ -183,11 +195,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                             continue
                         fullpath = os.path.realpath(fullpath)
 
-
                         # Verify we are actually pointing toward a file
                         try:
                             assert os.path.isfile(fullpath)
-                        except AssertionError:
+                        except AssertionError(LineException):
                             print("OS reports search result at {0} is not an actual file. Trying to continue...".format(fullpath))
                             continue
 
@@ -231,9 +242,9 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         # Parser objects that the generate_html method will use.
                         self.parser_objects = [hotel for hotel in hotels]
 
-                    except AssertionError:
+                    except AssertionError(LineException):
                         raise SystemExit('No <hotel> tags found')
-            except IOError:
+            except IOError(LineException):
                 raise SystemExit("Unable to read found XML file.")
             # Leaving file context, file handler closed
         return self
@@ -243,17 +254,38 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             @output for each expected output file, a tuple with the path where the file will be written, and the HTML to be written as a string. ex: [(output/high_low_rates.html, '<html>...</html>'), (output/blah.html), <html>...</html>), ...] appended to the top level object's html_strings attribute
             @returns self to support method chaining
         '''
+
         # Here we define the callback for xml to html translation
-        def html_from_xml(xml_string):
-            #print(xml_string)
-            pass
+        def html_from_xml(hotel):
+            # Hotel is the top level element. A hotel has many rooms.
+            rooms = hotel.findChildren('room')
+            if len(rooms) is 0:
+                raise SystemExit('Encountered a hotel with no rooms. XML document may be incomplete or malformed.')
+            else:
+                # Each room has a name attribute and a human readable <description> which is a verbose name
+                # Initialize a dict to store this and its child tags, <rate>, where we get rate dates and prices
+                rooms_list = []
+                for room in rooms:
+                    room_hash = dict()
+                    room_hash['name'] = room.get('name')
+                    room_hash['description'] = room.findChildren('description')[0].string.strip()
+                    dates = room.findChildren('date')
+                    for date in dates:
+                        room_hash['dates'] = dict()
+                        room_hash['dates']['start'] = date.get('start')
+                        room_hash['dates']['end'] = date.get('end')
 
-        # Generate html
-        html_strings = each(self.parser_objects, lambda x, y, z: html_from_xml(z))
-        each(html_strings, lambda x, y, z: self.html_strings.append(z))
+                        # Calculate if start/end is within 1 month
 
-        # Append each html string to the main object's attribute
-        each(html_strings, lambda iterable, index, item: self.html_strings.append(item))
+                        # Get min/max rates for that month
+                    rooms_list.append(room_hash)
+            for room in rooms_list:
+                print(json.dumps(room, sort_keys=True, indent=4))
+            return rooms_list
+
+
+        # Generate html and append
+        each(self.parser_objects, lambda x, y, z: self.html_strings.append(html_from_xml(z)))
 
         return self
 
@@ -262,9 +294,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             @output Written html files.
             @returns True on successful write or raises an exception for invalid input or I/O errors like no write permissions
         """
+        print("Writing to output files has not yet been implemented.")
         return self
 
 if (__name__ == "__main__"):
+
     # Create an instance of our worker class
     if len(args) == 3:
         hg = HotelHTMLGenerator(args[1], args[2])

@@ -1,0 +1,284 @@
+
+================
+hotel: 1
+
+   Children:
+      room                      4
+
+   Attributes:
+      code                      1
+      currency                  1
+
+================
+room: 4
+
+   Parents:
+      hotel                     4
+
+   Children:
+      description               4
+      rate                      6
+                            =====
+                               10
+
+   Attributes:
+      name                      4
+
+================
+description: 606
+Had 14417 bytes of character data
+
+   Parents:
+      item                     46
+      plan                    556
+      room                      4
+
+================
+rate: 6
+
+   Parents:
+      room                      6
+
+   Children:
+      date                    281
+      descr                     6
+                            =====
+                              287
+
+   Attributes:
+      code                      6
+
+================
+descr: 6
+Had 99 bytes of character data
+
+   Parents:
+      rate                      6
+
+================
+date: 281
+
+   Parents:
+      rate                    281
+
+   Children:
+      accommodation_pl        278
+      child_price             278
+      extra_adult             278
+      free_child              278
+      minimum_nite_sta        278
+      occupancy               278
+      room_price              278
+      special_offers           46
+                            =====
+                             1992
+
+   Attributes:
+      availability            278
+      end                     281
+      start                   281
+      status                  281
+
+================
+minimum_nite_stay: 278
+Always empty
+
+   Parents:
+      date                    278
+
+   Attributes:
+      status                  278
+      value                   278
+
+================
+occupancy: 278
+Always empty
+
+   Parents:
+      date                    278
+
+   Attributes:
+      adults                  278
+      kids                    278
+      total                   278
+
+================
+room_price: 278
+Had 3005 bytes of character data
+
+   Parents:
+      date                    278
+
+   Attributes:
+      basis                   278
+      max_com                 278
+      min_com                 278
+
+================
+extra_adult: 278
+Had 2780 bytes of character data
+
+   Parents:
+      date                    278
+
+   Attributes:
+      max_com                 278
+      maximum                 278
+      min_com                 278
+
+================
+free_child: 278
+Always empty
+
+   Parents:
+      date                    278
+
+   Attributes:
+      maximum                 278
+      maximum_age             278
+
+================
+child_price: 278
+Had 2548 bytes of character data
+
+   Parents:
+      date                    278
+
+   Attributes:
+      max_com                  46
+      maximum_age             278
+      min_com                  46
+      status                  278
+
+================
+special_offers: 46
+
+   Parents:
+      date                     46
+
+   Children:
+      offer                    46
+
+================
+accommodation_plans: 278
+
+   Parents:
+      date                    278
+
+   Children:
+      plan                    556
+
+================
+offer: 46
+
+   Parents:
+      special_offers           46
+
+   Children:
+      item                     46
+
+================
+plan: 556
+
+   Parents:
+      accommodation_pl        556
+
+   Children:
+      description             556
+      pax_basis               556
+      price                   556
+      stay_basis              556
+                            =====
+                             2224
+
+   Attributes:
+      code                    556
+      selection_status        556
+
+================
+item: 46
+
+   Parents:
+      offer                    46
+
+   Children:
+      booking_date             46
+      description              46
+      night_control            46
+      travel_date              46
+                            =====
+                              184
+
+   Attributes:
+      class                    46
+      code                     46
+
+================
+stay_basis: 556
+Had 8340 bytes of character data
+
+   Parents:
+      plan                    556
+
+   Attributes:
+      class                   556
+
+================
+pax_basis: 556
+Had 10008 bytes of character data
+
+   Parents:
+      plan                    556
+
+   Attributes:
+      class                   556
+
+================
+price: 556
+Had 6394 bytes of character data
+
+   Parents:
+      plan                    556
+
+   Attributes:
+      age-from                556
+      age-to                  556
+      class                   556
+      max_com                 556
+      min_com                 556
+
+================
+night_control: 46
+Always empty
+
+   Parents:
+      item                     46
+
+   Attributes:
+      free_night               46
+      per_nights               46
+      start_night              46
+
+================
+booking_date: 46
+Always empty
+
+   Parents:
+      item                     46
+
+   Attributes:
+      from                     46
+      status                   46
+      to                       46
+
+================
+travel_date: 46
+Always empty
+
+   Parents:
+      item                     46
+
+   Attributes:
+      from                     46
+      status                   46
+      to                       46
