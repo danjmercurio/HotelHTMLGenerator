@@ -57,7 +57,7 @@ class HotelHTMLGenerator(object):
         self.verbose = verbose
 
         # Output arguments script was called with if verbose was selected
-        if self.verbose: print("Arguments: ", str(hg.getArgs()), end="\n\n")
+        if self.verbose: print("Arguments: ", str(self.getArgs()), end="\n\n")
 
 
         # Attribute that stores search and output directories as a dict
