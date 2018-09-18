@@ -40,7 +40,7 @@ class HotelHTMLGenerator(object):
     the hotel rates across month intervals.
     """
 
-    def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018"):
+    def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018", verbose = True):
         """ Initialization of new instance. """
 
         # First check if we are just displaying help text
@@ -50,6 +50,9 @@ class HotelHTMLGenerator(object):
         if len(args) is 1:
             print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
             raise SystemExit
+
+        # Verbose mode attribute
+        self.verbose = verbose
 
         # Attribute that stores search and output directories as a dict
         self.dirs = dict()
@@ -99,14 +102,19 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         """ Get a hash of the directories we are using for search and output. """
         return self.dirs
 
-    def setDirs(self, dirs):
+    def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
+        if self.verbose: print("Old self.dirs: {0}\n".format(self.getDirs()))
         try:
-            assert isinstance(dirs, dict)
+            assert isinstance(dirs, dict) # Check that candidate dirs are a dictionary hash
             try:
-                assert (len(dirs.keys()) >= 2)
-                self.dirs['search_directory'] = dirs['search_directory']
-                self.dirs['output_directory'] = dirs['output_directory']
+                assert (len(dirs.keys()) >= 2) # Additional validation for candidate dirs
+                self.dirs['search_directory'] = new_dirs['search_directory']
+                self.dirs['output_directory'] = new_dirs['output_directory']
+
+                if self.verbose: print("New self.dirs: {0}\n".format(self.dirs))
+
+                # Return new dirs
                 return self.dirs
             except AssertionError:
                 raise SystemExit("Attempted to set directories with a dictionary missing keys")
