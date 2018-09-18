@@ -215,13 +215,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
                 raise SystemExit("Generate HTML function was called with an invalid path or file.")
             try:
-                with open(xmlfile) as file: # Entering file context
-
-                    # Read from file
-                    contents = file.read()
+                with open(xmlfile) as file:
+                # Entering file context
 
                     # Parse raw XML
-                    hotels = bs4.BeautifulSoup(contents, "lxml").find_all('hotel')
+                    hotels = bs4.BeautifulSoup(file.read(), "lxml").find_all('hotel')
 
                     try:
                         # Make sure the main XML document was parsed correctly and <hotel> tags were found.
