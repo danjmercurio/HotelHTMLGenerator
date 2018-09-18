@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
+# -*- coding: ascii -*-
 
 from __future__ import print_function # Python 2/3 compatibility
 
@@ -104,7 +104,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         try:
             assert isinstance(dirs, dict)
             try:
-                assert (len(dirs.keys()) == 2)
+                assert (len(dirs.keys()) => 2)
                 self.dirs['search_directory'] = dirs['search_directory']
                 self.dirs['output_directory'] = dirs['output_directory']
                 return self.dirs
@@ -112,23 +112,17 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 raise SystemExit("Attempted to set directories with a dictionary missing keys")
         except AssertionError:
             raise SystemExit("Attempted to set directories to a non-dictionary object")
-
         except KeyError:
-            raise SystemExit("Attempted to set directories with a dictionary of invalid keys")
+            raise SystemExit("Attempted to set directories with a dictionary of invalid keys. Required keys: 'search_directory', 'output_directory'.")
 
     @staticmethod
     def getArgs():
         """ Get an enumerated list comprehension of the arguments with which the program was called. """
         return [arg for arg in enumerate(args)]
 
-    def __getattr__(self, item):
-        pass
-
-    def __getitem__(self, item):
-        pass
-
     def scan(self):
-        """ Scan for input xml files and populate the paths attribute with results """
+        """ Scan for input xml files and populate the paths attribute with results.
+        return self to support method j """
 
         # Get the directory to start from
         search_directory = self.getDirs().get('search_directory')
@@ -179,7 +173,9 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         return self
 
     def parse(self):
-        """ Parse XML files at each found path. Generate HTML from each parser object, and output it"""
+        """ @input: XML file paths attribute populated by scan() earlier in the method chain.
+            @output: Populate top level object HotelHTMLGenerator.parser_objects attribute with XML parsers for each file loaded with the element tree from the hotel elements down
+            @returns self to support further method chaining. """
         for xmlfile in self.paths:
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
                 raise SystemExit("Generate HTML function was called with an invalid path or file.")
@@ -193,11 +189,13 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                     hotels = bs4.BeautifulSoup(contents, "lxml").find_all('hotel')
 
                     try:
+                        # Make sure the main XML document was parsed correctly and <hotel> tags were found.
                         assert len(hotels) is not 0
 
-
+                        # This attribute is mainly for introspection of the XML to be parsed, hence its being stored prettified.
                         self.xml_strings = [hotel.prettify() for hotel in hotels]
 
+                        # Parser objects that the generate_html method will use.
                         self.parser_objects = [hotel for hotel in hotels]
 
                     except AssertionError:
@@ -208,6 +206,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         return self
 
     def generate_html(self):
+        ''' @input XML parsers stored as attribute on top level object
+            @output for each expected output file, a tuple with the path where the file will be written, and the HTML to be written as a string. ex: [(output/high_low_rates.html, '<html>...</html>'), (output/blah.html), <html>...</html>), ...] appended to the top level object's html_strings attribute
+            @returns self to support method chaining
+        '''
         # Here we define the callback for xml to html translation
         def html_from_xml(xml_string):
             print(xml_string)
@@ -223,7 +225,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         return self
 
     def write_output(self):
-        """ Write the generated HTML stored in the attributes of the singleton class instance to their respective files."""
+        """ @input Write the generated HTML stored in the attributes of the singleton class instance to their respective files.
+            @output Written html files.
+            @returns True on successful write or raises an exception for invalid input or I/O errors like no write permissions
+        """
         return self
 
 if (__name__ == "__main__"):
