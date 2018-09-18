@@ -104,7 +104,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         try:
             assert isinstance(dirs, dict)
             try:
-                assert (len(dirs.keys()) => 2)
+                assert (len(dirs.keys()) >= 2)
                 self.dirs['search_directory'] = dirs['search_directory']
                 self.dirs['output_directory'] = dirs['output_directory']
                 return self.dirs
