@@ -12,6 +12,7 @@ from __future__ import print_function # Python 2/3 compatibility
 from os import walk, linesep
 import os.path
 from sys import argv as args, version_info
+import inspect
 
 # Third-party libs
 try:
@@ -24,12 +25,24 @@ except ImportError as ie:
     "or manually downloading and extracting.", sep="\n", end="\n\nExiting...\n")
     raise SystemExit
 
+default_print = print
 
+
+''' Util functions '''
 def each(iterable, callback):
     """ My own humble convenience function for functional iteration. """
     for index, item in enumerate(iterable):
         callback(iterable, index, item)
         # ex. lambda x,y,z: x[y] -> z
+
+def lineno():
+    """Returns the current line number in our program."""
+    return inspect.currentframe().f_back.f_lineno
+
+def print_with_line(args, end="\n"):
+    default_print(lineno(), args)
+''' End utils '''
+print = print_with_line
 
 
 class HotelHTMLGenerator(object):
@@ -110,7 +123,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
-        if self.verbose: print("Requested to change these self.dirs values: {0}\n".format(self.getDirs()))
+        if self.verbose:
+            if bool(self.getDirs()):
+                print("Initializing search and output directories to {0}\n".format(self.getDirs()))
+            else:
+                print("Requested to change these self.dirs values: {0}\n")
         try:
             assert isinstance(new_dirs, dict) # Check that candidate dirs are a dictionary hash
             try:
@@ -192,7 +209,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
     def parse(self):
         """ @input: XML file paths attribute populated by scan() earlier in the method chain.
             @output: Populate top level object HotelHTMLGenerator.parser_objects attribute with XML parsers for each file loaded with the element tree from the hotel elements down
-            @returns self to support further method chaining. """
+            @returns self to support further method chaining.
+        """
         for xmlfile in self.paths:
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
                 raise SystemExit("Generate HTML function was called with an invalid path or file.")
@@ -229,7 +247,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         '''
         # Here we define the callback for xml to html translation
         def html_from_xml(xml_string):
-            print(xml_string)
+            #print(xml_string)
             pass
 
         # Generate html
