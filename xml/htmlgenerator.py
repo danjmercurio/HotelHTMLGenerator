@@ -51,8 +51,14 @@ class HotelHTMLGenerator(object):
             print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
             raise SystemExit
 
+
+
         # Verbose mode attribute
         self.verbose = verbose
+
+        # Output arguments script was called with if verbose was selected
+        if self.verbose: print("Arguments: ", str(hg.getArgs()), end="\n\n")
+
 
         # Attribute that stores search and output directories as a dict
         self.dirs = dict()
@@ -178,6 +184,9 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
         each(search(search_directory), lambda iterable, index, item: self.paths.append(item))
 
+        # Output found paths if verbose mode was selected
+        if self.verbose: print("Paths: ", self.paths)
+
         return self
 
     def parse(self):
@@ -245,8 +254,6 @@ if (__name__ == "__main__"):
         hg = HotelHTMLGenerator(args[1], args[2])
     else:
         hg = HotelHTMLGenerator()
-    # print("arguments: ", str(hg.getArgs()), end="\n\n")
-    # print("paths: ", [x for x in hg.scan()], end="\n\n")
 
     # Chain of actions this script is designed to perform
     hg.scan().parse().generate_html().write_output()
