@@ -339,9 +339,6 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
                 months_and_rates[month] = minmax
 
-
-            prettyprint(months_and_rates)
-
             print("Hotel: {0}".format(hotelCode))
             print("Min/max rates by month:")
             prettyprint(months_and_rates)
