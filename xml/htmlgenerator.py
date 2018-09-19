@@ -19,6 +19,7 @@ import sys
 import os
 import inspect
 import json
+from underscore import _
 
 # Third-party libs
 try:
@@ -32,44 +33,51 @@ except ImportError as ie:
     raise SystemExit
 
 ''' Util functions '''
-def each(iterable, callback):
-    """ My own humble convenience function for functional iteration. """
-    for index, item in enumerate(iterable):
-        callback(iterable, index, item)
-        # ex. lambda x,y,z: x[y] -> z
+
+# def each(iterable, callback):
+#     """ My own humble convenience function for functional iteration. """
+#     for index, item in enumerate(iterable):
+#         callback(iterable, index, item)
+#         # ex. lambda x,y,z: x[y] -> z
 
 def lineno():
-    """Returns the current line number in our program."""
+    """ Returns the current line number of execution. """
     line = inspect.currentframe().f_back.f_lineno
-    print(str(line))
+    line = str(line)
     return line
 
 # def print_with_line(args, end):
 #    ''' Causing problems with end argument '''
-#    ''' Causing problems with end argument '''
 #     default_print(lineno(), args)
 #print = print_with_line
 
-class LineException(Exception):
+class LineException(BaseException):
     def __init__(self):
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
         print(exc_type, fname, exc_tb.tb_lineno)
 
+Exception = LineException
+
 def prettyprint(d):
-    if isinstance(d, dict):
+    ''' Convert dictionaries to JSON and print human-readable format. '''
+    if isinstance(d, str):
+        print(d, end="\nWARNING: Type prettyprinted above was string, expected dictionary.\n")
+        return
+    if isinstance(d, dict) or isinstance(d, OrderedDict):
         print(json.dumps(d, sort_keys=True, indent=4))
     else:
-        print("Argument to prettyprint() was non-dictionary.")
+        print("Argument to prettyprint() was not of type dict or OrderedDict.")
 
 def info(type, value, tb):
-   if hasattr(sys, 'ps1') or not sys.stderr.isatty():
-      # we are in interactive mode or we don't have a tty-like
+    ''' Enter debugger on unhandled exceptions '''
+    if hasattr(sys, 'ps1') or not sys.stderr.isatty():
+      # We are in interactive mode or we don't have a tty-like
       # device, so we call the default hook
       sys.__excepthook__(type, value, tb)
-   else:
+    else:
       import traceback, pdb
-      # we are NOT in interactive mode, print the exception...
+      # We are NOT in interactive mode, print the exception...
       traceback.print_exception(type, value, tb)
       print
       # ...then start the debugger in post-mortem mode.
@@ -87,7 +95,7 @@ class HotelHTMLGenerator(object):
     the hotel rates across month intervals.
     """
 
-    def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018", verbose = True):
+    def __init__(self, search_directory = "./search", output_directory = "./output", year = "2018", debug = True):
         """ Initialization of new instance. """
 
         # First check if we are just displaying help text
@@ -98,11 +106,11 @@ class HotelHTMLGenerator(object):
             print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
             raise SystemExit
 
-        # Verbose mode attribute
-        self.verbose = verbose
+        # Debug mode attribute
+        self.debug = debug
 
         # Output arguments script was called with if verbose was selected
-        if self.verbose: print("Arguments: ", str(self.getArgs()), end="\n\n")
+        if self.debug: print("Arguments: ", str(self.getArgs()), end="\n\n")
 
 
         # Attribute that stores search and output directories as a dict
@@ -155,11 +163,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
-        if self.verbose:
-            if bool(self.getDirs()):
-                print("Initializing search and output directories to {0}\n".format(self.getDirs()))
+        if self.debug:
+            if not bool(self.getDirs()):
+                print("Initializing search and output directories for the first time.")
             else:
-                print("Requested to change these self.dirs values: {0}\n")
+                print("Requested to change these self.dirs values: {0}\n".format(self.getDirs()))
         try:
             assert isinstance(new_dirs, dict) or isinstance(new_dirs, OrderedDict) # Check that candidate dirs are a dictionary hash
             try:
@@ -167,17 +175,17 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 self.dirs['search_directory'] = new_dirs['search_directory']
                 self.dirs['output_directory'] = new_dirs['output_directory']
 
-                if self.verbose: print("New self.dirs: {0}\n".format(self.dirs))
+                if self.debug: print("self.dirs updated to {0}\n".format(self.dirs))
 
                 # Return new dirs
                 return self.dirs
-            except AssertionError(LineException):
+            except AssertionError:
                 lineno()
                 raise SystemExit("Attempted to set directories with a dictionary missing keys")
 
-        except AssertionError(LineException):
+        except AssertionError:
             raise SystemExit("Attempted to set directories to a non-dictionary object")
-        except KeyError(LineException):
+        except KeyError:
             raise SystemExit("Attempted to set directories with a dictionary of invalid keys. Required keys: 'search_directory', 'output_directory'.")
 
     @staticmethod
@@ -220,7 +228,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         # Verify we are actually pointing toward a file
                         try:
                             assert os.path.isfile(fullpath)
-                        except AssertionError(LineException):
+                        except AssertionError:
                             print("OS reports search result at {0} is not an actual file. Trying to continue...".format(fullpath))
                             continue
 
@@ -231,11 +239,12 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         print("Found {0} at {1}".format(self.SEARCH_FILENAME, fullpath))
 
                         yield fullpath
-
-        each(search(search_directory), lambda iterable, index, item: self.paths.append(item))
+        search_results = search(search_directory)
+        for result in search_results:
+            self.paths.append(result)
 
         # Output found paths if verbose mode was selected
-        if self.verbose: print("Paths: ", self.paths)
+        if self.debug: print("Paths found by search: ", self.paths)
 
         return self
 
@@ -259,16 +268,35 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         assert len(hotels) is not 0
 
                         # This attribute is mainly for introspection of the XML to be parsed, hence its being stored prettified.
-                        self.xml_strings = [hotel.prettify() for hotel in hotels]
+                        if self.debug: self.xml_strings = [hotel.prettify() for hotel in hotels]
+
+
 
                         # Parser objects that the generate_html method will use.
-                        self.parser_objects = [hotel for hotel in hotels]
+                        for hotel_parser_object in hotels:
+                            try:
+                                hotelCode = hotel_parser_object.get('code')
+                                assert (isinstance(hotelCode, str) or isinstance(hotelCode, unicode))
+                                assert len(hotelCode) > 1
+                            except AssertionError as ae:
+                                raise SystemExit('Unable to determine hotel code from <hotel> tag in rates file {0}'.format(file.name))
 
-                    except AssertionError(LineException):
+                        # Make a tuple
+                        hotelTuple = (hotelCode, hotel_parser_object)
+
+                        # Append to main object
+                        self.parser_objects.append(hotelTuple)
+                    except AssertionError:
                         raise SystemExit('No <hotel> tags found')
             except IOError(LineException):
                 raise SystemExit("Unable to read found XML file.")
             # Leaving file context, file handler closed
+        if self.debug:
+            print("Hotels parsed: {0}".format(str(len(hotels))))
+
+            for po in self.parser_objects:
+                assert isinstance(po[1], bs4.element.Tag)
+                print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser(type:{0}): {1}".format(type(po[1]), po[1].prettify()[100:150]), sep="\n---------\n", end="\n ------ end parser objects-----\n" )
         return self
 
     def generate_html(self):
@@ -276,10 +304,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             @output for each expected output file, a tuple with the path where the file will be written, and the HTML to be written as a string. ex: [(output/high_low_rates.html, '<html>...</html>'), (output/blah.html), <html>...</html>), ...] appended to the top level object's html_strings attribute
             @returns self to support method chaining
         '''
-        months = range(1, 13)
 
+        # An OrderedDict to hold lists of rates and the month to which they apply. Keys are month numbers.
+        months = range(1, 13)
         months_and_rates = OrderedDict(map(lambda month: (month, []), months))
-        # -> {1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: [], 9: [], 10: [], 11: [], 12: []}
+        # -> {1: [], 2: [], 3: [], 4: [], 5: [], 6: [], ... }
 
         # Here we define the callback for xml to html translation
         def html_from_xml(hotel):
@@ -320,9 +349,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                             # The day value comparison is a final sanity check. If start day is less than
                             # end day, we must be moving forward in time within one month
                             months_and_rates.get(start_datetime.month).append(price)
+                        else:
+                            if self.debug:
+                                print("Invalid datetime: ", start_datetime.__str__(), end_datetime.__str(), "Skipped...")
 
-                        #pdb.set_trace()
-
+                        pdb.set_trace()
 
 
                         # Get min/max rates for that month
@@ -346,12 +377,13 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             for room in rooms_list:
                 prettyprint(room)
 
+            generated_tuple = (hotelCode, "".join(months_and_rates[0:100], "...cont'd"), "".join(rooms_list[0:100], "...cont'd"))
 
             return (hotelCode, months_and_rates, rooms_list)
 
-
-        # Generate html and append
-        each(self.parser_objects, lambda x, y, z: self.html_strings.append(html_from_xml(z)))
+        with open('parser_objects.txt', 'a') as pobj:
+            for index, item in enumerate(self.html_strings):
+                print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser({0}): {1}".format(type(po[1]), po[1].prettify()), sep="\n---------\n", end="\n ------ end parser objects-----\n", file=pobj)
 
         return self
 
