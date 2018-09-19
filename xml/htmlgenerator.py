@@ -11,7 +11,10 @@ from __future__ import print_function # Python 2/3 compatibility
 # Standard library imports
 from os import walk, linesep
 import os.path
+import sys
 from sys import argv as args, version_info
+import pdb
+from collections import OrderedDict
 import sys
 import os
 import inspect
@@ -19,7 +22,7 @@ import json
 
 # Third-party libs
 try:
-    import yattag, bs4, lxml
+    import yattag, bs4, lxml, dateutil.parser
 except ImportError as ie:
     missing_dependency = "".join(char for char in ie.msg.split(" ")[-1] if char.isalnum())
     print("Fatal Error(LineException): a required Python module could not be found.",
@@ -53,7 +56,26 @@ class LineException(Exception):
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
         print(exc_type, fname, exc_tb.tb_lineno)
 
+def prettyprint(d):
+    if isinstance(d, dict):
+        print(json.dumps(d, sort_keys=True, indent=4))
+    else:
+        print("Argument to prettyprint() was non-dictionary.")
 
+def info(type, value, tb):
+   if hasattr(sys, 'ps1') or not sys.stderr.isatty():
+      # we are in interactive mode or we don't have a tty-like
+      # device, so we call the default hook
+      sys.__excepthook__(type, value, tb)
+   else:
+      import traceback, pdb
+      # we are NOT in interactive mode, print the exception...
+      traceback.print_exception(type, value, tb)
+      print
+      # ...then start the debugger in post-mortem mode.
+      pdb.pm()
+
+sys.excepthook = info
 ''' End utils '''
 
 
@@ -139,7 +161,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             else:
                 print("Requested to change these self.dirs values: {0}\n")
         try:
-            assert isinstance(new_dirs, dict) # Check that candidate dirs are a dictionary hash
+            assert isinstance(new_dirs, dict) or isinstance(new_dirs, OrderedDict) # Check that candidate dirs are a dictionary hash
             try:
                 assert (len(new_dirs.keys()) >= 2) # Additional validation for candidate dirs
                 self.dirs['search_directory'] = new_dirs['search_directory']
@@ -153,7 +175,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 lineno()
                 raise SystemExit("Attempted to set directories with a dictionary missing keys")
 
-        except [a-zA-Z]+Error(LineException):
+        except AssertionError(LineException):
             raise SystemExit("Attempted to set directories to a non-dictionary object")
         except KeyError(LineException):
             raise SystemExit("Attempted to set directories with a dictionary of invalid keys. Required keys: 'search_directory', 'output_directory'.")
@@ -254,10 +276,15 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             @output for each expected output file, a tuple with the path where the file will be written, and the HTML to be written as a string. ex: [(output/high_low_rates.html, '<html>...</html>'), (output/blah.html), <html>...</html>), ...] appended to the top level object's html_strings attribute
             @returns self to support method chaining
         '''
+        months = range(1, 13)
+
+        months_and_rates = OrderedDict(map(lambda month: (month, []), months))
+        # -> {1: [], 2: [], 3: [], 4: [], 5: [], 6: [], 7: [], 8: [], 9: [], 10: [], 11: [], 12: []}
 
         # Here we define the callback for xml to html translation
         def html_from_xml(hotel):
             # Hotel is the top level element. A hotel has many rooms.
+            hotelCode = hotel.get('code')
             rooms = hotel.findChildren('room')
             if len(rooms) is 0:
                 raise SystemExit('Encountered a hotel with no rooms. XML document may be incomplete or malformed.')
@@ -266,22 +293,64 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 # Initialize a dict to store this and its child tags, <rate>, where we get rate dates and prices
                 rooms_list = []
                 for room in rooms:
-                    room_hash = dict()
+                    room_hash = OrderedDict()
                     room_hash['name'] = room.get('name')
                     room_hash['description'] = room.findChildren('description')[0].string.strip()
                     dates = room.findChildren('date')
                     for date in dates:
-                        room_hash['dates'] = dict()
-                        room_hash['dates']['start'] = date.get('start')
-                        room_hash['dates']['end'] = date.get('end')
+                        date_hash = room_hash['dates'] = OrderedDict()
+                        start = room_hash['dates']['start'] = date.get('start')
+                        end = room_hash['dates']['end'] = date.get('end')
+                        #print("date > room_price: ", date.findChildren('room_price'))
+                        room_prices = date.findChildren('room_price')
+                        if (len(room_prices) is 1):
+                            price = room_hash['dates']['price'] = float(date.findChildren('room_price')[0].string.strip())
+                        else:
+                            price = room_hash['dates']['price'] = float(0) # No price detected in XML
+
 
                         # Calculate if start/end is within 1 month
+                        start_datetime = dateutil.parser.parse(start)
+                        end_datetime = dateutil.parser.parse(end)
+
+                        if (start_datetime.month == end_datetime.month) and (start_datetime.year == end_datetime.year) and (start_datetime.day < end_datetime.day):
+                            # This interval is within one month and does not cross a month boundary,
+                            # and it is not a case where month comparison is true but the months are of
+                            # completely different years, because the year must be equal as well.
+                            # The day value comparison is a final sanity check. If start day is less than
+                            # end day, we must be moving forward in time within one month
+                            months_and_rates.get(start_datetime.month).append(price)
+
+                        #pdb.set_trace()
+
+
 
                         # Get min/max rates for that month
                     rooms_list.append(room_hash)
+
+            # Filter out only the highest and lowest rates for each month
+            for month, ratesList in months_and_rates.items():
+                if len(ratesList) is 0:
+                    ratesList.append(0)
+                minmax = {
+                    'lowest': min(ratesList),
+                    'highest': max(ratesList)
+                    }
+
+                months_and_rates[month] = minmax
+
+
+            prettyprint(months_and_rates)
+
+            print("Hotel: {0}".format(hotelCode))
+            print("Min/max rates by month:")
+            prettyprint(months_and_rates)
+            print("Room info:")
             for room in rooms_list:
-                print(json.dumps(room, sort_keys=True, indent=4))
-            return rooms_list
+                prettyprint(room)
+
+
+            return (hotelCode, months_and_rates, rooms_list)
 
 
         # Generate html and append
