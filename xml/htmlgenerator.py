@@ -9,21 +9,23 @@ from __future__ import print_function # Python 2/3 compatibility
 """
 
 # Standard library imports
-from os import walk, linesep
+import os
 import os.path
 import sys
-from sys import argv as args, version_info
+args = sys.argv
 import pdb
 from collections import OrderedDict
-import sys
-import os
-import inspect
+from inspect import currentframe
 import json
-from underscore import _
+try:
+    import __builtin__
+except ImportError:
+    # Python 3
+    import builtins as __builtin__
 
 # Third-party libs
 try:
-    import yattag, bs4, lxml, dateutil.parser
+    import yattag, bs4, lxml, dateutil.parser, underscore as _, jinja2
 except ImportError as ie:
     missing_dependency = "".join(char for char in ie.msg.split(" ")[-1] if char.isalnum())
     print("Fatal Error(LineException): a required Python module could not be found.",
@@ -33,29 +35,23 @@ except ImportError as ie:
     raise SystemExit
 
 ''' Util functions '''
-
-# def each(iterable, callback):
-#     """ My own humble convenience function for functional iteration. """
-#     for index, item in enumerate(iterable):
-#         callback(iterable, index, item)
-#         # ex. lambda x,y,z: x[y] -> z
-
-def lineno():
+def lineno(datatype = 'string'):
     """ Returns the current line number of execution. """
-    line = inspect.currentframe().f_back.f_lineno
-    line = str(line)
+    line = currentframe().f_back.f_lineno
+    if datatype is not 'string': line = str(line)
     return line
 
-# def print_with_line(args, end):
-#    ''' Causing problems with end argument '''
-#     default_print(lineno(), args)
-#print = print_with_line
+def print(*args, **kwargs):
+    frameinfo = currentframe()
+
+    __builtin__.print(frameinfo.f_back.f_lineno, ": ", sep='', end='')
+    return __builtin__.print(*args, **kwargs)
 
 class LineException(BaseException):
     def __init__(self):
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        print(exc_type, fname, exc_tb.tb_lineno)
+        debug_print("-------------- Exception information: ----------------", exc_type, fname, exc_tb.tb_lineno)
 
 Exception = LineException
 
@@ -108,6 +104,9 @@ class HotelHTMLGenerator(object):
 
         # Debug mode attribute
         self.debug = debug
+
+        if self.debug:
+            print("Debug mode ON.")
 
         # Output arguments script was called with if verbose was selected
         if self.debug: print("Arguments: ", str(self.getArgs()), end="\n\n")
@@ -206,7 +205,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         else:
             def search(search_directory):
                 """ Generator which scans recursively for a rates.input.xml file and yields their paths """
-                for root, dirs, files in walk(search_directory):
+                for root, dirs, files in os.walk(search_directory):
 
                     # Make the search case insensitive by converting everything to lower case
                     files = [file.lower() for file in files]
@@ -239,7 +238,9 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         print("Found {0} at {1}".format(self.SEARCH_FILENAME, fullpath))
 
                         yield fullpath
+
         search_results = search(search_directory)
+
         for result in search_results:
             self.paths.append(result)
 
@@ -253,12 +254,14 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             @output: Populate top level object HotelHTMLGenerator.parser_objects attribute with XML parsers for each file loaded with the element tree from the hotel elements down
             @returns self to support further method chaining.
         """
+
         for xmlfile in self.paths:
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
                 raise SystemExit("Generate HTML function was called with an invalid path or file.")
             try:
                 with open(xmlfile) as file:
                 # Entering file context
+                    if self.debug: print("Reading xml file: {0}".format(file.name))
 
                     # Parse raw XML
                     hotels = bs4.BeautifulSoup(file.read(), "lxml").find_all('hotel')
@@ -286,14 +289,14 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
                         # Append to main object
                         self.parser_objects.append(hotelTuple)
+                # Leaving file context, file handler closed
                     except AssertionError:
                         raise SystemExit('No <hotel> tags found')
             except IOError(LineException):
                 raise SystemExit("Unable to read found XML file.")
-            # Leaving file context, file handler closed
-        if self.debug:
-            print("Hotels parsed: {0}".format(str(len(hotels))))
 
+
+        if self.debug:
             for po in self.parser_objects:
                 assert isinstance(po[1], bs4.element.Tag)
                 print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser(type:{0}): {1}".format(type(po[1]), po[1].prettify()[100:150]), sep="\n---------\n", end="\n ------ end parser objects-----\n" )
@@ -352,14 +355,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         else:
                             if self.debug:
                                 print("Invalid datetime: ", start_datetime.__str__(), end_datetime.__str(), "Skipped...")
-
-                        pdb.set_trace()
-
-
                         # Get min/max rates for that month
                     rooms_list.append(room_hash)
 
-            # Filter out only the highest and lowest rates for each month
+            # Filter  out only the highest and lowest rates for each month
             for month, ratesList in months_and_rates.items():
                 if len(ratesList) is 0:
                     ratesList.append(0)
@@ -380,10 +379,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             generated_tuple = (hotelCode, "".join(months_and_rates[0:100], "...cont'd"), "".join(rooms_list[0:100], "...cont'd"))
 
             return (hotelCode, months_and_rates, rooms_list)
-
-        with open('parser_objects.txt', 'a') as pobj:
-            for index, item in enumerate(self.html_strings):
-                print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser({0}): {1}".format(type(po[1]), po[1].prettify()), sep="\n---------\n", end="\n ------ end parser objects-----\n", file=pobj)
+        if self.debug:
+            with open('parser_objects.txt', 'a') as pobj:
+                for index, item in enumerate(self.html_strings):
+                    print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser({0}): {1}".format(type(po[1]), po[1].prettify()), sep="\n---------\n", end="\n ------ end parser objects-----\n", file=pobj)
 
         return self
 
