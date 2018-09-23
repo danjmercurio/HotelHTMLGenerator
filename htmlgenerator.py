@@ -25,7 +25,8 @@ except ImportError:
 
 # Third-party libs
 try:
-    import bs4, lxml, dateutil.parser, underscore as _, jinja2
+    import bs4, lxml, dateutil.parser, jinja2
+    from underscore import _
 except ImportError as error:
     missing_dependency = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
 
@@ -164,9 +165,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
         if self.debug:
-            if not bool(self.getDirs()):
-                print("Initializing search and output directories for the first time.")
-            else:
+            if self.dirs is not {}:
                 print("Requested to change these self.dirs values: {0}\n".format(self.getDirs()))
         try:
             assert isinstance(new_dirs, dict) or isinstance(new_dirs, OrderedDict) # Check that candidate dirs are a dictionary hash
@@ -297,10 +296,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 raise SystemExit("Unable to read found XML file.")
 
 
-        if self.debug:
-            for po in self.parser_objects:
-                assert isinstance(po[1], bs4.element.Tag)
-                print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser(type:{0}): {1}".format(type(po[1]), po[1].prettify()[100:150]), sep="\n---------\n", end="\n ------ end parser objects-----\n" )
+        #if self.debug:
+            #for po in self.parser_objects:
+                # assert isinstance(po[1], bs4.element.Tag)
+                # print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser(type:{0}): {1}".format(type(po[1]), po[1].prettify()[100:150]), sep="\n---------\n", end="\n ------ end parser objects-----\n" )
         return self
 
     def generate_html(self):
@@ -314,11 +313,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         months_and_rates = OrderedDict(map(lambda month: (month, []), months))
         # -> {1: [], 2: [], 3: [], 4: [], 5: [], 6: [], ... }
 
-        # Here we define the callback for xml to html translation
-        def html_from_xml(hotel):
-            # Hotel is the top level element. A hotel has many rooms.
-            hotelCode = hotel.get('code')
-            rooms = hotel.findChildren('room')
+        def getMaxMinRates(element, index, l):
+            hotelCode, hotelTag = element[0], element[1]
+            rooms = hotelTag.findChildren('room')
+
             if len(rooms) is 0:
                 raise SystemExit('Encountered a hotel with no rooms. XML document may be incomplete or malformed.')
             else:
@@ -353,13 +351,15 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                             # The day value comparison is a final sanity check. If start day is less than
                             # end day, we must be moving forward in time within one month
                             months_and_rates.get(start_datetime.month).append(price)
+                            print(price)
                         else:
                             if self.debug:
-                                print("Invalid datetime: ", start_datetime.__str__(), end_datetime.__str(), "Skipped...")
+                                import pdb; pdb.set_trace()  # breakpoint a060f208 //
+                                print("Date interval falls during a month or year change. Skipping.")
+                                print("Invalid datetime: Start:", start_datetime, "End: ", end_datetime, "Skipped...")
                         # Get min/max rates for that month
                     rooms_list.append(room_hash)
-
-            # Filter  out only the highest and lowest rates for each month
+             # Filter  out only the highest and lowest rates for each month
             for month, ratesList in months_and_rates.items():
                 if len(ratesList) is 0:
                     ratesList.append(0)
@@ -369,8 +369,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                     }
 
                 months_and_rates[month] = minmax
-            print(rooms_list)
-            print(months_and_rates)
+
+        _.each(self.parser_objects, getMaxMinRates)
+        #print(rooms_list)
+        print(months_and_rates)
 
         # Load Jinja templates and populate them
 
