@@ -25,11 +25,12 @@ except ImportError:
 
 # Third-party libs
 try:
-    import yattag, bs4, lxml, dateutil.parser, underscore as _, jinja2
-except ImportError as ie:
-    missing_dependency = "".join(char for char in ie.msg.split(" ")[-1] if char.isalnum())
-    print("Fatal Error(LineException): a required Python module could not be found.",
-    "The " + missing_dependency + " module for Python " + str(version_info.major) + ".x must be installed using pip, easy_install,",
+    import bs4, lxml, dateutil.parser, underscore as _, jinja2
+except ImportError as error:
+    missing_dependency = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
+
+    print("Fatal Error: a required Python module could not be found.",
+    "The " + missing_dependency + " module for Python " + str(sys.version_info.major) + ".x must be installed using pip, easy_install,",
     "the system package manager (apt-get on Debian based Linux OSes), " +
     "or manually downloading and extracting.", sep="\n", end="\n\nExiting...\n")
     raise SystemExit
@@ -152,7 +153,7 @@ class HotelHTMLGenerator(object):
     def help():
         """ Print the help text. """
         helpText = """Usage: python[3] {0} [search directory] [output directory] [--arguments (optional)]{1}
-Pass --relative to disable conversion of relative paths to absolute paths. Pass --year (4 digit year) to use a year other than 2018. Pass -h or --help to print this message""".format(args[0], linesep)
+Pass --relative to disable conversion of relative paths to absolute paths. Pass --year (4 digit year) to use a year other than 2018. Pass -h or --help to print this message""".format(args[0], os.linesep)
         print(helpText)
         raise SystemExit
 
@@ -368,29 +369,47 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                     }
 
                 months_and_rates[month] = minmax
+            print(rooms_list)
+            print(months_and_rates)
 
-            print("Hotel: {0}".format(hotelCode))
-            print("Min/max rates by month:")
-            prettyprint(months_and_rates)
-            print("Room info:")
-            for room in rooms_list:
-                prettyprint(room)
+        # Load Jinja templates and populate them
 
-            generated_tuple = (hotelCode, "".join(months_and_rates[0:100], "...cont'd"), "".join(rooms_list[0:100], "...cont'd"))
+        # Templates are as follows:
 
-            return (hotelCode, months_and_rates, rooms_list)
-        if self.debug:
-            with open('parser_objects.txt', 'a') as pobj:
-                for index, item in enumerate(self.html_strings):
-                    print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser({0}): {1}".format(type(po[1]), po[1].prettify()), sep="\n---------\n", end="\n ------ end parser objects-----\n", file=pobj)
+        # layout.jinja2.html: layout with doctype, html, head tags so we have a valid document
+        # the following two templates are partials:
+
+        """ Rate calendar:
+                1. needs JS  in its template to support clickable popup
+                2. Generate a table with the right number of days for each month
+                3. Each cell is clickable and stores info
+                4. Needs the following local variables:
+                    Hash of calendar months and numbers of days in each
+                    Get a rate from XML for each day
+                    Need to use dateutil to verify rate applies to correct day of month
+
+            Rate summary:
+                1. Needs the following local variables:
+                    current year or year in top level object attribute self.year
+                    List of rooms. For each room...
+                    Room code
+                    Room description (a longer string)
+                    A hash with:
+                        keys: months as words or their abbreviations
+                        values: [minimum nightly rate, maximum nightly rate]
+
+        After populating templates with data, call render on them and store as strings
+        """
 
         return self
 
     def write_output(self):
-        """ @input Write the generated HTML stored in the attributes of the singleton class instance to their respective files.
+        """ @input Rendered Jinja2 templates
             @output Written html files.
             @returns True on successful write or raises an exception for invalid input or I/O errors like no write permissions
         """
+        output_files = ['rate_calendar', 'rates_yearly_summary']
+
         print("Writing to output files has not yet been implemented.")
         return self
 

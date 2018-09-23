@@ -1,0 +1,404 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gen",
+				"generated_tuple"
+			],
+			[
+				"debug",
+				"debug_print"
+			],
+			[
+				"start",
+				"start_datetime"
+			],
+			[
+				"month",
+				"months_and_rates"
+			],
+			[
+				"exception",
+				"Exception"
+			],
+			[
+				"hotel",
+				"hotel_xml_files"
+			],
+			[
+				"print_",
+				"print_with_line"
+			],
+			[
+				"direc",
+				"directories"
+			],
+			[
+				"H",
+				"HotelHTMLGenerator"
+			],
+			[
+				"not",
+				"NotImplementedError"
+			],
+			[
+				"missi",
+				"missing_dependency"
+			],
+			[
+				"html",
+				"html_strings"
+			],
+			[
+				"parser",
+				"parser_objects"
+			],
+			[
+				"im",
+				"ImportError"
+			],
+			[
+				"joi",
+				"joined_keys_and_vals"
+			],
+			[
+				"it",
+				"iterable"
+			],
+			[
+				"enum",
+				"enumerate"
+			],
+			[
+				"dire",
+				"directory"
+			],
+			[
+				"sear",
+				"search_directory"
+			],
+			[
+				"absol",
+				"absolute_dirs"
+			],
+			[
+				"dict",
+				"dictionary"
+			],
+			[
+				"Ass",
+				"AssertionError"
+			],
+			[
+				"sea",
+				"search_directory"
+			],
+			[
+				"output",
+				"output_directory"
+			],
+			[
+				"outpu",
+				"output_directory"
+			],
+			[
+				"out",
+				"output_directory"
+			],
+			[
+				"conver",
+				"_convert_dirs_to_absolute"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"SublimeLinter: Show Line Errors"
+			],
+			[
+				"snippet",
+				"Snippet: New Class"
+			],
+			[
+				"git",
+				"Git: Diff Tool All"
+			],
+			[
+				"git st",
+				"GitStatus: Changed files"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"dir(platform)",
+			"import platform",
+			"print(dict.fromkeys.__doc__)",
+			"dict.fromkeys(v)",
+			"v",
+			"dict.fromkeys",
+			"dict(v)",
+			"dir(v)",
+			"v = sys.version_info",
+			"\"Python {major}.{minor}.{micro}-{releaselevel} [{serial}]\".format(dict(sys.version_info))",
+			"\"Python {major}.{minor}.{micro}-{releaselevel} [{serial}]\".format(sys.version_info)",
+			"sys.version_info",
+			"import sys",
+			"import sys.version",
+			"os.getcwd()",
+			"os.chdir('/home/dan/PycharmProjects/lantera/xml')",
+			"os.chdir('~')",
+			"os.chdir('~/PycharmProjects/lantera/xml')",
+			"os.chdir('~/PycharmProjects/lantera/xml\")",
+			"os.getcwd()",
+			"import os",
+			"python3"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dan/PycharmProjects/lantera/xml"
+	],
+	"file_history":
+	[
+		"/home/dan/.profile",
+		"/home/dan/.dmrc",
+		"/home/dan/.dirs",
+		"/home/dan/.bashrc",
+		"/home/dan/.bash_logout",
+		"/home/dan/.bash_login",
+		"/home/dan/.bash_history",
+		"/home/dan/.bash_aliases",
+		"/home/dan/PycharmProjects/lantera/xml/htmlgenerator.py",
+		"/home/dan/.config/sublime-text-3/Packages/Python Improved/PythonImproved.YAML-tmLanguage",
+		"/home/dan/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/dan/.config/sublime-text-3/Packages/Python Breakpoints/Default (Linux).sublime-keymap",
+		"/home/dan/.config/sublime-text-3/Packages/Python Breakpoints/PythonBreakpoints.sublime-settings",
+		"/home/dan/PycharmProjects/lantera/xml/htmlgenerator.sublime-project",
+		"/home/dan/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/dan/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/dan/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/dan/PycharmProjects/lantera/xml/templates/layout.jinja2.html",
+		"/home/dan/PycharmProjects/lantera/xml/templates/rate_calendar.jinja2.html",
+		"/home/dan/PycharmProjects/lantera/xml/templates/rates_yearly_summary.jinja2.html",
+		"/home/dan/PycharmProjects/lantera/xml/notes.txt",
+		"/home/dan/Documents/underscore.js",
+		"/home/dan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/dan/.config/sublime-text-3/Packages/SublimeCopyOnSelect/CopyOnSelect.sublime-settings",
+		"/home/dan/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/dan/PycharmProjects/lantera/xml/AAAAAA.pretty.json",
+		"/home/dan/PycharmProjects/lantera/xml/AAAAAA.pretty.xml",
+		"/home/dan/PycharmProjects/lantera/xml/AAAAAA.xml",
+		"/home/dan/PycharmProjects/lantera/xml/hotel_xml_files/README.txt",
+		"/home/dan/PycharmProjects/lantera/xml/hotels.py",
+		"/home/dan/.config/yakuakerc",
+		"/home/dan/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inspect",
+			"self.verbose",
+			"AssertionError(LineException)",
+			"self.debug",
+			"bp()",
+			"each(",
+			"each",
+			"rooms_list",
+			"4793",
+			"LineError",
+			"Error:",
+			"except [a-zA-Z]+Error:",
+			"except [Assertion]Error:",
+			"[\\w]+except[ ][AZaz]+\\:",
+			"except \\[A-Za-z]+\\:",
+			"except [A-Za-z]{0,3}Error:",
+			"self.verb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"self.debug",
+			"AssertionError",
+			"self.verbose",
+			"item",
+			"pdb.set_trace()",
+			"LineException",
+			"Error(LineError):",
+			"except \\[a-zA-Z]+\\Error(LineError):",
+			"except [a-zA-Z]+Error(LineError):"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 162.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 36.0
+	},
+	"pinned_build_system": "",
+	"project": "htmlgenerator.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
