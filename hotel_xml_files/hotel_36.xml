@@ -1,0 +1,6668 @@
+<!-- begin hotel 36 -->
+<hotel code="HNLOHI" currency="usd">
+ <room name="HR">
+  <description>
+   Hotel Room
+  </description>
+  <rate code="HRRLA">
+   <descr>
+    Hotel Room
+   </descr>
+   <date availability="HRRLD" end="2018-08-26" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     167.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2018-09-13" start="2018-08-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLD" end="2018-09-15" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     167.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2018-09-30" start="2018-09-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLF" end="2018-10-11" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     133.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2018-10-17" start="2018-10-12" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLD" end="2018-10-18" start="2018-10-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     167.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLC" end="2018-10-22" start="2018-10-19" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLF" end="2018-12-01" start="2018-10-23" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     133.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2018-12-02" start="2018-12-02" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLF" end="2018-12-05" start="2018-12-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     133.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2018-12-06" start="2018-12-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLD" end="2018-12-09" start="2018-12-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     167.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2018-12-10" start="2018-12-10" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLF" end="2018-12-21" start="2018-12-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     133.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLC" end="2018-12-23" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLB" end="2018-12-27" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     211.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLA" end="2018-12-31" start="2018-12-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     263.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLD" end="2019-03-10" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     167.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2019-05-23" start="2019-03-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLD" end="2019-05-26" start="2019-05-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     167.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLE" end="2019-06-16" start="2019-05-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     150.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRRLD" end="2019-06-30" start="2019-06-17" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     167.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="HRK">
+  <description>
+   Hotel Rm w/Kitchen
+  </description>
+  <rate code="HRKRLA">
+   <descr>
+    Hotel Rm w/Kitchen
+   </descr>
+   <date availability="HRKRLD" end="2018-08-26" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2018-09-13" start="2018-08-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLD" end="2018-09-15" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2018-09-30" start="2018-09-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLF" end="2018-10-11" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     145.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2018-10-17" start="2018-10-12" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLD" end="2018-10-18" start="2018-10-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLC" end="2018-10-22" start="2018-10-19" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     200.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLF" end="2018-12-01" start="2018-10-23" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     145.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2018-12-02" start="2018-12-02" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLF" end="2018-12-05" start="2018-12-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     145.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2018-12-06" start="2018-12-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLD" end="2018-12-09" start="2018-12-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2018-12-10" start="2018-12-10" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLF" end="2018-12-21" start="2018-12-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     145.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLC" end="2018-12-23" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     200.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLB" end="2018-12-27" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     222.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLA" end="2018-12-31" start="2018-12-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     274.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLD" end="2019-03-10" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2019-05-23" start="2019-03-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLD" end="2019-05-26" start="2019-05-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLE" end="2019-06-16" start="2019-05-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     161.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="HRKRLD" end="2019-06-30" start="2019-06-17" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     178.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="JRSTK">
+  <description>
+   Junior Suite w/Kitchen
+  </description>
+  <rate code="JRSTKRLA">
+   <descr>
+    Junior Suite w/Kitchen
+   </descr>
+   <date availability="JRSTKRLD" end="2018-08-26" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2018-09-13" start="2018-08-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLD" end="2018-09-15" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2018-09-30" start="2018-09-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLF" end="2018-10-11" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     200.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2018-10-17" start="2018-10-12" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLD" end="2018-10-18" start="2018-10-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLC" end="2018-10-22" start="2018-10-19" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLF" end="2018-12-01" start="2018-10-23" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     200.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2018-12-02" start="2018-12-02" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLF" end="2018-12-05" start="2018-12-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     200.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2018-12-06" start="2018-12-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLD" end="2018-12-09" start="2018-12-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2018-12-10" start="2018-12-10" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLF" end="2018-12-21" start="2018-12-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     200.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLC" end="2018-12-23" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLB" end="2018-12-27" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     274.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLA" end="2018-12-31" start="2018-12-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     329.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLD" end="2019-03-10" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2019-05-23" start="2019-03-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLD" end="2019-05-26" start="2019-05-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLE" end="2019-06-16" start="2019-05-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     217.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="JRSTKRLD" end="2019-06-30" start="2019-06-17" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STDK">
+  <description>
+   Studio w/Kitchen
+  </description>
+  <rate code="STDKRLA">
+   <descr>
+    Studio w/Kitchen
+   </descr>
+   <date availability="STDKRLD" end="2018-08-26" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2018-09-13" start="2018-08-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLD" end="2018-09-15" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2018-09-30" start="2018-09-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLF" end="2018-10-11" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     156.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2018-10-17" start="2018-10-12" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLD" end="2018-10-18" start="2018-10-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLC" end="2018-10-22" start="2018-10-19" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     211.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLF" end="2018-12-01" start="2018-10-23" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     156.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2018-12-02" start="2018-12-02" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLF" end="2018-12-05" start="2018-12-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     156.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2018-12-06" start="2018-12-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLD" end="2018-12-09" start="2018-12-07" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2018-12-10" start="2018-12-10" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLF" end="2018-12-21" start="2018-12-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     156.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLC" end="2018-12-23" start="2018-12-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     211.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLB" end="2018-12-27" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     233.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLA" end="2018-12-31" start="2018-12-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     285.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLD" end="2019-03-10" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2019-05-23" start="2019-03-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLD" end="2019-05-26" start="2019-05-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLE" end="2019-06-16" start="2019-05-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     172.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STDKRLD" end="2019-06-30" start="2019-06-17" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     189.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="faan" selection_status="o">
+      <description>
+       Anniversary
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       Seniors 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       28.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 36 -->

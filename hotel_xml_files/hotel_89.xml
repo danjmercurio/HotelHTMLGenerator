@@ -1,0 +1,3154 @@
+<!-- begin hotel 89 -->
+<hotel code="KOAMKB" currency="usd">
+ <room name="BCHDXS">
+  <description>
+   Beachfront Deluxe Suite
+  </description>
+  <rate code="BCHDXS">
+   <descr>
+    Beachfront Deluxe Suite
+   </descr>
+   <date availability="BCHDXS" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2177.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHDXS" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1974.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHDXS" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2304.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHDXS" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1974.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="BCHDXS" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2304.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="BCHFRL">
+  <description>
+   Beachfront Lawn
+  </description>
+  <rate code="BCHFRL">
+   <descr>
+    Beachfront Lawn
+   </descr>
+   <date availability="BCHFRL" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     863.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRL" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     661.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRL" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     965.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRL" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     661.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="BCHFRL" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     965.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="BCHFRT">
+  <description>
+   Beachfront
+  </description>
+  <rate code="BCHFRT">
+   <descr>
+    Beachfront
+   </descr>
+   <date availability="BCHFRT" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     786.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRT" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     583.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRT" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     888.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRT" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     583.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="BCHFRT" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     888.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="BCHFRTS">
+  <description>
+   Beachfront Suite
+  </description>
+  <rate code="BCHFRTS">
+   <descr>
+    Beachfront Suite
+   </descr>
+   <date availability="BCHFRTS" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1361.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRTS" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1162.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRTS" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1492.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="BCHFRTS" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1162.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="BCHFRTS" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1492.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="DLX">
+  <description>
+   Golf Vista Deluxe
+  </description>
+  <rate code="DLX">
+   <descr>
+    Golf Vista Deluxe
+   </descr>
+   <date availability="DLX" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     711.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DLX" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     508.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DLX" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     812.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="DLX" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     508.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="DLX" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     812.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="GOLF">
+  <description>
+   Golf Vista
+  </description>
+  <rate code="GOLF">
+   <descr>
+    Golf Vista
+   </descr>
+   <date availability="GOLF" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     635.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="GOLF" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     432.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="GOLF" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     736.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="GOLF" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     432.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="GOLF" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     736.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="GOLFS">
+  <description>
+   Golf Vista Suite
+  </description>
+  <rate code="GOLFS">
+   <descr>
+    Golf Vista Suite
+   </descr>
+   <date availability="GOLFS" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1087.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="GOLFS" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     884.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="GOLFS" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="GOLFS" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     884.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="GOLFS" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="HUA">
+  <description>
+   Hualalai Suite
+  </description>
+  <rate code="HUA">
+   <descr>
+    Hualalai Suite
+   </descr>
+   <date availability="HUA" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2177.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="HUA" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1974.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="HUA" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2304.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="HUA" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1974.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="HUA" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2304.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="MAUNK">
+  <description>
+   Mauna Kea Suite
+  </description>
+  <rate code="MAUNK">
+   <descr>
+    Mauna Kea Suite
+   </descr>
+   <date availability="MAUNK" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3191.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="MAUNK" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2988.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="MAUNK" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="MAUNK" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2988.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="MAUNK" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="MAUNL">
+  <description>
+   Mauna Loa Suite
+  </description>
+  <rate code="MAUNL">
+   <descr>
+    Mauna Loa Suite
+   </descr>
+   <date availability="MAUNL" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3191.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="MAUNL" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2988.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="MAUNL" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="MAUNL" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     2988.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="MAUNL" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     3318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OCN">
+  <description>
+   Ocean View
+  </description>
+  <rate code="OCN">
+   <descr>
+    Ocean View
+   </descr>
+   <date availability="OCN" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     863.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCN" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     661.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCN" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     989.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OCN" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     661.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="OCN" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     989.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OF">
+  <description>
+   Ocean Front
+  </description>
+  <rate code="OF">
+   <descr>
+    Ocean Front
+   </descr>
+   <date availability="OF" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     913.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OF" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     711.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OF" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1041.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OF" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     711.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="OF" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1041.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OFDLX">
+  <description>
+   Oceanfront Deluxe
+  </description>
+  <rate code="OFDLX">
+   <descr>
+    Oceanfront Deluxe
+   </descr>
+   <date availability="OFDLX" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     858.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OFDLX" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     786.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OFDLX" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     989.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="OFDLX" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     786.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="OFDLX" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1116.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="POFDLX">
+  <description>
+   Premier Ocean Front Deluxe
+  </description>
+  <rate code="POFDLX">
+   <descr>
+    Premier Ocean Front Deluxe
+   </descr>
+   <date availability="POFDLX" end="2018-08-25" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1066.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="POFDLX" end="2018-11-15" start="2018-08-26" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     863.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="POFDLX" end="2018-11-24" start="2018-11-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1192.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date availability="POFDLX" end="2018-12-15" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     863.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn7">
+       <description>
+        7th Night Free
+       </description>
+       <night_control free_night="1" per_nights="7" start_night="7"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+   <date end="2018-12-16" start="2018-12-16" status="blackout">
+   </date>
+   <date availability="POFDLX" end="2019-12-14" start="2019-01-06" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1192.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <meal_plans>
+     <plan code="fm2" selection_status="o">
+      <description>
+       Buffet Breakfast
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="p">
+       passenger
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       44.00
+      </price>
+      <price age-from="na" age-to="na" class="x" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+    </meal_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 89 -->

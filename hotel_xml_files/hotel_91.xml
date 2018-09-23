@@ -1,0 +1,232 @@
+<!-- begin hotel 91 -->
+<hotel code="KOAPRK" currency="usd">
+ <room name="2B">
+  <description>
+   Miles Away 2Bdrm
+  </description>
+  <rate code="MILES">
+   <descr>
+    Miles Away 2Bdrm
+   </descr>
+   <date availability="MILES" end="2018-12-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     635.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="cln">
+      <description>
+       Cleaning Fee
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="a">
+       item_charge
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       200.00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+   <date availability="MILES" end="2019-01-03" start="2018-12-20" status="valid">
+    <minimum_nite_stay status="y" value="7"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     905.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="cln">
+      <description>
+       Cleaning Fee
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="a">
+       item_charge
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       200.00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+ </room>
+ <room name="COWBOY">
+  <description>
+   Cowboy House 3Bdrm
+  </description>
+  <rate code="COWBOY">
+   <descr>
+    Cowboy House 3Bdrm
+   </descr>
+   <date availability="COWBOY" end="2018-12-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="7" kids="3" total="7"/>
+    <room_price basis="7" max_com="12" min_com="0">
+     608.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="cln">
+      <description>
+       Cleaning Fee
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="a">
+       item_charge
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       200.00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+   <date availability="COWBOY" end="2019-01-03" start="2018-12-20" status="valid">
+    <minimum_nite_stay status="y" value="7"/>
+    <occupancy adults="7" kids="3" total="7"/>
+    <room_price basis="7" max_com="12" min_com="0">
+     878.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="cln">
+      <description>
+       Cleaning Fee
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="a">
+       item_charge
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       200.00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+ </room>
+ <room name="YOSHI">
+  <description>
+   Yoshis House 2Bdrm
+  </description>
+  <rate code="YOSHI">
+   <descr>
+    Yoshis House 2Bdrm
+   </descr>
+   <date availability="YOSHI" end="2018-12-19" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     851.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="cln">
+      <description>
+       Cleaning Fee
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="a">
+       item_charge
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       200.00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+   <date availability="YOSHI" end="2019-01-03" start="2018-12-20" status="valid">
+    <minimum_nite_stay status="y" value="7"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     1083.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="cln">
+      <description>
+       Cleaning Fee
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="a">
+       item_charge
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       200.00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 91 -->

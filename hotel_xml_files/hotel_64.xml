@@ -1,0 +1,2744 @@
+<!-- begin hotel 64 -->
+<hotel code="HNLWBC" currency="usd">
+ <room name="J2D">
+  <description>
+   Junior Suite 2Dbl Beds
+  </description>
+  <rate code="J2D">
+   <descr>
+    Junior Suite 2Dbl Beds
+   </descr>
+   <date availability="J2D" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     426.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="J2D" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     446.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="J2D" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     669.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="J2D" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     486.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="J2D" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     426.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="J2D" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     446.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="O2D">
+  <description>
+   Ocean Vw 2Dbl Beds
+  </description>
+  <rate code="O2D">
+   <descr>
+    Ocean Vw 2Dbl Beds
+   </descr>
+   <date availability="O2D" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     338.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="O2D" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     359.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="O2D" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     557.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="O2D" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     390.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="O2D" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     338.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="O2D" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     359.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OK">
+  <description>
+   Ocean Vw 1King Bed
+  </description>
+  <rate code="OK">
+   <descr>
+    Ocean Vw 1King Bed
+   </descr>
+   <date availability="OK" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OK" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     338.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OK" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     537.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OK" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     369.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OK" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OK" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     338.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OSK">
+  <description>
+   1Bdrm Ocean Vw Suite
+  </description>
+  <rate code="OSK">
+   <descr>
+    1Bdrm Ocean Vw Suite
+   </descr>
+   <date availability="OSK" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     507.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OSK" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     547.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OSK" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     791.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OSK" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     598.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OSK" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     507.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OSK" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="5" kids="4" total="5"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     547.00
+    </room_price>
+    <extra_adult max_com="12" maximum="3" min_com="0">
+     68.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OX2D">
+  <description>
+   Deluxe Ocean Vw 2Dbl Beds
+  </description>
+  <rate code="OX2D">
+   <descr>
+    Deluxe Ocean Vw 2Dbl Beds
+   </descr>
+   <date availability="OX2D" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     369.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OX2D" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     385.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OX2D" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     608.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OX2D" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     426.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OX2D" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     369.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OX2D" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     385.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OXK">
+  <description>
+   Deluxe Ocean Vw 1King Bed
+  </description>
+  <rate code="OXK">
+   <descr>
+    Deluxe Ocean Vw 1King Bed
+   </descr>
+   <date availability="OXK" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     348.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OXK" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     369.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OXK" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     588.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OXK" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     405.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OXK" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     348.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OXK" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     369.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="P2D">
+  <description>
+   Partial Ocean Vw 2Dbl Beds
+  </description>
+  <rate code="P2D">
+   <descr>
+    Partial Ocean Vw 2Dbl Beds
+   </descr>
+   <date availability="P2D" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="P2D" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     337.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="P2D" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     520.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="P2D" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     368.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="P2D" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="P2D" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     337.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="PK">
+  <description>
+   Partial Ocean Vw 1King Bed
+  </description>
+  <rate code="PK">
+   <descr>
+    Partial Ocean Vw 1King Bed
+   </descr>
+   <date availability="PK" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="PK" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="PK" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     499.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="PK" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     347.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="PK" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="PK" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     69.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="R2D">
+  <description>
+   Waikiki Vw 1Dbl Beds
+  </description>
+  <rate code="R2D">
+   <descr>
+    Waikiki Vw 1Dbl Beds
+   </descr>
+   <date availability="R2D" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="R2D" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="R2D" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     499.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="R2D" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     347.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="R2D" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="R2D" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="RK">
+  <description>
+   Waikiki Vw 1King Bed
+  </description>
+  <rate code="RK">
+   <descr>
+    Waikiki Vw 1King Bed
+   </descr>
+   <date availability="RK" end="2018-09-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="RK" end="2018-12-26" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="RK" end="2019-01-02" start="2018-12-27" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     479.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="RK" end="2019-01-19" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     326.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="RK" end="2019-02-10" start="2019-01-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="RK" end="2019-03-31" start="2019-02-11" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     70.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymooners
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Waikiki Connection Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       22.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 64 -->

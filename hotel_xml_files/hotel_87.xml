@@ -1,0 +1,5388 @@
+<!-- begin hotel 87 -->
+<hotel code="KOAKBS" currency="usd">
+ <room name="1BOF">
+  <description>
+   1Bdrm Oceanfront
+  </description>
+  <rate code="OBOF2RLA">
+   <descr>
+    1Bdrm Oceanfront
+   </descr>
+   <date availability="OBOF2RLE" end="2018-09-08" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLF" end="2018-09-13" start="2018-09-09" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLC" end="2018-09-17" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     351.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLD" end="2018-09-23" start="2018-09-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     313.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLF" end="2018-09-27" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLE" end="2018-09-30" start="2018-09-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLF" end="2018-10-02" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-10-14" start="2018-10-03" status="blackout">
+   </date>
+   <date availability="OBOF2RLC" end="2018-10-15" start="2018-10-15" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     351.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLC" end="2018-10-27" start="2018-10-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     351.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLF" end="2018-11-04" start="2018-10-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLC" end="2018-11-27" start="2018-11-05" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     351.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLF" end="2018-12-19" start="2018-11-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLD" end="2018-12-20" start="2018-12-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     313.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLB" end="2018-12-23" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     378.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLA" end="2018-12-24" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     464.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLA" end="2019-01-02" start="2018-12-25" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     464.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLB" end="2019-01-31" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     378.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLA" end="2019-02-28" start="2019-02-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     464.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLC" end="2019-03-24" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     351.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLF" end="2019-05-12" start="2019-03-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     252.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLE" end="2019-05-24" start="2019-05-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLD" end="2019-05-28" start="2019-05-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     313.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOF2RLE" end="2019-06-30" start="2019-05-29" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BOV">
+  <description>
+   1Bdrm Ocean Vw
+  </description>
+  <rate code="OBOV2RLA">
+   <descr>
+    1Bdrm Ocean Vw
+   </descr>
+   <date availability="OBOV2RLE" end="2018-09-08" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     245.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLF" end="2018-09-13" start="2018-09-09" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     225.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLC" end="2018-09-17" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLD" end="2018-09-23" start="2018-09-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     281.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLF" end="2018-09-27" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     225.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLE" end="2018-09-30" start="2018-09-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     245.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLF" end="2018-10-02" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     225.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-10-14" start="2018-10-03" status="blackout">
+   </date>
+   <date availability="OBOV2RLC" end="2018-10-15" start="2018-10-15" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLC" end="2018-10-27" start="2018-10-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLF" end="2018-11-04" start="2018-10-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     225.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLC" end="2018-11-27" start="2018-11-05" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLF" end="2018-12-19" start="2018-11-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     225.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLD" end="2018-12-20" start="2018-12-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     281.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLB" end="2018-12-23" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     360.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLA" end="2018-12-24" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     443.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLA" end="2019-01-02" start="2018-12-25" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     443.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLB" end="2019-01-31" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     360.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLA" end="2019-02-28" start="2019-02-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     443.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLC" end="2019-03-24" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     321.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLF" end="2019-05-12" start="2019-03-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     225.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLE" end="2019-05-24" start="2019-05-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     245.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLD" end="2019-05-28" start="2019-05-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     281.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBOV2RLE" end="2019-06-30" start="2019-05-29" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     245.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1BPO">
+  <description>
+   1Bdrm Partial Ocean Vw
+  </description>
+  <rate code="OBPOV2RLA">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="OBPOV2RLE" end="2018-09-08" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     236.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLF" end="2018-09-13" start="2018-09-09" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLC" end="2018-09-17" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     310.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLD" end="2018-09-23" start="2018-09-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLF" end="2018-09-27" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLE" end="2018-09-30" start="2018-09-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     236.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLF" end="2018-10-02" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-10-14" start="2018-10-03" status="blackout">
+   </date>
+   <date availability="OBPOV2RLC" end="2018-10-15" start="2018-10-15" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     310.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLC" end="2018-10-27" start="2018-10-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     310.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLF" end="2018-11-04" start="2018-10-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLC" end="2018-11-27" start="2018-11-05" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     310.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLF" end="2018-12-19" start="2018-11-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLD" end="2018-12-20" start="2018-12-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLB" end="2018-12-23" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     350.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLA" end="2018-12-24" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="4" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     432.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLA" end="2019-01-02" start="2018-12-25" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="4" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     432.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLB" end="2019-01-31" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     350.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLA" end="2019-02-28" start="2019-02-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="4" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     432.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="4" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLC" end="2019-03-24" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     310.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLF" end="2019-05-12" start="2019-03-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     212.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLE" end="2019-05-24" start="2019-05-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     236.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLD" end="2019-05-28" start="2019-05-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OBPOV2RLE" end="2019-06-30" start="2019-05-29" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     236.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2BOV">
+  <description>
+   2Bdrm Ocean Vw
+  </description>
+  <rate code="TBOVRLA">
+   <descr>
+    2Bdrm Ocean Vw
+   </descr>
+   <date availability="TBOVRLE" end="2018-09-08" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     292.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLF" end="2018-09-13" start="2018-09-09" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLC" end="2018-09-17" start="2018-09-14" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLD" end="2018-09-23" start="2018-09-18" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLF" end="2018-09-27" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLE" end="2018-09-30" start="2018-09-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     292.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLF" end="2018-10-02" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-10-14" start="2018-10-03" status="blackout">
+   </date>
+   <date availability="TBOVRLC" end="2018-10-15" start="2018-10-15" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLC" end="2018-10-27" start="2018-10-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLF" end="2018-11-04" start="2018-10-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLC" end="2018-11-27" start="2018-11-05" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLF" end="2018-12-19" start="2018-11-28" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLD" end="2018-12-20" start="2018-12-20" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLB" end="2018-12-23" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     400.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLA" end="2018-12-24" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     486.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLA" end="2019-01-02" start="2018-12-25" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     486.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLB" end="2019-01-31" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     400.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLA" end="2019-02-28" start="2019-02-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     486.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLC" end="2019-03-24" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLF" end="2019-05-12" start="2019-03-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     269.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLE" end="2019-05-24" start="2019-05-13" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     292.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLD" end="2019-05-28" start="2019-05-25" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="TBOVRLE" end="2019-06-30" start="2019-05-29" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     292.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       HONEYMOON
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="fasr" selection_status="o">
+      <description>
+       SENIORS 50+
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Amenity Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       14.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 87 -->

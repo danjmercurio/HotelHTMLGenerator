@@ -1,0 +1,1587 @@
+<!-- begin hotel 145 -->
+<hotel code="OGGPMR" currency="usd">
+ <room name="1BOF">
+  <description>
+   1Bdrm/1Bth Oceanfront
+  </description>
+  <rate code="1OFT5">
+   <descr>
+    1Bdrm/1Bth Oceanfront
+   </descr>
+   <date availability="1OFT6" end="2018-11-30" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     245.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="ilt">
+      <description>
+       Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       15.00
+      </price>
+      <booking_date from="2018-05-14" status="y" to="2018-06-04"/>
+      <travel_date from="2018-07-08" status="y" to="2018-11-30"/>
+     </item>
+     <item class="item" code="mit">
+      <description>
+       More Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       20.00
+      </price>
+      <booking_date from="2018-06-05" status="y" to="2018-06-30"/>
+      <travel_date from="2018-07-08" status="y" to="2018-12-15"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1OFT6" end="2018-12-15" start="2018-12-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     245.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="mit">
+      <description>
+       More Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       20.00
+      </price>
+      <booking_date from="2018-06-05" status="y" to="2018-06-30"/>
+      <travel_date from="2018-07-08" status="y" to="2018-12-15"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1OFT4" end="2018-12-20" start="2018-12-16" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     313.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1OFT1" end="2018-12-25" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     395.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-01-02" start="2018-12-26" status="blackout">
+   </date>
+   <date availability="1OFT1" end="2019-02-03" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     395.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-02-18" start="2019-02-04" status="blackout">
+   </date>
+   <date availability="1OFT1" end="2019-02-28" start="2019-02-19" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     395.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1OFT2" end="2019-04-10" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     379.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1OFT6" end="2019-05-31" start="2019-04-11" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     245.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-12-15" start="2019-06-01" status="blackout">
+   </date>
+  </rate>
+ </room>
+ <room name="1GDN">
+  <description>
+   1Bdrm/1Bth Garden Vw
+  </description>
+  <rate code="1GVT1">
+   <descr>
+    1Bdrm/1Bth Garden Vw
+   </descr>
+   <date availability="1GVT6" end="2018-12-15" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     156.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1GVT4" end="2018-12-20" start="2018-12-16" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     222.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1GVT1" end="2018-12-25" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-01-02" start="2018-12-26" status="blackout">
+   </date>
+   <date availability="1GVT1" end="2019-02-03" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-02-18" start="2019-02-04" status="blackout">
+   </date>
+   <date availability="1GVT1" end="2019-02-28" start="2019-02-19" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1GVT2" end="2019-04-10" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     292.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1GVT6" end="2019-05-31" start="2019-04-11" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     156.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       127.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-12-15" start="2019-06-01" status="blackout">
+   </date>
+  </rate>
+ </room>
+ <room name="2BOF">
+  <description>
+   2Bdrm/2Bth Oceanfront
+  </description>
+  <rate code="2OFT1">
+   <descr>
+    2Bdrm/2Bth Oceanfront
+   </descr>
+   <date availability="2OFT6" end="2018-11-30" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="ilt">
+      <description>
+       Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       15.00
+      </price>
+      <booking_date from="2018-05-14" status="y" to="2018-06-04"/>
+      <travel_date from="2018-07-08" status="y" to="2018-11-30"/>
+     </item>
+     <item class="item" code="mit">
+      <description>
+       More Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       20.00
+      </price>
+      <booking_date from="2018-06-05" status="y" to="2018-06-30"/>
+      <travel_date from="2018-07-08" status="y" to="2018-12-15"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2OFT6" end="2018-12-15" start="2018-12-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="mit">
+      <description>
+       More Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       20.00
+      </price>
+      <booking_date from="2018-06-05" status="y" to="2018-06-30"/>
+      <travel_date from="2018-07-08" status="y" to="2018-12-15"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2OFT4" end="2018-12-20" start="2018-12-16" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     379.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2OFT1" end="2018-12-22" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     466.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-01-02" start="2018-12-23" status="blackout">
+   </date>
+   <date availability="2OFT1" end="2019-02-03" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     466.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-02-18" start="2019-02-04" status="blackout">
+   </date>
+   <date availability="2OFT1" end="2019-02-28" start="2019-02-19" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     466.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2OFT2" end="2019-04-10" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     451.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2OFT6" end="2019-05-31" start="2019-04-11" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-12-15" start="2019-06-01" status="blackout">
+   </date>
+  </rate>
+ </room>
+ <room name="2BPOV">
+  <description>
+   2Bdrm/2Bth Partial Ocn
+  </description>
+  <rate code="2POT5">
+   <descr>
+    2Bdrm/2Bth Partial Ocn
+   </descr>
+   <date availability="2POT6" end="2018-11-30" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="ilt">
+      <description>
+       Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       15.00
+      </price>
+      <booking_date from="2018-05-14" status="y" to="2018-06-04"/>
+      <travel_date from="2018-07-08" status="y" to="2018-11-30"/>
+     </item>
+     <item class="item" code="mit">
+      <description>
+       More Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       20.00
+      </price>
+      <booking_date from="2018-06-05" status="y" to="2018-06-30"/>
+      <travel_date from="2018-07-08" status="y" to="2018-12-15"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POT6" end="2018-12-15" start="2018-12-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="mit">
+      <description>
+       More Island Time Promotion
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       20.00
+      </price>
+      <booking_date from="2018-06-05" status="y" to="2018-06-30"/>
+      <travel_date from="2018-07-08" status="y" to="2018-12-15"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POT4" end="2018-12-18" start="2018-12-16" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     343.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-01-02" start="2018-12-19" status="blackout">
+   </date>
+   <date availability="2POT1" end="2019-01-11" start="2019-01-03" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     425.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-01-18" start="2019-01-12" status="blackout">
+   </date>
+   <date availability="2POT1" end="2019-02-03" start="2019-01-19" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     425.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-02-18" start="2019-02-04" status="blackout">
+   </date>
+   <date availability="2POT1" end="2019-02-28" start="2019-02-19" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     425.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POT2" end="2019-04-10" start="2019-03-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     410.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POT6" end="2019-05-31" start="2019-04-11" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       147.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-12-15" start="2019-06-01" status="blackout">
+   </date>
+  </rate>
+ </room>
+ <room name="STUOF">
+  <description>
+   Studio Oceanfront
+  </description>
+  <rate code="SOFT1">
+   <descr>
+    Studio Oceanfront
+   </descr>
+   <date availability="SOFT5" end="2018-08-24" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-09-07" start="2018-08-25" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-09-18" start="2018-09-08" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-09-23" start="2018-09-19" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-09-24" start="2018-09-24" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-09-28" start="2018-09-25" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-09-30" start="2018-09-29" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-10-05" start="2018-10-01" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-10-07" start="2018-10-06" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-10-15" start="2018-10-08" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-10-19" start="2018-10-16" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-10-26" start="2018-10-20" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-11-06" start="2018-10-27" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-11-13" start="2018-11-07" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-11-17" start="2018-11-14" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-11-24" start="2018-11-18" status="blackout">
+   </date>
+   <date availability="SOFT5" end="2018-12-09" start="2018-11-25" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-12" start="2018-12-10" status="blackout">
+   </date>
+   <date availability="SOFT4" end="2018-12-20" start="2018-12-13" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     261.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="SOFT1" end="2018-12-25" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     348.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-03-31" start="2018-12-26" status="blackout">
+   </date>
+   <date availability="SOFT2" end="2019-04-10" start="2019-04-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     333.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="SOFT6" end="2019-05-31" start="2019-04-11" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     197.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       106.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2019-12-15" start="2019-06-01" status="blackout">
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 145 -->

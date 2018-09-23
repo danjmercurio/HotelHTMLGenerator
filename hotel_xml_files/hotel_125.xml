@@ -1,0 +1,346 @@
+<!-- begin hotel 125 -->
+<hotel code="OGGHKM" currency="usd">
+ <room name="1BOF">
+  <description>
+   Oceanfront 1Bdrm
+  </description>
+  <rate code="1BOF">
+   <descr>
+    Oceanfront 1Bdrm
+   </descr>
+   <date availability="1BOF" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     481.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="1BOF" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     420.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="1BOV">
+  <description>
+   Ocean View 1Bdrm Standard
+  </description>
+  <rate code="1BOCN">
+   <descr>
+    Ocean View 1Bdrm Standard
+   </descr>
+   <date availability="1BOCN" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     400.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="1BOCN" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     356.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="1BPOV">
+  <description>
+   Partial Ocean View 1Bdrm
+  </description>
+  <rate code="1BPOV">
+   <descr>
+    Partial Ocean View 1Bdrm
+   </descr>
+   <date availability="1BPOV" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     377.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="1BPOV" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     329.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="1BPRM">
+  <description>
+   Ocean View 1Bdrm Premium
+  </description>
+  <rate code="1BPRM">
+   <descr>
+    Ocean View 1Bdrm Premium
+   </descr>
+   <date availability="1BPRM" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     427.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="1BPRM" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     377.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="2BOF">
+  <description>
+   Oceanfront 2Bdrm
+  </description>
+  <rate code="2BOF">
+   <descr>
+    Oceanfront 2Bdrm
+   </descr>
+   <date availability="2BOF" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     670.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="2BOF" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     602.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     29.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="STUOF">
+  <description>
+   Oceanfront Studio
+  </description>
+  <rate code="STUOF">
+   <descr>
+    Oceanfront Studio
+   </descr>
+   <date availability="STUOF" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     433.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="STUOF" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     379.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="STUOV">
+  <description>
+   Ocean View Studio Standard
+  </description>
+  <rate code="STUOVST">
+   <descr>
+    Ocean View Studio Standard
+   </descr>
+   <date availability="STUOVST" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     386.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="STUOVST" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     343.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="STUPOV">
+  <description>
+   Partial Ocean View Studio
+  </description>
+  <rate code="STUPO">
+   <descr>
+    Partial Ocean View Studio
+   </descr>
+   <date availability="STUPO" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     363.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="STUPO" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     315.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="STUPRM">
+  <description>
+   Ocean View Studio Premium
+  </description>
+  <rate code="STUPRM">
+   <descr>
+    Ocean View Studio Premium
+   </descr>
+   <date availability="STUPRM" end="2018-08-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     413.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="STUPRM" end="2018-12-31" start="2018-09-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     363.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="5"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 125 -->

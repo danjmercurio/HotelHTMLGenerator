@@ -1,0 +1,2628 @@
+<!-- begin hotel 49 -->
+<hotel code="HNLRBW" currency="usd">
+ <room name="1CV">
+  <description>
+   1Bdrm City Vw
+  </description>
+  <rate code="1CVT0">
+   <descr>
+    1Bdrm City Vw
+   </descr>
+   <date availability="1CVT0" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1CVT0" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     318.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1CVT1">
+   <descr>
+    1Bdrm City Vw
+   </descr>
+   <date availability="1CVT1" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     297.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1CVT1" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     297.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1CVT2">
+   <descr>
+    1Bdrm City Vw
+   </descr>
+   <date availability="1CVT2" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1CVT2" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     277.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1CVT3">
+   <descr>
+    1Bdrm City Vw
+   </descr>
+   <date availability="1CVT3" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     256.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1CVT3" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     256.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1CVT4">
+   <descr>
+    1Bdrm City Vw
+   </descr>
+   <date availability="1CVT4" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     238.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1CVT4" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     238.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1CVT5">
+   <descr>
+    1Bdrm City Vw
+   </descr>
+   <date availability="1CVT5" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     218.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1CVT5" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     218.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1CVT6">
+   <descr>
+    1Bdrm City Vw
+   </descr>
+   <date availability="1CVT6" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     197.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1CVT6" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     197.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1POV">
+  <description>
+   1Bdrm Partial Ocean Vw
+  </description>
+  <rate code="1POVT0">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="1POVT0" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     348.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POVT0" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     348.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1POVT1">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="1POVT1" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POVT1" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     328.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1POVT2">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="1POVT2" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POVT2" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1POVT3">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="1POVT3" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     287.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POVT3" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     287.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1POVT4">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="1POVT4" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     266.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POVT4" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     266.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1POVT5">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="1POVT5" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     246.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POVT5" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     246.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="1POVT6">
+   <descr>
+    1Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="1POVT6" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       211.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1POVT6" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="4" max_com="12" min_com="0">
+     228.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       237.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2CV">
+  <description>
+   2Bdrm City Vw
+  </description>
+  <rate code="2CVT0">
+   <descr>
+    2Bdrm City Vw
+   </descr>
+   <date availability="2CVT0" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     395.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2CVT0" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     395.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2CVT1">
+   <descr>
+    2Bdrm City Vw
+   </descr>
+   <date availability="2CVT1" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2CVT1" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2CVT2">
+   <descr>
+    2Bdrm City Vw
+   </descr>
+   <date availability="2CVT2" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     358.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2CVT2" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     358.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2CVT3">
+   <descr>
+    2Bdrm City Vw
+   </descr>
+   <date availability="2CVT3" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     337.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2CVT3" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     337.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2CVT4">
+   <descr>
+    2Bdrm City Vw
+   </descr>
+   <date availability="2CVT4" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2CVT4" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     316.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2CVT5">
+   <descr>
+    2Bdrm City Vw
+   </descr>
+   <date availability="2CVT5" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2CVT5" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2CVT6">
+   <descr>
+    2Bdrm City Vw
+   </descr>
+   <date availability="2CVT6" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2CVT6" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     273.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2POV">
+  <description>
+   2Bdrm Partial Ocean Vw
+  </description>
+  <rate code="2POVT0">
+   <descr>
+    2Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="2POVT0" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     426.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POVT0" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     426.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2POVT1">
+   <descr>
+    2Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="2POVT1" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     406.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POVT1" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     406.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2POVT2">
+   <descr>
+    2Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="2POVT2" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     385.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POVT2" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     385.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2POVT3">
+   <descr>
+    2Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="2POVT3" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     368.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POVT3" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     368.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2POVT4">
+   <descr>
+    2Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="2POVT4" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     347.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POVT4" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     347.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2POVT5">
+   <descr>
+    2Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="2POVT5" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     326.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POVT5" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     326.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="2POVT6">
+   <descr>
+    2Bdrm Partial Ocean Vw
+   </descr>
+   <date availability="2POVT6" end="2018-12-31" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     305.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       263.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2POVT6" end="2019-12-15" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="y" value="2"/>
+    <occupancy adults="6" kids="5" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     305.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="5" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="fahy" selection_status="o">
+      <description>
+       Honeymoon Special
+      </description>
+      <stay_basis class="a">
+       arrival
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       0.00
+      </price>
+     </plan>
+     <plan code="cln" selection_status="o">
+      <description>
+       Check-Out Cleaning Fee
+      </description>
+      <stay_basis class="s">
+       per_stay
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       289.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 49 -->

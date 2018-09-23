@@ -1,0 +1,2812 @@
+<!-- begin hotel 90 -->
+<hotel code="KOAMLB" currency="usd">
+ <room name="DOF">
+  <description>
+   Deluxe Oceanfront Bed &amp; Brkfst
+  </description>
+  <rate code="BBDLXOF">
+   <descr>
+    Deluxe Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="BBDLXOF" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     652.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="x">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBDLXOF" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     652.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="DLXOF">
+   <descr>
+    Deluxe Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="DLXOF" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     759.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="DLXOF" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     847.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="DLXOF" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     759.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="DOV">
+  <description>
+   Deluxe Ocean Vw Bed &amp; Brkfst
+  </description>
+  <rate code="BBDLXOCN">
+   <descr>
+    Deluxe Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="BBDLXOCN" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     506.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBDLXOCN" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     506.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="BBDXOVSTE">
+   <descr>
+    Deluxe Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="BBDXOVSTE" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1421.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBDXOVSTE" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1421.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="DLXOCN">
+   <descr>
+    Deluxe Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="DLXOCN" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     593.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="DLXOCN" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     662.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="DLXOCN" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     593.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="DLXOVSTE">
+   <descr>
+    Deluxe Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="DLXOVSTE" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1675.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="DLXOVSTE" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1908.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="DLXOVSTE" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1675.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="GDN">
+  <description>
+   Garden Bed &amp; Brkfst
+  </description>
+  <rate code="BBGDN">
+   <descr>
+    Garden Bed &amp; Brkfst
+   </descr>
+   <date availability="BBGDN" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     418.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBGDN" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     418.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="GDN">
+   <descr>
+    Garden Bed &amp; Brkfst
+   </descr>
+   <date availability="GDN" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     477.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="GDN" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     516.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="GDN" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     477.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OCN">
+  <description>
+   Ocean Vw Bed &amp; Brkfst
+  </description>
+  <rate code="BBOCN">
+   <descr>
+    Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="BBOCN" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     467.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBOCN" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     467.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="BBOVSTE">
+   <descr>
+    Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="BBOVSTE" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     973.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBOVSTE" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     973.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="BUNGOV">
+   <descr>
+    Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="BUNGOV" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     2922.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  1"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="BUNGOV" end="2018-12-31" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     3896.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  1"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="OCN">
+   <descr>
+    Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="OCN" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     544.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OCN" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     613.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OCN" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     544.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="OCNSTE">
+   <descr>
+    Ocean Vw Bed &amp; Brkfst
+   </descr>
+   <date availability="OCNSTE" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1149.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OCNSTE" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1323.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OCNSTE" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1149.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="OF">
+  <description>
+   Corner Oceanfront Bed &amp; Brkfst
+  </description>
+  <rate code="BBOCF">
+   <descr>
+    Corner Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="BBOCF" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     750.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBOCF" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     750.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="BBOFRNT">
+   <descr>
+    Corner Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="BBOFRNT" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     604.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBOFRNT" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     604.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="BBOFSTE">
+   <descr>
+    Corner Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="BBOFSTE" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1285.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBOFSTE" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1285.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="BUNGOF">
+   <descr>
+    Corner Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="BUNGOF" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     3409.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  1"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="BUNGOF" end="2018-12-31" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="y" value="10"/>
+    <occupancy adults="6" kids="3" total="6"/>
+    <room_price basis="6" max_com="12" min_com="0">
+     4383.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  1"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       passenger
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="COROF">
+   <descr>
+    Corner Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="COROF" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     857.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="COROF" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     945.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="COROF" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     857.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="OFRNT">
+   <descr>
+    Corner Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="OFRNT" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     701.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OFRNT" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     769.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OFRNT" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     701.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="OFSTE">
+   <descr>
+    Corner Oceanfront Bed &amp; Brkfst
+   </descr>
+   <date availability="OFSTE" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1499.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OFSTE" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="y" value="5"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1664.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="OFSTE" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     1499.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STD">
+  <description>
+   Standard Bed &amp; Brkfst
+  </description>
+  <rate code="BBSTD">
+   <descr>
+    Standard Bed &amp; Brkfst
+   </descr>
+   <date availability="BBSTD" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date end="2018-12-31" start="2018-12-24" status="blackout">
+   </date>
+   <date availability="BBSTD" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="0" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     374.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="0" maximum_age="NA"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm2">
+      <description>
+       Buffet Breakfast
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       .00
+      </price>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+  <rate code="STD">
+   <descr>
+    Standard Bed &amp; Brkfst
+   </descr>
+   <date availability="STD" end="2018-12-23" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     418.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STD" end="2018-12-31" start="2018-12-24" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     458.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STD" end="2019-03-31" start="2019-01-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     418.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     107.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm1">
+      <description>
+       Daily Breakfast
+      </description>
+      <minimum_nite_stay status="y" value="  4"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <special_offers>
+     <offer>
+      <item class="night" code="fn4">
+       <description>
+        4th Night Free
+       </description>
+       <night_control free_night="1" per_nights="4" start_night="4"/>
+       <booking_date from="na" status="n" to="na"/>
+       <travel_date from="na" status="n" to="na"/>
+      </item>
+     </offer>
+    </special_offers>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Activity Package
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       33.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 90 -->

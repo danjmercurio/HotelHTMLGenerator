@@ -1,0 +1,415 @@
+<!-- begin hotel 15 -->
+<hotel code="HNLHAM" currency="usd">
+ <room name="DBL">
+  <description>
+   Double Queen
+  </description>
+  <rate code="NQRRRLA">
+   <descr>
+    Double Queen
+   </descr>
+   <date availability="NQRRRLD" end="2018-09-30" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     210.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NQRRRLC" end="2018-10-09" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     243.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NQRRRLD" end="2018-12-20" start="2018-10-10" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     210.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NQRRRLD" end="2019-06-15" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     210.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="NQRRRLC" end="2019-06-30" start="2019-06-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="2" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     243.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="KING">
+  <description>
+   King
+  </description>
+  <rate code="NKRRXRLA">
+   <descr>
+    King
+   </descr>
+   <date availability="NKRRXRLD" end="2018-09-30" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     210.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NKRRXRLC" end="2018-10-09" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     381.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NKRRXRLD" end="2018-12-20" start="2018-10-10" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     210.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NKRRXRLD" end="2019-06-15" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     210.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="NKRRXRLC" end="2019-06-30" start="2019-06-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="2" kids="1" total="2"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     381.00
+    </room_price>
+    <extra_adult max_com="12" maximum="0" min_com="0">
+     0.00
+    </extra_adult>
+    <free_child maximum="1" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+ <room name="STU">
+  <description>
+   King Studio
+  </description>
+  <rate code="NKJZRLA">
+   <descr>
+    King Studio
+   </descr>
+   <date availability="NKJZRLD" end="2018-09-30" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     262.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NKJZRLC" end="2018-10-09" start="2018-10-01" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NKJZRLD" end="2018-12-20" start="2018-10-10" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     262.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <offer>
+     <item class="item" code="itb">
+      <description>
+       ITB SIH SPECIAL NOREF
+      </description>
+      <minimum_nite_stay status="n" value="na"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0">
+       12.00
+      </price>
+      <booking_date from="2018-03-01" status="y" to="2018-04-30"/>
+      <travel_date from="2018-04-01" status="y" to="2018-12-20"/>
+     </item>
+    </offer>
+   </date>
+   <date availability="NKJZRLD" end="2019-06-15" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     262.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+   <date availability="NKJZRLC" end="2019-06-30" start="2019-06-16" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     295.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     36.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="17"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 15 -->

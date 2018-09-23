@@ -1,0 +1,1148 @@
+<!-- begin hotel 45 -->
+<hotel code="HNLPBR" currency="usd">
+ <room name="1KNG">
+  <description>
+   1-Bedroom Suite Classic
+  </description>
+  <rate code="1KNG">
+   <descr>
+    1-Bedroom Suite Classic
+   </descr>
+   <date availability="1KNG" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     334.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="c">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1KNG" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     425.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1KVB">
+  <description>
+   1-Bedroom Suite Bay View
+  </description>
+  <rate code="1KVB">
+   <descr>
+    1-Bedroom Suite Bay View
+   </descr>
+   <date availability="1KVB" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     354.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1KVB" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     444.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="1KVM">
+  <description>
+   1-Bedroom Suite Mountain
+  </description>
+  <rate code="1KVM">
+   <descr>
+    1-Bedroom Suite Mountain
+   </descr>
+   <date availability="1KVM" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     340.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="1KVM" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     431.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2KNG">
+  <description>
+   2-Bedroom Suite Classic (2 Kings)
+  </description>
+  <rate code="2KNG">
+   <descr>
+    2-Bedroom Suite Classic (2 Kings)
+   </descr>
+   <date availability="2KNG" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     377.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2KNG" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     512.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="2KVB">
+  <description>
+   2-Bedroom Suite Bay View
+  </description>
+  <rate code="2KVB">
+   <descr>
+    2-Bedroom Suite Bay View
+   </descr>
+   <date availability="2KVB" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     404.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="2KVB" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     620.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STU1">
+  <description>
+   Studio Suite Classic
+  </description>
+  <rate code="STU1">
+   <descr>
+    Studio Suite Classic
+   </descr>
+   <date availability="STU1" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     299.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STU1" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     390.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STV">
+  <description>
+   Studio Mountain View
+  </description>
+  <rate code="STV">
+   <descr>
+    Studio Mountain View
+   </descr>
+   <date availability="STV" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     307.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STV" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     403.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STV2">
+  <description>
+   Studio Suite View (2 Kings)
+  </description>
+  <rate code="STV2">
+   <descr>
+    Studio Suite View (2 Kings)
+   </descr>
+   <date availability="STV2" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     313.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STV2" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     404.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="STVB">
+  <description>
+   Studio Bay View
+  </description>
+  <rate code="STVB">
+   <descr>
+    Studio Bay View
+   </descr>
+   <date availability="STVB" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     326.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="STVB" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     417.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="WTR1">
+  <description>
+   1-Bedroom Waterfront Cottage
+  </description>
+  <rate code="WTR1">
+   <descr>
+    1-Bedroom Waterfront Cottage
+   </descr>
+   <date availability="WTR1" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     367.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="WTR1" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="3" kids="2" total="3"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     498.00
+    </room_price>
+    <extra_adult max_com="12" maximum="1" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="2" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+ <room name="WTR2">
+  <description>
+   2-Bedroom Waterfront Cottage
+  </description>
+  <rate code="WTR2">
+   <descr>
+    2-Bedroom Waterfront Cottage
+   </descr>
+   <date availability="WTR2" end="2018-12-20" start="2018-08-22" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     471.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+   <date availability="WTR2" end="2019-01-02" start="2018-12-21" status="valid">
+    <minimum_nite_stay status="n" value="na"/>
+    <occupancy adults="4" kids="3" total="4"/>
+    <room_price basis="2" max_com="12" min_com="0">
+     796.00
+    </room_price>
+    <extra_adult max_com="12" maximum="2" min_com="0">
+     14.00
+    </extra_adult>
+    <free_child maximum="3" maximum_age="12"/>
+    <child_price maximum_age="na" status="n">
+     0.00
+    </child_price>
+    <included_items>
+     <item class="item" code="fm3">
+      <description>
+       Includes Daily Hot Continental Bkf
+      </description>
+      <minimum_nite_stay status="y" value="  2"/>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="a">
+       base_occupants
+      </pax_basis>
+      <price max_com="0" min_com="0"/>
+      <booking_date from="na" status="n" to="na"/>
+      <travel_date from="na" status="n" to="na"/>
+     </item>
+    </included_items>
+    <accommodation_plans>
+     <plan code="rfee" selection_status="o">
+      <description>
+       Resort Fee
+      </description>
+      <stay_basis class="n">
+       per_night
+      </stay_basis>
+      <pax_basis class="i">
+       item_charge
+      </pax_basis>
+      <price age-from="na" age-to="na" class="a" max_com="0" min_com="0">
+       38.00
+      </price>
+     </plan>
+    </accommodation_plans>
+   </date>
+  </rate>
+ </room>
+</hotel>
+<!-- end hotel 45 -->
