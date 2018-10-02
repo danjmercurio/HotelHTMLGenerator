@@ -5,3 +5,5 @@
 .editorconfig/*
 notes*
 notes.txt
+.vscode
+.vscode/*

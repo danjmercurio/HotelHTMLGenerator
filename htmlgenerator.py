@@ -341,7 +341,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             # Start with the hotel code (str) and hotel tag, the top level element, as a BeautifulSoup parser object
             hotelCode, hotelTag = parser_object[0], parser_object[1]
 
-            
+
             hotel_dict = {}
             hotel_dict['hotel_code'] = hotelCode
 
@@ -380,7 +380,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                                     print("Date interval falls during a month or year change. Skipping.")
                                     print("Invalid datetime: Start:", start_datetime, "End: ", end_datetime, "Skipped...")
                         else:
-                            room_dict['dates']['price'] = None # No price detected in XML                   
+                            room_dict['dates']['price'] = None # No price detected in XML
                 return room_dict
 
             hotel_dict['rooms'] = []
@@ -388,12 +388,12 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             for room in rooms:
                 hotel_dict['rooms'].append(rooms_func(room))
 
-            hotels.append(hotel_dict)   
+            hotels.append(hotel_dict)
 
             prettyprint(hotel_dict)
 
 
-                    
+
 
 
         # Load Jinja templates and populate them
