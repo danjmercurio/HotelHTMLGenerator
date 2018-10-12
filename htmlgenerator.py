@@ -23,20 +23,27 @@ except ImportError:
     # Python 3
     import builtins as __builtin__
 
-# Third-party libs
+# Third-party libraries
 try:
     import bs4, lxml, dateutil.parser, jinja2
     from underscore import _
 except ImportError as error:
-    missing_dependency = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
+    dep = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
 
     print("Fatal Error: a required Python module could not be found.",
-    "The " + missing_dependency + " module for Python " + str(sys.version_info.major) + ".x must be installed using pip, easy_install,",
-    "the system package manager (apt-get on Debian based Linux OSes), " +
-    "or manually downloading and extracting.", sep="\n", end="\n\nExiting...\n")
+            "The {missing_dependency} module for Python {version}.x must be \
+            installed using pip, easy_install,",
+            "the system package manager (apt-get on Debian based Linux OSes), "
+            + "or manually downloading and extracting.", sep="\n", end="\n\n \
+            Exiting...\n"
+        .format({
+            'missing_dependency': dep,
+            'version': str(sys.version_info.major),
+            })
+        )
     raise SystemExit
 
-''' Util functions '''
+""" Util functions """
 def lineno(datatype = 'string'):
     """ Returns the current line number of execution. """
     line = currentframe().f_back.f_lineno
@@ -53,13 +60,15 @@ class LineException(BaseException):
     def __init__(self):
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        debug_print("-------------- Exception information: ----------------", exc_type, fname, exc_tb.tb_lineno)
+        debug_print("-------------- Exception information: ----------------", \
+        exc_type, fname, exc_tb.tb_lineno)
 Exception = LineException
 
 def prettyprint(d):
     ''' Convert dictionaries to JSON and print human-readable format. '''
     if isinstance(d, str):
-        print(d, end="\nWARNING: Type prettyprinted above was string, expected dictionary.\n")
+        print(d, end="\nWARNING: Type prettyprinted above was string, expected \
+        dictionary.\n")
         return
     if isinstance(d, dict) or isinstance(d, OrderedDict):
         print(json.dumps(d, sort_keys=True, indent=4))
@@ -92,7 +101,8 @@ class HotelHTMLGenerator(object):
     the hotel rates across month intervals.
     """
 
-    def __init__(self, search_directory="./search", output_directory="./output", year="2018", debug=True):
+    def __init__(self, search_directory="./search", output_directory="./output"\
+    , year="2018", debug=True):
         """ Initialization of new instance. """
 
         # First check if we are just displaying help text
@@ -100,7 +110,8 @@ class HotelHTMLGenerator(object):
             self.help()
 
         if len(args) is 1:
-            print("Script was called with no arguments. If you need info, invoke the script with -h or --help")
+            print("Script was called with no arguments. If you need info, \
+            invoke the script with -h or --help")
             raise SystemExit
 
         # Debug mode attribute
@@ -132,7 +143,8 @@ class HotelHTMLGenerator(object):
             self.year = year
 
         if "--relative" not in args:
-            absolute_dirs = [os.path.realpath(val) for val in self.getDirs().values()]
+            absolute_dirs = [os.path.realpath(val) for val in self.getDirs().\
+            values()]
             joined_keys_and_vals = zip(self.getDirs().keys(), absolute_dirs)
             joined_keys_and_vals = dict(joined_keys_and_vals)
             self.setDirs(joined_keys_and_vals)
@@ -152,13 +164,16 @@ class HotelHTMLGenerator(object):
     @staticmethod
     def help():
         """ Print the help text. """
-        helpText = """Usage: python[3] {0} [search directory] [output directory] [--arguments (optional)]{1}
-Pass --relative to disable conversion of relative paths to absolute paths. Pass --year (4 digit year) to use a year other than 2018. Pass -h or --help to print this message""".format(args[0], os.linesep)
+        helpText = """Usage: python[3] {0} [search directory] [output directory\
+        ] [--arguments (optional)]{1}
+Pass --relative to disable conversion of relative paths to absolute paths. Pass\
+ --year (4 digit year) to use a year other than 2018. Pass -h or --help to \
+ print this message""".format(args[0], os.linesep)
         print(helpText)
         raise SystemExit
 
     def getDirs(self):
-        """ Get a hash of the directories we are using for search and output. """
+        """ Get a hash of the directories we are using for search and output."""
         return self.dirs
 
     def setDirs(self, new_dirs):
@@ -179,20 +194,25 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 return self.dirs
             except AssertionError:
                 lineno()
-                raise SystemExit("Attempted to set directories with a dictionary missing keys")
+                raise SystemExit("Attempted to set directories with a \
+                dictionary missing keys")
 
         except AssertionError:
-            raise SystemExit("Attempted to set directories to a non-dictionary object")
+            raise SystemExit("Attempted to set directories to a non-dictionary\
+            object")
         except KeyError:
-            raise SystemExit("Attempted to set directories with a dictionary of invalid keys. Required keys: 'search_directory', 'output_directory'.")
+            raise SystemExit("Attempted to set directories with a dictionary of\
+            invalid keys. Required keys: 'search_directory', 'output_directory'.")
 
     @staticmethod
     def getArgs():
-        """ Get an enumerated list comprehension of the arguments with which the program was called. """
+        """ Get an enumerated list comprehension of the arguments with which \
+        the program was called. """
         return [arg for arg in enumerate(args)]
 
     def scan(self):
-        """ Scan for input xml files and populate the paths attribute with results.
+        """ Scan for input xml files and populate the paths attribute with \
+        results.
         return self to support method j """
 
         # Get the directory to start from
@@ -203,7 +223,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             raise SystemExit("Specified search directory does not exist.")
         else:
             def search(search_directory):
-                """ Generator which scans recursively for a rates.input.xml file and yields their paths """
+                """ Generator which scans recursively for a rates.input.xml
+                file and yields their paths """
                 for root, dirs, files in os.walk(search_directory):
 
                     # Make the search case insensitive by converting everything to lower case
@@ -211,7 +232,6 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
                     # Look for our XML file in among the files in the current directory
                     if self.SEARCH_FILENAME in files:
-
                         # Join path and filename
                         fullpath = os.path.join(root, self.SEARCH_FILENAME)
 
@@ -219,7 +239,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         try:
                             assert not os.path.islink(fullpath)
                         except AssertionError as e:
-                            print("Search result is a symlink (shortcut). Will use real path instead.")
+                            print("Search result is a symlink (shortcut). \
+                            Will use real path instead.")
                             continue
                         fullpath = os.path.realpath(fullpath)
 
@@ -227,14 +248,16 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         try:
                             assert os.path.isfile(fullpath)
                         except AssertionError:
-                            print("OS reports search result at {0} is not an actual file. Trying to continue...".format(fullpath))
+                            print("OS reports search result at {0} not an \
+                            actual file. Trying to continue...".format(fullpath))
                             continue
 
                         # Try to convert a relative path to an absolute path
                         fullpath = os.path.realpath(fullpath)
 
                         # Report result
-                        print("Found {0} at {1}".format(self.SEARCH_FILENAME, fullpath))
+                        print("Found {0} at {1}".
+                        format(self.SEARCH_FILENAME, fullpath))
 
                         yield fullpath
 
@@ -249,14 +272,18 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
         return self
 
     def parse(self):
-        """ @input: XML file paths attribute populated by scan() earlier in the method chain.
-            @output: Populate top level object HotelHTMLGenerator.parser_objects attribute with XML parsers for each file loaded with the element tree from the hotel elements down
+        """ @input: XML file paths attribute populated by scan() earlier
+        in the method chain.
+            @output: Populate top level object HotelHTMLGenerator.parser_objects
+             attribute with XML parsers for each file loaded with the element
+             tree from the hotel elements down
             @returns self to support further method chaining.
         """
 
         for xmlfile in self.paths:
             if not os.path.exists(xmlfile) or not os.path.isfile(xmlfile):
-                raise SystemExit("Generate HTML function was called with an invalid path or file.")
+                raise SystemExit("Generate HTML function was called with an \
+                invalid path or file.")
             try:
                 with open(xmlfile) as file:
                 # Entering file context
@@ -278,10 +305,13 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         for hotel_parser_object in hotels:
                             try:
                                 hotelCode = hotel_parser_object.get('code')
-                                assert (isinstance(hotelCode, str) or isinstance(hotelCode, unicode))
+                                assert (isinstance(hotelCode, str) or
+                                isinstance(hotelCode, unicode))
                                 assert len(hotelCode) > 1
                             except AssertionError as ae:
-                                raise SystemExit('Unable to determine hotel code from <hotel> tag in rates file {0}'.format(file.name))
+                                raise SystemExit('Unable to determine hotel \
+                                code from <hotel> tag in rates file {0}'.
+                                format(file.name))
 
                         # Make a tuple
                         hotelTuple = (hotelCode, hotel_parser_object)
@@ -303,7 +333,11 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
 
     def generate_html(self):
         ''' @input XML parsers stored as attribute on top level object
-            @output for each expected output file, a tuple with the path where the file will be written, and the HTML to be written as a string. ex: [(output/high_low_rates.html, '<html>...</html>'), (output/blah.html), <html>...</html>), ...] appended to the top level object's html_strings attribute
+            @output for each expected output file, a tuple with the path where
+            the file will be written, and the HTML to be written as a string.
+            ex: [(output/high_low_rates.html, '<html>...</html>'),
+            (output/blah.html), <html>...</html>), ...] appended to the top
+            level object's html_strings attribute
             @returns self to support method chaining
 
             """ Rate calendar:
@@ -313,7 +347,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                 4. Needs the following local variables:
                     Hash of calendar months and numbers of days in each
                     Get a rate from XML for each day
-                    Need to use dateutil to verify rate applies to correct day of month
+                    Need to use dateutil to verify rate applies to correct day
+                    of month
 
             Rate summary:
                 1. Needs the following local variables:
@@ -325,7 +360,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
                         keys: months as words or their abbreviations
                         values: [minimum nightly rate, maximum nightly rate]
 
-        After populating templates with data, call render on them and store as strings
+        After populating templates with data, call render on them and store as
+        strings
         """
         '''
 
@@ -348,7 +384,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass 
             rooms = hotelTag.findChildren('room')
 
             if len(rooms) is 0:
-                raise SystemExit('Encountered a hotel with no rooms. XML document may be incomplete or malformed.')
+                raise SystemExit('Encountered a hotel with no rooms. \
+                XML document may be incomplete or malformed.')
 
             def rooms_func(room):
                 room_dict = {}
