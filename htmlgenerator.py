@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.7
 # -*- coding: ascii -*-
 
 from __future__ import print_function # Python 2/3 compatibility
@@ -56,7 +56,7 @@ def print(*args, **kwargs):
     __builtin__.print(frameinfo.f_back.f_lineno, ": ", sep='', end='')
     return __builtin__.print(*args, **kwargs)
 
-class LineException(BaseException):
+class LineException(Exception):
     def __init__(self):
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
@@ -91,7 +91,6 @@ def info(type, value, tb):
 
 sys.excepthook = info
 ''' End utils '''
-
 
 class HotelHTMLGenerator(object):
     """
