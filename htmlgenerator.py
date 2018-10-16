@@ -1,22 +1,23 @@
-#!/usr/bin/python3.7
-# -*- coding: ascii -*-
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-from __future__ import print_function # Python 2/3 compatibility
+from __future__ import print_function  # Python 2/3 compatibility
+
+import json
+# Standard library imports
+import os
+import os.path
+import pdb
+import sys
+from collections import OrderedDict
+from inspect import currentframe
 
 """
 @author Dan Mercurio <dmercurio92@gmail.com>
 @date 8/14/2018
 """
 
-# Standard library imports
-import os
-import os.path
-import sys
 args = sys.argv
-import pdb
-from collections import OrderedDict
-from inspect import currentframe
-import json
 try:
     import __builtin__
 except ImportError:
@@ -25,30 +26,36 @@ except ImportError:
 
 # Third-party libraries
 try:
-    import bs4, lxml, dateutil.parser, jinja2
+    import bs4
+    import lxml
+    import dateutil.parser
+    import dateutil.relativ
+    import jinja2
     from underscore import _
 except ImportError as error:
-    dep = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
+    MISSING_DEPENDENCY = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
 
     print("Fatal Error: a required Python module could not be found.",
-            "The {missing_dependency} module for Python {version}.x must be \
-            installed using pip, easy_install,",
-            "the system package manager (apt-get on Debian based Linux OSes), "
-            + "or manually downloading and extracting.", sep="\n", end="\n\n \
-            Exiting...\n"
-        .format({
-            'missing_dependency': dep,
-            'version': str(sys.version_info.major),
-            })
-        )
+          "The {MISSING_DEPENDENCY} module(s) for Python {version}.x must be \
+            installed using pip, easy_install, ".format(
+              {'MISSING_DEPENDENCY': dep,
+               'version': str(sys.version_info.major)}
+          ),
+          "the system package manager (apt-get on Debian based Linux OSes), "
+          + "or manually downloading and extracting.", sep="\n", end="\n\n \
+            Exiting...\n")
     raise SystemExit
 
 """ Util functions """
-def lineno(datatype = 'string'):
+
+
+def lineno(datatype='string'):
     """ Returns the current line number of execution. """
     line = currentframe().f_back.f_lineno
-    if datatype is not 'string': line = str(line)
+    if datatype is not 'string':
+        line = str(line)
     return line
+
 
 def print(*args, **kwargs):
     frameinfo = currentframe()
@@ -56,13 +63,17 @@ def print(*args, **kwargs):
     __builtin__.print(frameinfo.f_back.f_lineno, ": ", sep='', end='')
     return __builtin__.print(*args, **kwargs)
 
+
 class LineException(Exception):
     def __init__(self):
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        debug_print("-------------- Exception information: ----------------", \
-        exc_type, fname, exc_tb.tb_lineno)
+        debug_print("-------------- Exception information: ----------------",
+                    exc_type, fname, exc_tb.tb_lineno)
+
+
 Exception = LineException
+
 
 def prettyprint(d):
     ''' Convert dictionaries to JSON and print human-readable format. '''
@@ -75,22 +86,26 @@ def prettyprint(d):
     else:
         print("Argument to prettyprint() was not of type dict or OrderedDict.")
 
+
 def info(type, value, tb):
     ''' Enter debugger on unhandled exceptions '''
     if hasattr(sys, 'ps1') or not sys.stderr.isatty():
-      # We are in interactive mode or we don't have a tty-like
-      # device, so we call the default hook
-      sys.__excepthook__(type, value, tb)
+        # We are in interactive mode or we don't have a tty-like
+        # device, so we call the default hook
+        sys.__excepthook__(type, value, tb)
     else:
-      import traceback, pdb
-      # We are NOT in interactive mode, print the exception...
-      traceback.print_exception(type, value, tb)
-      print
-      # ...then start the debugger in post-mortem mode.
-      pdb.pm()
+        import traceback
+        import pdb
+        # We are NOT in interactive mode, print the exception...
+        traceback.print_exception(type, value, tb)
+        print
+        # ...then start the debugger in post-mortem mode.
+        pdb.pm()
+
 
 sys.excepthook = info
 ''' End utils '''
+
 
 class HotelHTMLGenerator(object):
     """
@@ -100,9 +115,8 @@ class HotelHTMLGenerator(object):
     the hotel rates across month intervals.
     """
 
-    def __init__(self, search_directory="./search", output_directory="./output"\
-    , year="2018", debug=True):
-        """ Initialization of new instance. """
+    def __init__(self, search_directory="./search", output_directory="./output", debug=True):
+        """ Constructor for the whole object. This is a singleton so there should only ever be one instance. """
 
         # First check if we are just displaying help text
         if ("-h" in args) or ("--help" in args):
@@ -120,11 +134,14 @@ class HotelHTMLGenerator(object):
             print("Debug mode ON.")
 
         # Output arguments script was called with if verbose was selected
-        if self.debug: print("Arguments: ", str(self.getArgs()), end="\n\n")
+        if self.debug:
+            print("Arguments: ", str(self.getArgs()), end="\n\n")
 
-
-        # Attribute that stores search and output directories as a dict
-        self.dirs = dict()
+        # Initialize memory spade for an object attribute that stores search and output directories as a dict and initialize them with their default values
+        self.dirs = dict({
+            'search_directory': search_directory,
+            'output_directory': output_directory
+        })
 
         # Populate the attribute upon initialization
         self.setDirs({
@@ -142,8 +159,8 @@ class HotelHTMLGenerator(object):
             self.year = year
 
         if "--relative" not in args:
-            absolute_dirs = [os.path.realpath(val) for val in self.getDirs().\
-            values()]
+            absolute_dirs = [os.path.realpath(val) for val in self.getDirs().
+                             values()]
             joined_keys_and_vals = zip(self.getDirs().keys(), absolute_dirs)
             joined_keys_and_vals = dict(joined_keys_and_vals)
             self.setDirs(joined_keys_and_vals)
@@ -178,16 +195,22 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
         if self.debug:
-            if self.dirs is not {} and len(self.dirs) is not 0: # Avoid printing this message every time the object is instantiated
-                print("Requested to change these self.dirs values: {0}\n".format(self.getDirs()))
+            # Avoid printing this message every time the object is instantiated
+            if self.dirs is not {} and len(self.dirs) is not 0:
+                print("Requested to change these self.dirs values: {0}\n".format(
+                    self.getDirs()))
         try:
-            assert isinstance(new_dirs, dict) or isinstance(new_dirs, OrderedDict) # Check that candidate dirs are a dictionary hash
+            # Check that candidate dirs are a dictionary hash
+            assert isinstance(new_dirs, dict) or isinstance(
+                new_dirs, OrderedDict)
             try:
-                assert (len(new_dirs.keys()) >= 2) # Additional validation for candidate dirs
+                # Additional validation for candidate dirs
+                assert (len(new_dirs.keys()) >= 2)
                 self.dirs['search_directory'] = new_dirs['search_directory']
                 self.dirs['output_directory'] = new_dirs['output_directory']
 
-                if self.debug: print("self.dirs updated to {0}\n".format(self.dirs))
+                if self.debug:
+                    print("self.dirs updated to {0}\n".format(self.dirs))
 
                 # Return new dirs
                 return self.dirs
@@ -256,7 +279,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 
                         # Report result
                         print("Found {0} at {1}".
-                        format(self.SEARCH_FILENAME, fullpath))
+                              format(self.SEARCH_FILENAME, fullpath))
 
                         yield fullpath
 
@@ -266,7 +289,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
             self.paths.append(result)
 
         # Output found paths if verbose mode was selected
-        if self.debug: print("Paths found by search: ", self.paths)
+        if self.debug:
+            print("Paths found by search: ", self.paths)
 
         return self
 
@@ -285,32 +309,34 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
                 invalid path or file.")
             try:
                 with open(xmlfile) as file:
-                # Entering file context
-                    if self.debug: print("Reading xml file: {0}".format(file.name))
+                    # Entering file context
+                    if self.debug:
+                        print("Reading xml file: {0}".format(file.name))
 
                     # Parse raw XML
-                    hotels = bs4.BeautifulSoup(file.read(), "lxml").find_all('hotel')
+                    hotels = bs4.BeautifulSoup(
+                        file.read(), "lxml").find_all('hotel')
 
                     try:
                         # Make sure the main XML document was parsed correctly and <hotel> tags were found.
                         assert len(hotels) is not 0
 
                         # This attribute is mainly for introspection of the XML to be parsed, hence its being stored prettified.
-                        if self.debug: self.xml_strings = [hotel.prettify() for hotel in hotels]
-
-
+                        if self.debug:
+                            self.xml_strings = [hotel.prettify()
+                                                for hotel in hotels]
 
                         # Parser objects that the generate_html method will use.
                         for hotel_parser_object in hotels:
                             try:
                                 hotelCode = hotel_parser_object.get('code')
                                 assert (isinstance(hotelCode, str) or
-                                isinstance(hotelCode, unicode))
+                                        isinstance(hotelCode, unicode))
                                 assert len(hotelCode) > 1
                             except AssertionError as ae:
                                 raise SystemExit('Unable to determine hotel \
                                 code from <hotel> tag in rates file {0}'.
-                                format(file.name))
+                                                 format(file.name))
 
                         # Make a tuple
                         hotelTuple = (hotelCode, hotel_parser_object)
@@ -323,9 +349,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
             except IOError(LineException):
                 raise SystemExit("Unable to read found XML file.")
 
-
-        #if self.debug:
-            #for po in self.parser_objects:
+        # if self.debug:
+            # for po in self.parser_objects:
                 # assert isinstance(po[1], bs4.element.Tag)
                 # print("self.parser_objects: ", "Hotel: {0}".format(po[0]), "Parser(type:{0}): {1}".format(type(po[1]), po[1].prettify()[100:150]), sep="\n---------\n", end="\n ------ end parser objects-----\n" )
         return self
@@ -376,7 +401,6 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
             # Start with the hotel code (str) and hotel tag, the top level element, as a BeautifulSoup parser object
             hotelCode, hotelTag = parser_object[0], parser_object[1]
 
-
             hotel_dict = {}
             hotel_dict['hotel_code'] = hotelCode
 
@@ -389,34 +413,42 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
             def rooms_func(room):
                 room_dict = {}
                 room_dict['name'] = room.get('name')
-                room_dict['description'] = room.findChildren('description')[0].string.strip()
+                room_dict['description'] = room.findChildren('description')[
+                    0].string.strip()
 
                 dates = room.findChildren('date')
 
                 for date in dates:
-                        date_hash = room_dict['dates'] = {}
-                        start = room_dict['dates']['start'] = date.get('start')
-                        end = room_dict['dates']['end'] = date.get('end')
-                        #print("date > room_price: ", date.findChildren('room_price'))
-                        room_prices = date.findChildren('room_price')
-                        if (len(room_prices) is 1):
+                    date_hash = room_dict['dates'] = {}
+                    start = room_dict['dates']['start'] = date.get('start')
+                    end = room_dict['dates']['end'] = date.get('end')
+                    #print("date > room_price: ", date.findChildren('room_price'))
+                    room_prices = date.findChildren('room_price')
+                    if (len(room_prices) is 1):
                             # Calculate if start/end is within 1 month
-                            start_datetime = dateutil.parser.parse(start)
-                            end_datetime = dateutil.parser.parse(end)
+                        start_datetime = dateutil.parser.parse(start)
+                        end_datetime = dateutil.parser.parse(end)
 
-                            if (start_datetime.month == end_datetime.month) and (start_datetime.year == end_datetime.year) and (start_datetime.day < end_datetime.day):
+                        if (start_datetime.month == end_datetime.month) and (start_datetime.year == end_datetime.year) and (start_datetime.day < end_datetime.day):
                                 # This interval is within one month and does not cross a month boundary,
                                 # and it is not a case where month comparison is true but the months are of
                                 # completely different years, because the year must be equal as well.
                                 # The day value comparison is a final sanity check. If start day is less than
                                 # end day, we must be moving forward in time within one month
-                                    room_dict['dates']['price'] = float(date.findChildren('room_price')[0].string.strip())
-                            else:
-                                if self.debug:
-                                    print("Date interval falls during a month or year change. Skipping.")
-                                    print("Invalid datetime: Start:", start_datetime, "End: ", end_datetime, "Skipped...")
+                            room_dict['dates']['price'] = float(
+                                date.findChildren('room_price')[0].string.strip())
                         else:
-                            room_dict['dates']['price'] = None # No price detected in XML
+                            if self.debug:
+
+                                print("Invalid datetime detected!\nStart:",
+                                      start_datetime, "End: ", end_datetime)
+                            print(
+                                "Encountering invalid datetimes. This utility will try to truncate invalid datetimes on the start or end of the month.")
+                            end_datetime
+
+                    else:
+                        # No price detected in XML
+                        room_dict['dates']['price'] = None
                 return room_dict
 
             hotel_dict['rooms'] = []
@@ -427,10 +459,6 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
             hotels.append(hotel_dict)
 
             prettyprint(hotel_dict)
-
-
-
-
 
         # Load Jinja templates and populate them
 
@@ -450,6 +478,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 
         print("Writing to output files has not yet been implemented.")
         return self
+
 
 if (__name__ == "__main__"):
 
