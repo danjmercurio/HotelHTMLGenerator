@@ -36,9 +36,9 @@ except ImportError as error:
     MISSING_DEPENDENCY = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
 
     print("Fatal Error: a required Python module could not be found.",
-          "The {MISSING_DEPENDENCY} module(s) for Python {version}.x must be \
+          "The {mdep} module(s) for Python {version}.x must be \
             installed using pip, easy_install, ".format(
-              {'MISSING_DEPENDENCY': dep,
+              {'mdep': MISSING_DEPENDENCY,
                'version': str(sys.version_info.major)}
           ),
           "the system package manager (apt-get on Debian based Linux OSes), "
