@@ -26,25 +26,17 @@ except ImportError:
 
 # Third-party libraries
 try:
-    import bs4
-    import lxml
-    import dateutil.parser
-    import dateutil.relativ
-    import jinja2
-    from underscore import _
+    import bs4, lxml, dateutil.parser, dateutil.relative, jinja2, underscore
 except ImportError as error:
     MISSING_DEPENDENCY = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
 
-    print("Fatal Error: a required Python module could not be found.",
-          "The {mdep} module(s) for Python {version}.x must be \
-            installed using pip, easy_install, ".format(
-              {'mdep': MISSING_DEPENDENCY,
-               'version': str(sys.version_info.major)}
-          ),
-          "the system package manager (apt-get on Debian based Linux OSes), "
-          + "or manually downloading and extracting.", sep="\n", end="\n\n \
-            Exiting...\n")
-    raise SystemExit
+    DEPENDENCY_ERRORMESSAGE = """
+Fatal Error! A required Python module could not be found.\n
+The {0} module(s) for Python {1}.x must be installed using pip, easy_install, the system package manager (apt-get on Debian based Linux OSes,
+pacman on Arch and Arch-based distributions including Manjaro, or dnf in the case of Fedora. Consult your distribution's manual to learn how to properly install Python {1} modules. PIP is the easiest and best method, but in case of last resort you can download the source from the module's distributor and run its install script yourself.
+ """.format(MISSING_DEPENDENCY, sys.version_info.major)
+    print(DEPENDENCY_ERRORMESSAGE)
+    raise SystemExit("Cannot continue. Halting...")
 
 """ Util functions """
 
