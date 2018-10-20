@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+# This has to come first because that's the rule
 from __future__ import print_function  # Python 2/3 compatibility
-
-import json
 # Standard library imports
+import json
 import os
 import os.path
 import pdb
@@ -17,26 +17,20 @@ from inspect import currentframe
 @date 8/14/2018
 """
 
-args = sys.argv
-try:
-    import __builtin__
-except ImportError:
-    # Python 3
-    import builtins as __builtin__
+# Some constants
+ARGS = sys.argv
+NEWLINE = "\n"
+DOUBLE_NEWLINE = NEWLINE * 2
+TITLE_ASCII = \
+"""
+  _   _       _       _ _   _ _____ __  __ _     ____                           _             
+ | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __ 
+ | |_| |/ _ \| __/ _ | | |_| | | | | |\/| | |  | |  _ / _ | '_ \ / _ | '__/ _` | __/ _ \| '__|
+ |  _  | (_) | ||  __| |  _  | | | | |  | | |__| |_| |  __| | | |  __| | | (_| | || (_) | |   
+ |_| |_|\___/ \__\___|_|_| |_| |_| |_|  |_|_____\____|\___|_| |_|\___|_|  \__,_|\__\___/|_|   
+                                                                                                  
+"""
 
-# Third-party libraries
-try:
-    import bs4, lxml, dateutil.parser, dateutil.relative, jinja2, underscore
-except ImportError as error:
-    MISSING_DEPENDENCY = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
-
-    DEPENDENCY_ERRORMESSAGE = """
-Fatal Error! A required Python module could not be found.\n
-The {0} module(s) for Python {1}.x must be installed using pip, easy_install, the system package manager (apt-get on Debian based Linux OSes,
-pacman on Arch and Arch-based distributions including Manjaro, or dnf in the case of Fedora. Consult your distribution's manual to learn how to properly install Python {1} modules. PIP is the easiest and best method, but in case of last resort you can download the source from the module's distributor and run its install script yourself.
- """.format(MISSING_DEPENDENCY, sys.version_info.major)
-    print(DEPENDENCY_ERRORMESSAGE)
-    raise SystemExit("Cannot continue. Halting...")
 
 """ Util functions """
 
@@ -49,11 +43,11 @@ def lineno(datatype='string'):
     return line
 
 
-def print(*args, **kwargs):
+def print(*ARGS, **kwARGS):
     frameinfo = currentframe()
 
     __builtin__.print(frameinfo.f_back.f_lineno, ": ", sep='', end='')
-    return __builtin__.print(*args, **kwargs)
+    return __builtin__.print(*ARGS, **kwARGS)
 
 
 class LineException(Exception):
@@ -111,13 +105,19 @@ class HotelHTMLGenerator(object):
         """ Constructor for the whole object. This is a singleton so there should only ever be one instance. """
 
         # First check if we are just displaying help text
-        if ("-h" in args) or ("--help" in args):
+        if ("-h" in ARGS) or ("--help" in ARGS):
             self.help()
 
-        if len(args) is 1:
+        if len(ARGS) is 1:
             print("Script was called with no arguments. If you need info, \
             invoke the script with -h or --help")
             raise SystemExit
+            
+        # Fire things up.
+        print(TITLE_ASCII)
+        print(DOUBLE_NEWLINE)
+        print("Reticulating splines...")
+        self.doImports()
 
         # Debug mode attribute
         self.debug = debug
@@ -127,7 +127,7 @@ class HotelHTMLGenerator(object):
 
         # Output arguments script was called with if verbose was selected
         if self.debug:
-            print("Arguments: ", str(self.getArgs()), end="\n\n")
+            print("Arguments: ", str(self.getARGS()), end="\n\n")
 
         # Initialize memory spade for an object attribute that stores search and output directories as a dict and initialize them with their default values
         self.dirs = dict({
@@ -145,12 +145,12 @@ class HotelHTMLGenerator(object):
 
         # Set the year to 2018 AD unless otherwise
         # specified in the arguments
-        if "--year" in args:
-            self.year = args[args.index("--year") + 1]
+        if "--year" in ARGS:
+            self.year = ARGS[ARGS.index("--year") + 1]
         else:
             self.year = year
 
-        if "--relative" not in args:
+        if "--relative" not in ARGS:
             absolute_dirs = [os.path.realpath(val) for val in self.getDirs().
                              values()]
             joined_keys_and_vals = zip(self.getDirs().keys(), absolute_dirs)
@@ -176,9 +176,34 @@ class HotelHTMLGenerator(object):
         ] [--arguments (optional)]{1}
 Pass --relative to disable conversion of relative paths to absolute paths. Pass\
  --year (4 digit year) to use a year other than 2018. Pass -h or --help to \
- print this message""".format(args[0], os.linesep)
+ print this message""".format(ARGS[0], os.linesep)
         print(helpText)
         raise SystemExit
+        
+    def doImports(self):
+        try:
+            import __builtin__
+        except ImportError:
+            # Python 3
+            import builtins as __builtin__
+        
+        # Third-party libraries
+        try:
+            import termcolor
+            import bs4, lxml, dateutil.parser, dateutil.relative, jinja2, underscore
+        except ImportError as error:
+            MISSING_DEPENDENCY = "".join(char for char in str(error).split(" ")[-1] if char.isalnum())
+            # Create some space by printing newlines
+            print(DOUBLE_NEWLINE)
+            # This is fancy
+            termcolor.cprint("Fatal Error❗", color="red", on_color="on_grey", attrs=["bold", "underline", "blink"], sep=NEWLINE, end="")
+            DEPENDENCY_ERRORMESSAGE = """
+        A required Python module could not be found.\n
+        The {0} module(s) for Python {1}.x must be installed using pip, easy_install, the system package manager (apt-get on Debian based Linux OSes,
+        pacman on Arch and Arch-based distributions including Manjaro, or dnf in the case of Fedora. Consult your distribution's manual to learn how to properly install Python {1} modules. PIP is the easiest and best method, but in case of last resort you can download the source from the module's distributor and run its install script yourself.
+         """.format(MISSING_DEPENDENCY, sys.version_info.major)
+            print(DEPENDENCY_ERRORMESSAGE)
+            raise SystemExit("Cannot continue. Halting...")
 
     def getDirs(self):
         """ Get a hash of the directories we are using for search and output."""
@@ -219,10 +244,10 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
             invalid keys. Required keys: 'search_directory', 'output_directory'.")
 
     @staticmethod
-    def getArgs():
+    def getARGS():
         """ Get an enumerated list comprehension of the arguments with which \
         the program was called. """
-        return [arg for arg in enumerate(args)]
+        return [arg for arg in enumerate(ARGS)]
 
     def scan(self):
         """ Scan for input xml files and populate the paths attribute with \
@@ -475,8 +500,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 if (__name__ == "__main__"):
 
     # Create an instance of our worker class
-    if len(args) == 3:
-        hg = HotelHTMLGenerator(args[1], args[2])
+    if len(ARGS) == 3:
+        hg = HotelHTMLGenerator(ARGS[1], ARGS[2])
     else:
         hg = HotelHTMLGenerator()
 
