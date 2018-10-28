@@ -1,8 +1,0 @@
-digraph "packages" {
-charset="utf-8"
-rankdir=BT
-"0" [label="/home/dan/Documents/Python/hotelhtmlgenerator/__init__.py", shape="box"];
-"1" [label="/home/dan/Documents/Python/hotelhtmlgenerator/hotels.py", shape="box"];
-"2" [label="/home/dan/Documents/Python/hotelhtmlgenerator/htmlgenerator.py", shape="box"];
-"3" [label="/home/dan/Documents/Python/hotelhtmlgenerator/parser.py", shape="box"];
-}
