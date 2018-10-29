@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 '''
 THIS DOES NOT NEED TO BE RUN BY THE END USER BUT HAS BEEN INCLUDED IN THE REPOSITORY

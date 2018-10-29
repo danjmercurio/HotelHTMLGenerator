@@ -7,7 +7,7 @@ import sys
 sys.path.append("/home/dan/PycharmProjects/lantera/xml")
 import xml.HotelHTMLGenerator
 
-DEFAULT_ARGS = ['./search', './output']
+DEFAULT_ARGS = ['./test/search', './output']
 
 
 
