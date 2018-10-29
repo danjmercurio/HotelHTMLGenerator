@@ -24,12 +24,12 @@ NEWLINE = "\n"
 DOUBLE_NEWLINE = NEWLINE * 2
 TITLE_ASCII = \
 """
-  _   _       _       _ _   _ _____ __  __ _     ____                           _             
- | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __ 
+  _   _       _       _ _   _ _____ __  __ _     ____                           _
+ | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __
  | |_| |/ _ \| __/ _ | | |_| | | | | |\/| | |  | |  _ / _ | '_ \ / _ | '__/ _` | __/ _ \| '__|
- |  _  | (_) | ||  __| |  _  | | | | |  | | |__| |_| |  __| | | |  __| | | (_| | || (_) | |   
- |_| |_|\___/ \__\___|_|_| |_| |_| |_|  |_|_____\____|\___|_| |_|\___|_|  \__,_|\__\___/|_|   
-                                                                                                  
+ |  _  | (_) | ||  __| |  _  | | | | |  | | |__| |_| |  __| | | |  __| | | (_| | || (_) | |
+ |_| |_|\___/ \__\___|_|_| |_| |_| |_|  |_|_____\____|\___|_| |_|\___|_|  \__,_|\__\___/|_|
+
 """
 """ Util functions """
 
@@ -59,7 +59,7 @@ class LineException(Exception):
     def __init__(self):
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        debug_print("-------------- Exception information: ----------------",
+        print("-------------- Exception information: ----------------",
                     exc_type, fname, exc_tb.tb_lineno)
 
 
@@ -108,17 +108,13 @@ class HotelHTMLGenerator(object):
     the hotel rates across month intervals.
     """
 
-    def __init__(self,
-                 search_directory="./search",
-                 output_directory="./output",
-                 debug=True, year=2018):
+    def __init__(self, search_directory="./search", output_directory="./output",
+                debug=True, year=2018):
         """ Constructor for the whole object. This is a singleton so there should only ever be one instance. """
 
         # First check if we are just displaying help text
         if ("-h" in ARGS) or ("--help" in ARGS):
             self.help()
-
-        
 
         # Fire things up.
         termcolor.cprint(TITLE_ASCII, color='cyan', on_color='on_grey')
@@ -327,7 +323,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
         for result in search_results:
             self.paths.append(result)
 
-        
+
         if len(self.paths) is 0:
             raise SystemExit("No rates.input.xml files found in recursive search of {0}".format(self.getDirs().get('search_directory', 'requested directory.')))
 
@@ -372,10 +368,23 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
         strings
             @returns self to support further method chaining.
         """
+
+        # self.paths is the discovered xml file paths from .search
+        # self.parser_objects is a list of instantiated parsers from paths
+        # both are @props of top level object
+
+
         if len(self.paths) is 0:
             raise SystemExit('Unable to find detected XML file paths. Could be a typo.')
-        
-        
+
+        def untangling():
+            for path in self.paths:
+                with open(path, 'r') as xmlFileHandle:
+                    parser = untangle.parse(xmlFileHandle.read())
+
+                    self.parser_objects.append(parser)
+
+
 
         return self
 
@@ -397,7 +406,6 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 
 
 if (__name__ == "__main__"):
-
     # Create an instance of our worker class
     if len(ARGS) == 3:
         hg = HotelHTMLGenerator(ARGS[1], ARGS[2])
