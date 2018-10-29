@@ -118,10 +118,7 @@ class HotelHTMLGenerator(object):
         if ("-h" in ARGS) or ("--help" in ARGS):
             self.help()
 
-        if len(ARGS) is 1:
-            print("Script was called with no arguments. If you need info, \
-            invoke the script with -h or --help")
-            raise SystemExit
+        
 
         # Fire things up.
         termcolor.cprint(TITLE_ASCII, color='cyan', on_color='on_grey')
@@ -130,6 +127,11 @@ class HotelHTMLGenerator(object):
 
         # Debug mode attribute
         self.debug = debug
+
+        if len(ARGS) is 1 and not self.debug:
+            print("Script was called with no arguments. If you need info, \
+            invoke the script with -h or --help")
+            raise SystemExit
 
         if self.debug:
             print("Debug mode ON.")
@@ -400,7 +402,7 @@ if (__name__ == "__main__"):
     if len(ARGS) == 3:
         hg = HotelHTMLGenerator(ARGS[1], ARGS[2])
     else:
-        hg = HotelHTMLGenerator()
+        hg = HotelHTMLGenerator("./test/search", "./test/output", debug=True)
 
     # Chain of actions this script is designed to perform
     hg.scan().parse().generate_html().write_output()
