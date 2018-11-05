@@ -3,102 +3,25 @@
 
 # This has to come first because that's the rule
 from __future__ import print_function  # Python 2/3 compatibility
+
 # Standard library imports
+import untangle
 import json
 import os
 import os.path
 import pdb
 import sys
-import termcolor
+import textwrap
 from collections import OrderedDict
 from inspect import currentframe
-import textwrap
+import pprint
+
+import termcolor
+
 """
 @author Dan Mercurio <dmercurio92@gmail.com>
 @date 8/14/2018
 """
-
-# Some constants
-ARGS = sys.argv
-NEWLINE = "\n"
-DOUBLE_NEWLINE = NEWLINE * 2
-TITLE_ASCII = \
-"""
-  _   _       _       _ _   _ _____ __  __ _     ____                           _
- | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __
- | |_| |/ _ \| __/ _ | | |_| | | | | |\/| | |  | |  _ / _ | '_ \ / _ | '__/ _` | __/ _ \| '__|
- |  _  | (_) | ||  __| |  _  | | | | |  | | |__| |_| |  __| | | |  __| | | (_| | || (_) | |
- |_| |_|\___/ \__\___|_|_| |_| |_| |_|  |_|_____\____|\___|_| |_|\___|_|  \__,_|\__\___/|_|
-
-"""
-""" Util functions """
-
-
-def lineno(datatype='string'):
-    """ Returns the current line number of execution. """
-    line = currentframe().f_back.f_lineno
-    if datatype is not 'string':
-        line = str(line)
-    return line
-
-
-# def print(*ARGS, **kwARGS):
-#     frameinfo = currentframe()
-
-#     try:
-#         import __builtin__
-#         __builtin__.print(frameinfo.f_back.f_lineno, ": ", sep='', end='')
-#         return __builtin__.print(*ARGS, **kwARGS)
-#     except NameError:
-#         from builtins import print as _builtin_print
-#         _builtin_print(frameinfo.f_back.f_lineno, ": ", sep='', end='')
-#         return _builtin_print(*ARGS, **kwARGS)
-
-
-class LineException(Exception):
-    def __init__(self):
-        exc_type, exc_obj, exc_tb = sys.exc_info()
-        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        print("-------------- Exception information: ----------------",
-                    exc_type, fname, exc_tb.tb_lineno)
-
-
-Exception = LineException
-
-
-def prettyprint(d):
-    ''' Convert dictionaries to JSON and print human-readable format. '''
-    if isinstance(d, str):
-        print(
-            d,
-            end="\nWARNING: Type prettyprinted above was string, expected \
-        dictionary.\n")
-        return
-    if isinstance(d, dict) or isinstance(d, OrderedDict):
-        print(json.dumps(d, sort_keys=True, indent=4))
-    else:
-        print("Argument to prettyprint() was not of type dict or OrderedDict.")
-
-
-def info(type, value, tb):
-    ''' Enter debugger on unhandled exceptions '''
-    if hasattr(sys, 'ps1') or not sys.stderr.isatty():
-        # We are in interactive mode or we don't have a tty-like
-        # device, so we call the default hook
-        sys.__excepthook__(type, value, tb)
-    else:
-        import traceback
-        import pdb
-        # We are NOT in interactive mode, print the exception...
-        traceback.print_exception(type, value, tb)
-        print
-        # ...then start the debugger in post-mortem mode.
-        pdb.pm()
-
-
-sys.excepthook = info
-''' End utils '''
-
 
 class HotelHTMLGenerator(object):
     """
@@ -108,23 +31,40 @@ class HotelHTMLGenerator(object):
     the hotel rates across month intervals.
     """
 
-    def __init__(self, search_directory="./search", output_directory="./output",
+    def __init__(self, search_directory="./test/search", output_directory="./test/output",
                 debug=True, year=2018):
         """ Constructor for the whole object. This is a singleton so there should only ever be one instance. """
 
         # First check if we are just displaying help text
-        if ("-h" in ARGS) or ("--help" in ARGS):
+        if ("-h" in sys.argv) or ("--help" in sys.argv):
             self.help()
 
+        # Define constants
+        self.string_constants = {
+            "NEWLINE" : "\n",
+            "DOUBLE_NEWLINE": ("\n" * 2),
+            "TITLE_ASCII":
+"""
+  _   _       _       _ _   _ _____ __  __ _     ____                           _
+ | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __
+ | |_| |/ _ \| __/ _ | | |_| | | | | |\/| | |  | |  _ / _ | '_ \ / _ | '__/ _` | __/ _ \| '__|
+ |  _  | (_) | ||  __| |  _  | | | | |  | | |__| |_| |  __| | | |  __| | | (_| | || (_) | |
+ |_| |_|\___/ \__\___|_|_| |_| |_| |_|  |_|_____\____|\___|_| |_|\___|_|  \__,_|\__\___/|_|
+
+"""
+        }
+
+
+
         # Fire things up.
-        termcolor.cprint(TITLE_ASCII, color='cyan', on_color='on_grey')
+        termcolor.cprint(self.string_constants["TITLE_ASCII"], color='cyan', on_color='on_grey')
         print("Reticulating splines...")
         self.doImports()
 
         # Debug mode attribute
         self.debug = debug
 
-        if len(ARGS) is 1 and not self.debug:
+        if len(sys.argv) is 1 and not self.debug:
             print("Script was called with no arguments. If you need info, \
             invoke the script with -h or --help")
             raise SystemExit
@@ -134,7 +74,7 @@ class HotelHTMLGenerator(object):
 
         # Output arguments script was called with if verbose was selected
         if self.debug:
-            print("Arguments: ", str(self.getARGS()), end="\n\n")
+            print("Arguments: ", str(sys.argv), end="\n\n")
 
         # Initialize memory spade for an object attribute that stores search and output directories as a dict and initialize them with their default values
         self.dirs = dict({
@@ -152,12 +92,12 @@ class HotelHTMLGenerator(object):
 
         # Set the year to 2018 AD unless otherwise
         # specified in the arguments
-        if "--year" in ARGS:
-            self.year = ARGS[ARGS.index("--year") + 1]
+        if "--year" in sys.argv:
+            self.year = sys.argv[sys.argv.index("--year") + 1]
         else:
             self.year = year
 
-        if "--relative" not in ARGS:
+        if "--relative" not in sys.argv:
             absolute_dirs = [
                 os.path.realpath(val) for val in self.getDirs().values()
             ]
@@ -180,11 +120,11 @@ class HotelHTMLGenerator(object):
     @staticmethod
     def help():
         """ Print the help text. """
-        helpText = """Usage: python[3] {0} [search directory] [output directory\
-        ] [--arguments (optional)]{1}
-Pass --relative to disable conversion of relative paths to absolute paths. Pass\
- --year (4 digit year) to use a year other than 2018. Pass -h or --help to \
- print this message""".format(ARGS[0], os.linesep)
+        helpText =\
+"""Usage: python[2.x|3.x] {0} [search directory] [output directory] [--arguments (optional)]
+Pass --relative to disable conversion of relative paths to absolute paths. Pass
+--year (4 digit year) to use a year other than 2018. Pass -h or --help to
+print this message.""".format(sys.argv[0])
         print(helpText)
         raise SystemExit
 
@@ -197,20 +137,19 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 
         # Third-party libraries
         try:
-            import untangle
             import dateutil.parser
         except ImportError as error:
             MISSING_DEPENDENCY = "".join(
                 char for char in str(error).split(" ")[-1] if char.isalnum() or char in [",", " ", "."])
             # Create some space by printing newlines
-            print(DOUBLE_NEWLINE)
+            print(self.string_constants["DOUBLE_NEWLINE"])
             # This is fancy
             termcolor.cprint(
                 "Fatal Error❗",
                 color="red",
                 on_color="on_grey",
                 attrs=["bold", "underline", "blink"],
-                sep=NEWLINE,
+                sep=self.string_constants["NEWLINE"],
                 end="\r\n")
             wrapper = textwrap.TextWrapper(
                 initial_indent="",
@@ -227,12 +166,6 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
-        # if self.debug:
-        #     # Avoid printing this message every time the object is instantiated
-        #     if self.dirs is not {} and len(self.dirs) is not 0:
-        #         print(
-        #             "Requested to change these self.dirs values: {0}\n".format(
-        #                 self.getDirs()))
         try:
             # Check that candidate dirs are a dictionary hash
             assert isinstance(new_dirs, dict) or isinstance(
@@ -247,7 +180,6 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
                 # Return new dirs
                 return self.dirs
             except AssertionError:
-                lineno()
                 raise SystemExit("Attempted to set directories with a \
                 dictionary missing keys")
 
@@ -262,14 +194,13 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 
     @staticmethod
     def getARGS():
-        """ Get an enumerated list comprehension of the arguments with which \
+        """ Get an enumerated list comprehension of the arguments with which
         the program was called. """
-        return [arg for arg in enumerate(ARGS)]
+        return [arg for arg in enumerate(sys.argv)]
 
     def scan(self):
-        """ Scan for input xml files and populate the paths attribute with \
-        results.
-        return self to support method joining """
+        """ Scan for input xml files and populate the paths attribute with
+        results. Return self to support method chaining. """
 
         # Get the directory to start from
         search_directory = self.getDirs().get('search_directory')
@@ -281,7 +212,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
             def search(search_directory):
                 """ Generator which scans recursively for a rates.input.xml
                 file and yields their paths """
-                for root, dirs, files in os.walk(search_directory):
+                for root, _, files in os.walk(search_directory):
 
                     # Make the search case insensitive by converting everything to lower case
                     files = [file.lower() for file in files]
@@ -294,7 +225,7 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
                         # Detect symlinks
                         try:
                             assert not os.path.islink(fullpath)
-                        except AssertionError as e:
+                        except AssertionError:
                             print("Search result is a symlink (shortcut). \
                             Will use real path instead.")
                             continue
@@ -380,10 +311,12 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
         def untangling():
             for path in self.paths:
                 with open(path, 'r') as xmlFileHandle:
-                    parser = untangle.parse(xmlFileHandle.read())
+                    doc = untangle.parse(xmlFileHandle.read())
 
-                    self.parser_objects.append(parser)
-
+                    self.parser_objects.append(doc)
+                    if self.debug:
+                        print("Untangle parsers: {0}".format(str(len(self.parser_objects))), 'magenta')
+        untangling()
 
 
         return self
@@ -407,8 +340,8 @@ Pass --relative to disable conversion of relative paths to absolute paths. Pass\
 
 if (__name__ == "__main__"):
     # Create an instance of our worker class
-    if len(ARGS) == 3:
-        hg = HotelHTMLGenerator(ARGS[1], ARGS[2])
+    if len(sys.argv) == 3:
+        hg = HotelHTMLGenerator(sys.argv[1], sys.argv[2])
     else:
         hg = HotelHTMLGenerator("./test/search", "./test/output", debug=True)
 

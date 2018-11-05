@@ -15,11 +15,12 @@ just python-toolz. Most importantly it requires the lxml XML parser,
 installed the same way as the aforementioned toolz package.
 '''
 
+import sys
+from os import getcwd
+from os.path import exists
+
 import bs4
 from toolz import first, last
-from os.path import exists
-from os import getcwd
-import sys
 
 print("THIS DOES NOT NEED TO BE RUN BY THE END USER BUT HAS BEEN INCLUDED IN THE REPOSITORY \
 LEST IT BE LOST TO THE SANDS OF TIME. Only run if you know what you are doing.")
