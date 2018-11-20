@@ -23,6 +23,7 @@ import termcolor
 @date 8/14/2018
 """
 
+
 class HotelHTMLGenerator(object):
     """
     Singleton class to traverse a directory searching for a rates.input.xml file
@@ -32,7 +33,7 @@ class HotelHTMLGenerator(object):
     """
 
     def __init__(self, search_directory="./test/search", output_directory="./test/output",
-                debug=True, year=2018):
+                 debug=True, year=2018):
         """ Constructor for the whole object. This is a singleton so there should only ever be one instance. """
 
         # First check if we are just displaying help text
@@ -41,10 +42,10 @@ class HotelHTMLGenerator(object):
 
         # Define constants
         self.string_constants = {
-            "NEWLINE" : "\n",
+            "NEWLINE": "\n",
             "DOUBLE_NEWLINE": ("\n" * 2),
             "TITLE_ASCII":
-"""
+            r"""
   _   _       _       _ _   _ _____ __  __ _     ____                           _
  | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __
  | |_| |/ _ \| __/ _ | | |_| | | | | |\/| | |  | |  _ / _ | '_ \ / _ | '__/ _` | __/ _ \| '__|
@@ -54,10 +55,9 @@ class HotelHTMLGenerator(object):
 """
         }
 
-
-
         # Fire things up.
-        termcolor.cprint(self.string_constants["TITLE_ASCII"], color='cyan', on_color='on_grey')
+        termcolor.cprint(
+            self.string_constants["TITLE_ASCII"], color='cyan', on_color='on_grey')
         print("Reticulating splines...")
         self.doImports()
 
@@ -121,7 +121,7 @@ class HotelHTMLGenerator(object):
     def help():
         """ Print the help text. """
         helpText =\
-"""Usage: python[2.x|3.x] {0} [search directory] [output directory] [--arguments (optional)]
+            """Usage: python[2.x|3.x] {0} [search directory] [output directory] [--arguments (optional)]
 Pass --relative to disable conversion of relative paths to absolute paths. Pass
 --year (4 digit year) to use a year other than 2018. Pass -h or --help to
 print this message.""".format(sys.argv[0])
@@ -164,39 +164,33 @@ print this message.""".format(sys.argv[0])
         """ Get a hash of the directories we are using for search and output."""
         return self.dirs
 
+    def printDirs(self):
+        return "".join("self.dirs updated to ", pprint.pprint(self.getDirs()))
+
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
         try:
-            # Check that candidate dirs are a dictionary hash
+
+            # Ensure that candidate directories are a dictionary or OrderedDict
             assert isinstance(new_dirs, dict) or isinstance(
-                new_dirs, OrderedDict)
-            try:
-                self.dirs['search_directory'] = new_dirs['search_directory']
-                self.dirs['output_directory'] = new_dirs['output_directory']
+            new_dirs, OrderedDict)
 
-                if self.debug:
-                    print("self.dirs updated to {0}\n".format(self.dirs))
 
-                # Return new dirs
-                return self.dirs
-            except AssertionError:
-                raise SystemExit("Attempted to set directories with a \
-                dictionary missing keys")
+            self.dirs['search_directory'] = new_dirs['search_directory']
+            self.dirs['output_directory'] = new_dirs['output_directory']
 
+            # Log new directories if debug mode is on
+            if self.debug: self.printDirs()
+
+            # Return new dirs
+            return self.dirs
         except AssertionError:
-            raise SystemExit("Attempted to set directories to a non-dictionary\
+            raise SystemExit("Attempted to set directories to a non-dictionary \
             object")
         except KeyError:
             raise SystemExit(
-                "Attempted to set directories with a dictionary of\
-            invalid keys. Required keys: 'search_directory', 'output_directory'."
-            )
-
-    @staticmethod
-    def getARGS():
-        """ Get an enumerated list comprehension of the arguments with which
-        the program was called. """
-        return [arg for arg in enumerate(sys.argv)]
+                "Attempted to set directories with a dictionary of \
+            invalid keys. Required keys: 'search_directory', 'output_directory'.")
 
     def scan(self):
         """ Scan for input xml files and populate the paths attribute with
@@ -254,10 +248,9 @@ print this message.""".format(sys.argv[0])
         for result in search_results:
             self.paths.append(result)
 
-
         if len(self.paths) is 0:
-            raise SystemExit("No rates.input.xml files found in recursive search of {0}".format(self.getDirs().get('search_directory', 'requested directory.')))
-
+            raise SystemExit("No rates.input.xml files found in recursive search of {0}".format(
+                self.getDirs().get('search_directory', 'requested directory.')))
 
         # Output found paths if verbose mode was selected
         if self.debug:
@@ -304,9 +297,9 @@ print this message.""".format(sys.argv[0])
         # self.parser_objects is a list of instantiated parsers from paths
         # both are @props of top level object
 
-
         if len(self.paths) is 0:
-            raise SystemExit('Unable to find detected XML file paths. Could be a typo.')
+            raise SystemExit(
+                'Unable to find detected XML file paths. Could be a typo.')
 
         def untangling():
             for path in self.paths:
@@ -315,15 +308,13 @@ print this message.""".format(sys.argv[0])
 
                     self.parser_objects.append(doc)
                     if self.debug:
-                        print("Untangle parsers: {0}".format(str(len(self.parser_objects))), 'magenta')
+                        print("Untangle parsers: {0}".format(
+                            str(len(self.parser_objects))), 'magenta')
         untangling()
-
 
         return self
 
-
     def generate_html(self):
-
 
         return self
 
