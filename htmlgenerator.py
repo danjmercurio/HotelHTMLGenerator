@@ -4,23 +4,24 @@
 # This has to come first because that's the rule
 from __future__ import print_function  # Python 2/3 compatibility
 
-# Standard library imports
-import untangle
-import json
 import os
 import os.path
-import pdb
+import pprint
 import sys
 import textwrap
 from collections import OrderedDict
-from inspect import currentframe
-import pprint
+
+# Standard library imports
+import untangle
+
 import termcolor
 
 """
 @author Dan Mercurio <dmercurio92@gmail.com>
 @date 8/14/2018
 """
+
+
 class HotelHTMLGenerator(object):
     """
     Singleton class to traverse a directory searching for a rates.input.xml file
@@ -42,7 +43,7 @@ class HotelHTMLGenerator(object):
             "NEWLINE": "\n",
             "DOUBLE_NEWLINE": ("\n" * 2),
             "TITLE_ASCII":
-            r"""
+                r"""
   _   _       _       _ _   _ _____ __  __ _     ____                           _
  | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __
  | |_| |/ _ \| __/ _ | | |_| | | | | |\/| | |  | |  _ / _ | '_ \ / _ | '__/ _` | __/ _ \| '__|
@@ -56,7 +57,7 @@ class HotelHTMLGenerator(object):
         termcolor.cprint(
             self.string_constants["TITLE_ASCII"], color='cyan', on_color='on_grey')
         print("Reticulating splines...")
-        self.doImports()
+        self.do_imports()
 
         # Debug mode attribute
         self.debug = debug
@@ -117,15 +118,16 @@ class HotelHTMLGenerator(object):
     @staticmethod
     def help():
         """ Print the help text. """
-        helpText =\
+        help_text = \
             """Usage: python[2.x|3.x] {0} [search directory] [output directory] [--arguments (optional)]
 Pass --relative to disable conversion of relative paths to absolute paths. Pass
 --year (4 digit year) to use a year other than 2018. Pass -h or --help to
 print this message.""".format(sys.argv[0])
-        print(helpText)
+        print(help_text)
         raise SystemExit
 
-    def doImports(self):
+    # noinspection PyPep8Naming
+    def do_imports(self):
         # Third-party libraries
         try:
             import dateutil.parser as date_parser
@@ -164,8 +166,7 @@ print this message.""".format(sys.argv[0])
 
             # Ensure that candidate directories are a dictionary or OrderedDict
             assert isinstance(new_dirs, dict) or isinstance(
-            new_dirs, OrderedDict)
-
+                new_dirs, OrderedDict)
 
             self.dirs['search_directory'] = new_dirs['search_directory']
             self.dirs['output_directory'] = new_dirs['output_directory']
@@ -200,7 +201,7 @@ print this message.""".format(sys.argv[0])
                 for root, _, files in os.walk(search_directory):
 
                     # Make the search case insensitive by converting everything to lower case
-                    files = [file.lower() for file in files]
+                    files = [current_file.lower() for current_file in files]
 
                     # Look for our XML file in among the files in the current directory
                     if self.SEARCH_FILENAME in files:
@@ -220,8 +221,7 @@ print this message.""".format(sys.argv[0])
                         try:
                             assert os.path.isfile(fullpath)
                         except AssertionError:
-                            print("OS reports search result at {0} not an \
-                            actual file. Trying to continue...".format(
+                            print("OS reports search result at {0} not an actual file. Trying to continue...".format(
                                 fullpath))
                             continue
 
@@ -241,7 +241,8 @@ print this message.""".format(sys.argv[0])
 
         if len(self.paths) is 0:
             raise SystemExit("No rates.input.xml files found in recursive search of {0}".format(
-                self.getDirs().get('search_directory', 'requested directory.')))
+                self.getDirs().get('search_directory', 'requested directory.'))
+            )
 
         # Output found paths if verbose mode was selected
         if self.debug:
@@ -290,8 +291,7 @@ print this message.""".format(sys.argv[0])
 
         if len(self.paths) is 0:
             raise SystemExit(
-                'Unable to find detected XML file paths. Could be a typo.')
-
+                "Unable to find detected XML file paths. Could be a typo.")
 
         for path in self.paths:
             with open(path, 'r') as xmlFileHandle:
@@ -300,8 +300,8 @@ print this message.""".format(sys.argv[0])
                 self.parser_objects.append(doc)
                 if self.debug:
                     print("Untangle parser #{0}".format(
-                        str(len(self.parser_objects))), "repr:", \
-                        repr(self.parser_objects[(len(self.parser_objects) -1)]))
+                        str(len(self.parser_objects))), "repr:",
+                        repr(self.parser_objects[(len(self.parser_objects) - 1)]))
 
         for xml_parser in self.parser_objects:
             print("Parsing hotel code {0}".format(xml_parser.hotel['code']))
@@ -311,12 +311,10 @@ print this message.""".format(sys.argv[0])
                 room_rates = room.rate
                 print(room_description)
 
-
         return self
 
     def generate_html(self):
-
-        return self
+        raise NotImplementedError
 
     def write_output(self):
         """ @input Rendered Jinja2 templates
@@ -329,7 +327,7 @@ print this message.""".format(sys.argv[0])
         return self
 
 
-if (__name__ == "__main__"):
+if __name__ == "__main__":
     # Create an instance of our worker class
     if len(sys.argv) == 3:
         hg = HotelHTMLGenerator(sys.argv[1], sys.argv[2])
