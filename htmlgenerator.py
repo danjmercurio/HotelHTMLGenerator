@@ -15,15 +15,12 @@ import textwrap
 from collections import OrderedDict
 from inspect import currentframe
 import pprint
-
 import termcolor
 
 """
 @author Dan Mercurio <dmercurio92@gmail.com>
 @date 8/14/2018
 """
-
-
 class HotelHTMLGenerator(object):
     """
     Singleton class to traverse a directory searching for a rates.input.xml file
@@ -129,15 +126,9 @@ print this message.""".format(sys.argv[0])
         raise SystemExit
 
     def doImports(self):
-        try:
-            import __builtin__
-        except ImportError:
-            # Python 3
-            import builtins as __builtin__
-
         # Third-party libraries
         try:
-            import dateutil.parser
+            import dateutil.parser as date_parser
         except ImportError as error:
             MISSING_DEPENDENCY = "".join(
                 char for char in str(error).split(" ")[-1] if char.isalnum() or char in [",", " ", "."])
@@ -165,7 +156,7 @@ print this message.""".format(sys.argv[0])
         return self.dirs
 
     def printDirs(self):
-        return "".join("self.dirs updated to ", pprint.pprint(self.getDirs()))
+        return "self.dirs updated to {0}".format(pprint.pprint(self.getDirs()))
 
     def setDirs(self, new_dirs):
         """ Setter for input/output directories. """
@@ -301,16 +292,25 @@ print this message.""".format(sys.argv[0])
             raise SystemExit(
                 'Unable to find detected XML file paths. Could be a typo.')
 
-        def untangling():
-            for path in self.paths:
-                with open(path, 'r') as xmlFileHandle:
-                    doc = untangle.parse(xmlFileHandle.read())
 
-                    self.parser_objects.append(doc)
-                    if self.debug:
-                        print("Untangle parsers: {0}".format(
-                            str(len(self.parser_objects))), 'magenta')
-        untangling()
+        for path in self.paths:
+            with open(path, 'r') as xmlFileHandle:
+                doc = untangle.parse(xmlFileHandle.read())
+
+                self.parser_objects.append(doc)
+                if self.debug:
+                    print("Untangle parser #{0}".format(
+                        str(len(self.parser_objects))), "repr:", \
+                        repr(self.parser_objects[(len(self.parser_objects) -1)]))
+
+        for xml_parser in self.parser_objects:
+            print("Parsing hotel code {0}".format(xml_parser.hotel['code']))
+
+            for room in xml_parser.hotel.room:
+                room_description = room.description.cdata.strip()
+                room_rates = room.rate
+                print(room_description)
+
 
         return self
 
