@@ -1,25 +1,27 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# This has to come first because that's the rule
-from __future__ import print_function  # Python 2/3 compatibility
-
-import os
-import os.path
-import pprint
-import sys
-import textwrap
-from collections import OrderedDict
-
-# Standard library imports
-import untangle
-
-import termcolor
-
 """
 @author Dan Mercurio <dmercurio92@gmail.com>
 @date 8/14/2018
 """
+
+# This has to come first because that's the rule
+from __future__ import print_function  # Python 2/3 compatibility
+
+# Standard library imports
+from collections import OrderedDict
+import os
+import os.path
+import sys
+import textwrap
+import datetime
+
+# Third-party modules
+import untangle
+import termcolor
+import dateutil.parser
+import pprint
 
 
 class HotelHTMLGenerator(object):
@@ -42,7 +44,7 @@ class HotelHTMLGenerator(object):
         self.string_constants = {
             "NEWLINE": "\n",
             "DOUBLE_NEWLINE": ("\n" * 2),
-            "TITLE_ASCII":
+            r"TITLE_ASCII":
                 r"""
   _   _       _       _ _   _ _____ __  __ _     ____                           _
  | | | | ___ | |_ ___| | | | |_   _|  \/  | |   / ___| ___ _ __   ___ _ __ __ _| |_ ___  _ __
@@ -57,6 +59,8 @@ class HotelHTMLGenerator(object):
         termcolor.cprint(
             self.string_constants["TITLE_ASCII"], color='cyan', on_color='on_grey')
         print("Reticulating splines...")
+
+        # Load dependencies
         self.do_imports()
 
         # Debug mode attribute
@@ -94,6 +98,9 @@ class HotelHTMLGenerator(object):
             self.year = sys.argv[sys.argv.index("--year") + 1]
         else:
             self.year = year
+
+        # Show the year in use
+        print("Using year value of {0}".format(self.year))
 
         if "--relative" not in sys.argv:
             absolute_dirs = [
@@ -310,7 +317,11 @@ print this message.""".format(sys.argv[0])
                 room_description = room.description.cdata.strip()
                 room_rates = room.rate
                 print(room_description)
-
+                for r in room_rates:
+                    print(r)
+                    #print("Start: {0}, End: {1}".format(r.start, r['end']))
+        # for day in year...
+            # 
         return self
 
     def generate_html(self):
