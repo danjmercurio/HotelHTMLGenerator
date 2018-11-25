@@ -160,6 +160,16 @@ print this message.""".format(sys.argv[0])
             print(wrapper.fill(DEPENDENCY_ERRORMESSAGE))
             raise SystemExit("Cannot continue. Halting...")
 
+    @staticmethod
+    def daterange(start_date, end_date):
+        """ Helper function for iterating over dates. """
+        if (start_date <= end_date):
+            for n in range((end_date - start_date).days + 1):
+                yield start_date + datetime.timedelta(n)
+        else:
+            for n in range((start_date - end_date).days + 1):
+                yield start_date - datetime.timedelta(n)
+
     def getDirs(self):
         """ Get a hash of the directories we are using for search and output."""
         return self.dirs
