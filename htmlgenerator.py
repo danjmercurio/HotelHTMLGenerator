@@ -361,11 +361,15 @@ print this message.""".format(sys.argv[0])
                 print("{0}, {1}, {2}".format(tag_start, day[0], tag_end))
                 if (tag_start <= day[0] <= tag_end):
                     if (date_tag not in day[1]):
-                        day[1].append(date_tag)
+                        try:
+                            day[1].append((date_tag, float(date_tag.room_price.cdata.strip())))
+                        except AttributeError:
+                            day[1].append(date_tag)
 
         with open('rates.txt', 'w') as outfile:
             for day in days_in_year:
-                outfile.write("{0}, {1}, {2} \n".format(day[0], len(day[1]), day[1]))
+                outfile.write("{0}\n".format(day))
+            print("Length: {0}".format(str(len(days_in_year))))
 
 
 
