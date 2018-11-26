@@ -349,7 +349,6 @@ print this message.""".format(sys.argv[0])
 
         # Make it a tuple with a list for each day
         days_in_year = zip(days_in_year, [[] for x in range(365)])
-        added = 0
         for day in days_in_year:
             for date_tag in date_tags:
                 tag_start_year, tag_start_month, tag_start_day = [int(item) for item in date_tag['start'].split('-')][0], [int(item) for item in date_tag['start'].split('-')][1], [int(item) for item in date_tag['start'].split('-')][2]
@@ -361,15 +360,12 @@ print this message.""".format(sys.argv[0])
                 # If the day of current iteration falls within the date range of the <date> XML tag, create a tuple to link them and append it to the days_tags_tuples list
                 print("{0}, {1}, {2}".format(tag_start, day[0], tag_end))
                 if (tag_start <= day[0] <= tag_end):
-                    day[1].append(date_tag)
-                    print("added")
-                    added = added + 1
+                    if (date_tag not in day[1]):
+                        day[1].append(date_tag)
 
-        print(days_in_year)
-        print("Added: {0}".format(added))
-
-
-
+        with open('rates.txt', 'w') as outfile:
+            for day in days_in_year:
+                outfile.write("{0}, {1}, {2} \n".format(day[0], len(day[1]), day[1]))
 
 
 
