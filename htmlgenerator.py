@@ -10,7 +10,7 @@
 from __future__ import print_function  # Python 2/3 compatibility
 
 # Standard library imports
-from collections import OrderedDict
+from collections import OrderedDict, namedtuple
 import os
 import os.path
 import sys
@@ -310,6 +310,9 @@ print this message.""".format(sys.argv[0])
             raise SystemExit(
                 "Unable to find detected XML file paths. Could be a typo.")
 
+        # Get a list of all <date> tags from the XML
+        date_tags = []
+
         for path in self.paths:
             with open(path, 'r') as xmlFileHandle:
                 doc = untangle.parse(xmlFileHandle.read())
@@ -327,11 +330,50 @@ print this message.""".format(sys.argv[0])
                 room_description = room.description.cdata.strip()
                 room_rates = room.rate
                 print(room_description)
-                for r in room_rates:
-                    print(r)
-                    #print("Start: {0}, End: {1}".format(r.start, r['end']))
-        # for day in year...
-            # 
+                for rate in room_rates:
+                    for tag in rate.date:
+                        date_tags.append(tag)
+
+        if self.debug: print("{0} <date> tags processed".format(str(len(date_tags))))
+
+        # Iterate over every day of the year. The year to use is a property of the top level object.
+
+        start_date = datetime.date(self.year, 1, 1)
+        end_date = datetime.date(self.year, 12, 31)
+
+        # Use the generator self.daterange to get a list of days in a year
+        days_in_year = [day for day in self.daterange(start_date, end_date)]
+
+        # Sanity check: length of days_in_year should always be 365
+        assert len(days_in_year) == 365
+
+        # Make it a tuple with a list for each day
+        days_in_year = zip(days_in_year, [[] for x in range(365)])
+        added = 0
+        for day in days_in_year:
+            for date_tag in date_tags:
+                tag_start_year, tag_start_month, tag_start_day = [int(item) for item in date_tag['start'].split('-')][0], [int(item) for item in date_tag['start'].split('-')][1], [int(item) for item in date_tag['start'].split('-')][2]
+                tag_start = datetime.date(tag_start_year, tag_start_month, tag_start_day)
+
+                tag_end_year, tag_end_month, tag_end_day = [int(item) for item in date_tag['end'].split('-')][0], [int(item) for item in date_tag['end'].split('-')][1], [int(item) for item in date_tag['end'].split('-')][2]
+                tag_end = datetime.date(tag_end_year, tag_end_month, tag_end_day)
+
+                # If the day of current iteration falls within the date range of the <date> XML tag, create a tuple to link them and append it to the days_tags_tuples list
+                print("{0}, {1}, {2}".format(tag_start, day[0], tag_end))
+                if (tag_start <= day[0] <= tag_end):
+                    day[1].append(date_tag)
+                    print("added")
+                    added = added + 1
+
+        print(days_in_year)
+        print("Added: {0}".format(added))
+
+
+
+
+
+
+
         return self
 
     def generate_html(self):
