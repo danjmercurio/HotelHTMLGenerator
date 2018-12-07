@@ -16,12 +16,21 @@ import os.path
 import sys
 import textwrap
 import datetime
+from inspect import currentframe
 
 # Third-party modules
 import untangle
 import termcolor
 import dateutil.parser
 import pprint
+
+_print = print
+
+def print(*args, **kwargs):
+
+    currentline = currentframe().f_back.f_lineno 
+
+    _print("{0}".format(currentline), *args, **kwargs)
 
 
 class HotelHTMLGenerator(object):
@@ -76,7 +85,7 @@ class HotelHTMLGenerator(object):
 
         # Output arguments script was called with if verbose was selected
         if self.debug:
-            print("Arguments: ", str(sys.argv), end="\n\n")
+            print("Arguments: {0}".format(str(sys.argv)))
 
         # Initialize memory spade for an object attribute that stores search and output directories as a dict and initialize them with their default values
         self.dirs = dict({
