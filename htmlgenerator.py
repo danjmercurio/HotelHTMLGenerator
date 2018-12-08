@@ -404,9 +404,7 @@ print this message.""".format(sys.argv[0])
         #     print("Length: {0}".format(str(len(days_in_year))))
         self.days_in_year = days_in_year
 
-        global days_in_year
-
-        print(self.getRatesForDay(315))
+        if self.debug: global days_in_year
         return self
 
     def getRatesForDay(self, day):
@@ -414,6 +412,9 @@ print this message.""".format(sys.argv[0])
 
     def generate_html(self):
         """ Create an HTML calendar interface containing the room data for each given day. """
+
+        rate
+
         temp = []
 
         # Iterator for each month of data
@@ -425,14 +426,7 @@ print this message.""".format(sys.argv[0])
         # Replace earlier list with our month-separated copy
         self.days_in_year = temp
 
-        with open('days.txt', 'w') as days:
-            days.write(str(self.days_in_year))
 
-        def date_handler(x):
-            print("x", x, type(x))
-            return x.isoformat()
-
-        rates_json = json.dumps( self.days_in_year, default=date_handler )
 
         months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
                   'November', 'December']
@@ -449,15 +443,7 @@ print this message.""".format(sys.argv[0])
 
         cal = ""
 
-        for month in range(12):
-           cal += html_calendar.formatmonth(self.year, month + 1) # Months are zero-indexed
 
-        print(os.getcwd())
-        with open('output/rate_calendar.html', 'w') as rate_cal_file:
-            rate_cal_file.write(self.rate_calendar_template.render({
-            'calendar_output': cal,
-            'rates_info_json': rates_json
-        }))
 
         return self
 

@@ -9,13 +9,19 @@
 """
 
 import pytest
-import ../htmlgenerator
+import htmlgenerator
 
 class HTMLGeneratorTest(unittest.TestSuite):
     """ A test suite for our singleton hotel HTML processor object """
 
     def setUp(self):
-        """ Just instantiate the object so we can run tests on it. """    
+        """ Just instantiate the object so we can run tests on it. """ 
+
+                # Fix for problems with PATH variable
+        import sys, os
+        myPath = os.path.dirname(os.path.abspath(__file__))
+        sys.path.insert(0, myPath + '/../')
+   
         self._testClass = h =htmlgenerator.HotelHTMLGenerator()
 
     class TestConfig():
