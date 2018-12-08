@@ -1,9 +1,9 @@
-{% extends "layout.jinja2.html"}
+{% extends "layout.jinja2.html" %}
+
 {% block content %}
-<p>Rate Calendar</p>
-<p>Month of: {{month_name}}</p>
-<!-- calendar goes here with clickable dates
- that expand with extra adult, child, etc rates -->
+<h1>Rate Calendar</h1>
+{{ calendar_output }}
+<div style="display: none;">{{ rates_info_json }}</div>
 
 
 

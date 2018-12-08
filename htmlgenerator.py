@@ -17,21 +17,18 @@ import sys
 import textwrap
 import datetime
 from inspect import currentframe
+import itertools
+import calendar
+import json
 
 # Third-party modules
 import untangle
 import termcolor
 import dateutil.parser
 import pprint
+import jinja2
 
 _print = print
-
-def print(*args, **kwargs):
-
-    currentline = currentframe().f_back.f_lineno 
-
-    _print("{0}".format(currentline), *args, **kwargs)
-
 
 class HotelHTMLGenerator(object):
     """
@@ -42,12 +39,30 @@ class HotelHTMLGenerator(object):
     """
 
     def __init__(self, search_directory="./test/search", output_directory="./test/output",
-                 debug=True, year=2018):
+                 debug=False, year=2018):
         """ Constructor for the whole object. This is a singleton so there should only ever be one instance. """
 
         # First check if we are just displaying help text
         if ("-h" in sys.argv) or ("--help" in sys.argv):
             self.help()
+
+        # Debug mode attribute
+        self.debug = debug
+
+        self.rate_calendar_template = None
+        self.days_in_year = None
+
+        if self.debug:
+
+            global print
+            def print(*args, **kwargs):
+
+                currentline = currentframe().f_back.f_lineno 
+
+                _print("{0}".format(currentline), *args, **kwargs)
+
+
+
 
         # Define constants
         self.string_constants = {
@@ -72,8 +87,7 @@ class HotelHTMLGenerator(object):
         # Load dependencies
         self.do_imports()
 
-        # Debug mode attribute
-        self.debug = debug
+
 
         if len(sys.argv) is 1 and not self.debug:
             print("Script was called with no arguments. If you need info, \
@@ -366,38 +380,97 @@ print this message.""".format(sys.argv[0])
                 tag_end_year, tag_end_month, tag_end_day = [int(item) for item in date_tag['end'].split('-')][0], [int(item) for item in date_tag['end'].split('-')][1], [int(item) for item in date_tag['end'].split('-')][2]
                 tag_end = datetime.date(tag_end_year, tag_end_month, tag_end_day)
 
-                # If the day of current iteration falls within the date range of the <date> XML tag, create a tuple to link them and append it to the days_tags_tuples list
-                print("{0}, {1}, {2}".format(tag_start, day[0], tag_end))
+                # If the day of current iteration falls within the date range of the <date> XML tag, create a tuple to
+                # link them and append it to the days_tags_tuples list
+                #print("{0}, {1}, {2}".format(tag_start, day[0], tag_end))
                 if (tag_start <= day[0] <= tag_end):
                     if (date_tag not in day[1]):
                         try:
-                            day[1].append((date_tag, float(date_tag.room_price.cdata.strip())))
+
+                            rate = float(date_tag.room_price.cdata.strip())
+                            # This is a fix for bug where untangle.py element objects were ending up in
+                            # list of rates, which should all be floats, which broke the JSON serializer.
+                            # This is probably due to missing close tags or not-well-formed XML in general
+
+                            day[1].append(rate)
+                            # print("Appended.")
                         except AttributeError:
-                            day[1].append(date_tag)
+                            continue
 
-        with open('rates.txt', 'w') as outfile:
-            for day in days_in_year:
-                outfile.write("{0}\n".format(day))
-            print("Length: {0}".format(str(len(days_in_year))))
+        # Self test to show date tags fall between proper start and end datetimes
+        # with open('rates.txt', 'w') as outfile:
+        #     for day in days_in_year:
+        #         outfile.write("{0}\n".format(day))
+        #     print("Length: {0}".format(str(len(days_in_year))))
+        self.days_in_year = days_in_year
 
+        global days_in_year
 
-
-
+        print(self.getRatesForDay(315))
         return self
+
+    def getRatesForDay(self, day):
+        return self.days_in_year[day]
 
     def generate_html(self):
-        raise NotImplementedError
+        """ Create an HTML calendar interface containing the room data for each given day. """
+        temp = []
 
-    def write_output(self):
-        """ @input Rendered Jinja2 templates
-            @output Written html files.
-            @returns True on successful write or raises an exception for invalid input or I/O errors like no write permissions
-        """
-        output_files = ['rate_calendar', 'rates_yearly_summary']
+        # Iterator for each month of data
+        for month, days_list in itertools.groupby(self.days_in_year, lambda x: x[0].month):
 
-        print("Writing to output files has not yet been implemented.")
+            days_list = list(days_list)
+            temp.append((month, days_list))
+
+        # Replace earlier list with our month-separated copy
+        self.days_in_year = temp
+
+        with open('days.txt', 'w') as days:
+            days.write(str(self.days_in_year))
+
+        def date_handler(x):
+            print("x", x, type(x))
+            return x.isoformat()
+
+        rates_json = json.dumps( self.days_in_year, default=date_handler )
+
+        months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
+                  'November', 'December']
+
+        from jinja2 import Environment, FileSystemLoader, select_autoescape
+        env = Environment(
+            loader=FileSystemLoader('./templates', followlinks=True),
+            autoescape=select_autoescape(['html', 'xml'])
+        )
+
+        self.rate_calendar_template = env.get_template('rate_calendar.jinja2.html')
+
+        html_calendar = calendar.HTMLCalendar(calendar.SUNDAY)
+
+        cal = ""
+
+        for month in range(12):
+           cal += html_calendar.formatmonth(self.year, month + 1) # Months are zero-indexed
+
+        print(os.getcwd())
+        with open('output/rate_calendar.html', 'w') as rate_cal_file:
+            rate_cal_file.write(self.rate_calendar_template.render({
+            'calendar_output': cal,
+            'rates_info_json': rates_json
+        }))
+
         return self
 
+    # def write_output(self):
+    #     """ @input Rendered Jinja2 templates
+    #         @output Written html files.
+    #         @returns True on successful write or raises an exception for invalid input or I/O errors like no write permissions
+    #     """
+    #     output_files = ['rate_calendar', 'rates_yearly_summary']
+    #
+    #     print("Writing to output files has not yet been implemented.")
+    #     return self
+    #
 
 if __name__ == "__main__":
     # Create an instance of our worker class
@@ -407,4 +480,4 @@ if __name__ == "__main__":
         hg = HotelHTMLGenerator("./test/search", "./test/output", debug=True)
 
     # Chain of actions this script is designed to perform
-    hg.scan().parse().generate_html().write_output()
+    hg.scan().parse().generate_html()
