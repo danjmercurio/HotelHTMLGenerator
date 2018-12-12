@@ -7,3 +7,5 @@ two purpose-built HTML files: one containing a summary of high and low rates for
 interactive calendar showing the rates for each day.
 
 There is also a suite of unit tests designed to be used with the **pytest** module.
+
+`This script remains a work in process.`
