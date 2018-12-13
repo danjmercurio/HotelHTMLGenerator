@@ -8,4 +8,4 @@ interactive calendar showing the rates for each day.
 
 There is also a suite of unit tests designed to be used with the **pytest** module.
 
-`This script remains a work in process.`
+`This script remains a work in progress.`
